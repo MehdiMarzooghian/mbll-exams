@@ -1,7 +1,7 @@
 (() => {
   'use strict';
 
-  const STORAGE_PREFIX = 'mbll-exams-v1-';
+  const STORAGE_PREFIX = 'mbll-exams-v2-';
   const FLASHCARD_STORAGE_PREFIX = 'mbll-flashcards-v1-';
   const banks = window.MBLL_BANKS;
   const levels = {
