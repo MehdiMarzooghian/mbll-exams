@@ -127,7 +127,9 @@
     .flashcard-source { margin-top:18px; color:#9fb3c8; font-size:.78rem; }
     .flashcard-hint { margin-top:auto; padding-top:20px; color:var(--muted); font-size:.78rem; text-align:center; }
     .flashcard-back .flashcard-hint { color:#bcccdc; }
-    .flashcard-face .figure-box { max-height:230px; overflow:hidden; }
+    .flashcard.has-figure { min-height:600px; }
+    .flashcard-face .figure-box { flex-shrink:0; overflow:hidden; }
+    .flashcard-face .figure-box svg, .flashcard-face .figure-box img { height:200px; max-height:200px; }
     .flashcard-controls { display:grid; grid-template-columns:1fr auto 1fr; gap:12px; align-items:center; margin-top:18px; }
     .flashcard-controls .review-again { justify-self:start; color:#a23c3c; border-color:#efb7b7; }
     .flashcard-controls .know-card { justify-self:end; background:var(--teal); }
@@ -236,6 +238,7 @@
     .question-card h2 { margin: 10px 0 22px; font-size: clamp(1.2rem, 3vw, 1.6rem); line-height: 1.32; letter-spacing: -.025em; }
     .figure-box { margin: 0 0 22px; border: 1px solid var(--line); border-radius: 15px; background: #f8fbfd; padding: 16px; }
     .figure-box svg, .figure-box img { width: 100%; max-height: 300px; object-fit: contain; display: block; }
+    .course-photo svg { height:280px; }
     .figure-box figcaption { margin-top: 8px; color: var(--muted); text-align: center; font-size: .75rem; }
     .options { display: grid; gap: 10px; }
     .option {
@@ -458,6 +461,6 @@
   <script src="mbll-question-banks.js?v=20260930"></script>
   <script src="ap-photo-lessons.js?v=20261006"></script>
   <script src="exam-banks.js?v=20261006"></script>
-  <script src="app.js?v=20261006"></script>
+  <script src="app.js?v=20261006b"></script>
 </body>
 </html>

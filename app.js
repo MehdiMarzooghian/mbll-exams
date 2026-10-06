@@ -153,7 +153,7 @@
     controls.hidden = false;
     flashcardFlipped = false;
     const typeLabel = question.type === 'mcq' ? 'Multiple choice concept' : question.figure ? 'Figure-based concept' : 'Short-answer concept';
-    stage.innerHTML = `<button class="flashcard" id="active-flashcard" aria-label="Flip flashcard to reveal answer" aria-pressed="false">
+    stage.innerHTML = `<button class="flashcard ${question.figure ? 'has-figure' : ''}" id="active-flashcard" aria-label="Flip flashcard to reveal answer" aria-pressed="false">
       <span class="flashcard-face flashcard-front"><span class="flashcard-label">${escapeHTML(typeLabel)} · ${escapeHTML(question.topic)}</span><h2>${escapeHTML(question.prompt)}</h2>${question.figure || ''}<span class="flashcard-hint">Click the card or press “Show answer”</span></span>
       <span class="flashcard-face flashcard-back"><span class="flashcard-label">Answer</span><span class="flashcard-answer">${escapeHTML(flashcardAnswer(question))}</span><span class="flashcard-explanation">${escapeHTML(question.explanation)}</span><span class="flashcard-source">Source: ${escapeHTML(question.source)}</span><span class="flashcard-hint">Choose whether to review this card again or mark it as known.</span></span>
     </button>`;
