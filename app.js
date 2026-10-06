@@ -26,7 +26,7 @@
 
   const flashcardDecks = {
     ...Object.fromEntries(Object.values(banks).map(bank => [bank.id, { ...bank }])),
-    allSubjects:{ id:'allSubjects', title:'All Four Exam Banks', shortTitle:'All Subjects', code:'ALL', accent:'navy', description:'A combined flashcard deck containing every source-mapped question in this application.', questions:Object.values(banks).flatMap(bank => bank.questions) }
+    allSubjects:{ id:'allSubjects', title:'All Exam Banks', shortTitle:'All Subjects', code:'ALL', accent:'navy', description:'A combined flashcard deck containing every source-mapped question in this application.', questions:Object.values(banks).filter(bank => !bank.parentId).flatMap(bank => bank.questions) }
   };
 
   function initialState(){
@@ -78,7 +78,7 @@
   }
 
   function renderLibrary(){
-    document.getElementById('collection-grid').innerHTML = Object.values(banks).map(bank => {
+    document.getElementById('collection-grid').innerHTML = Object.values(banks).filter(bank => !bank.parentId).map(bank => {
       const saved = loadState(bank.id);
       const completed = Object.values(saved.completed).filter(Boolean).length;
       const counts = Object.fromEntries(Object.keys(levels).map(level => [level, bank.questions.filter(question => question.level === level).length]));
@@ -245,6 +245,13 @@
   }
 
   function renderDashboard(){
+    const lessonPanel = document.getElementById('ap-lesson-panel');
+    const apLessons = Object.values(banks).filter(bank => bank.parentId === 'apLab');
+    lessonPanel.hidden = currentBank.id !== 'apLab' && currentBank.parentId !== 'apLab';
+    if (!lessonPanel.hidden) {
+      lessonPanel.innerHTML = `<h2 class="section-title">A&P lesson exams</h2><p class="section-copy">Choose a lesson to practice only with your supplied course photos, or take the combined A&P exam.</p><div class="collection-grid">${[banks.apLab,...apLessons].map(bank => `<button class="secondary-button" data-ap-lesson="${bank.id}" ${bank.id === currentBank.id ? 'aria-current="true"' : ''}>${escapeHTML(bank.id === 'apLab' ? 'Combined A&P Exam' : bank.shortTitle)} · ${bank.questions.length} questions</button>`).join('')}</div>`;
+      lessonPanel.querySelectorAll('[data-ap-lesson]').forEach(button => button.addEventListener('click', () => selectCollection(button.dataset.apLesson)));
+    }
     const completedCount = Object.values(state.completed).filter(Boolean).length;
     const uniqueMistakes = [...new Set(state.mistakes.map(item => item.questionId))];
     document.getElementById('attempts-stat').textContent = state.history.length;

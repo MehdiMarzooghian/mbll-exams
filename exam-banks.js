@@ -62,4 +62,26 @@
       ]
     }
   };
+  const photoQuestions = window.AP_PHOTO_QUESTIONS || [];
+  const lessons = [
+    ['apEndocrine','Endocrine system','Endocrine System','ENDO'],
+    ['apBlood','Blood','Blood','BLOOD'],
+    ['apHeart','Heart anatomy','Heart Anatomy','HEART'],
+    ['apDissection','Heart dissection','Heart Dissection','DISSECT'],
+    ['apVessels','Blood vessels','Blood Vessels & Cranial Circulation','VESSEL'],
+    ['apPhysiology','Cardiovascular physiology','ECG, Heart Sounds, Pulse & Blood Pressure','PHYS']
+  ];
+  window.MBLL_BANKS.apLab.questions.push(...photoQuestions);
+  window.MBLL_BANKS.apLab.description = 'Combined A&P practice with the original questions and new supplied course photographs. Choose a lesson below for photo-only short-answer exams.';
+  window.MBLL_BANKS.apLab.coverage.push(['New supplied course photographs','16 photographs reviewed and mapped to six lesson exams',`${photoQuestions.length} new short-answer questions; answer labels excluded or concealed in the question view`]);
+  window.MBLL_BANKS.apLab.sourceCount += 16;
+  for (const [id, lesson, title, code] of lessons) {
+    const questions = photoQuestions.filter(q => q.lesson === lesson);
+    window.MBLL_BANKS[id] = {
+      id, parentId:'apLab', title:`A&P Lab · ${title}`, shortTitle:title, code, accent:'orange',
+      description:'Short-answer practice using your supplied course photographs. Each lesson saves its own results, drafts, flashcards, and mistake review.',
+      questions, sourceCount:new Set(questions.map(q => q.unit)).size,
+      coverage:[['Supplied course photographs', [...new Set(questions.map(q => q.unit))].join(', '),`${questions.length} short-answer questions; question-level sources identify each photograph and crop`]]
+    };
+  }
 })();

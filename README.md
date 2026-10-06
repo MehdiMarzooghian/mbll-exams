@@ -9,6 +9,10 @@ An English browser-based exam and flashcard application built from the four sour
 - **Microbiology Lecture Exam 2:** Chapters 13–17, multiple-choice only
 - **Human A&P Lab Exam:** image-based short-answer only
 
+The A&P dashboard also offers six photo-based lesson exams: Endocrine System (23 questions), Blood (10), Heart Anatomy (26), Heart Dissection (5), Blood Vessels & Cranial Circulation (16), and ECG/Heart Sounds/Pulse/Blood Pressure (16). These 96 new questions use all 16 supplied course photographs, with code-native SVG viewports and target markers. The combined A&P bank retains the original 58 questions and adds these 96.
+
+Existing browser storage keys, original question IDs, saved results, and drafts are preserved. Each new lesson has its own progress and mistake-review unlock. The all-subject flashcard deck avoids duplicates from lesson sub-banks.
+
 Every bank has Easy, Medium, and Hard levels. Completing all three levels unlocks Mistake Review, which uses only questions previously answered incorrectly.
 
 ## Saved data
