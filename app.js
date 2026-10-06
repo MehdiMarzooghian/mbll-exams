@@ -44,7 +44,21 @@
       };
     } catch { return initialState(); }
   }
-  function saveState(){ if (currentBank && state) localStorage.setItem(storageKey(currentBank.id), JSON.stringify(state)); }
+  // A blocked or full browser store must not prevent an exam from opening.
+  function saveProgress(key, value){
+    const indicator = document.querySelector('.data-pill');
+    try {
+      localStorage.setItem(key, JSON.stringify(value));
+      indicator.textContent = 'Progress saved automatically';
+      indicator.removeAttribute('role');
+      return true;
+    } catch {
+      indicator.textContent = 'Browser storage unavailable — progress is not saved';
+      indicator.setAttribute('role', 'alert');
+      return false;
+    }
+  }
+  function saveState(){ if (currentBank && state) return saveProgress(storageKey(currentBank.id), state); }
   function initialFlashState(deck){ return { version:1, known:[], review:[], index:0, order:deck.questions.map(question => question.id) }; }
   function flashStorageKey(id){ return `${FLASHCARD_STORAGE_PREFIX}${id}`; }
   function loadFlashState(deck){
@@ -63,7 +77,7 @@
       };
     } catch { return initialFlashState(deck); }
   }
-  function saveFlashState(){ if (currentFlashDeck && flashState) localStorage.setItem(flashStorageKey(currentFlashDeck.id), JSON.stringify(flashState)); }
+  function saveFlashState(){ if (currentFlashDeck && flashState) return saveProgress(flashStorageKey(currentFlashDeck.id), flashState); }
   function escapeHTML(value){ return String(value ?? '').replace(/[&<>'"]/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[char])); }
   function normalize(value){ return String(value).toLowerCase().trim().replace(/[–—]/g,'-').replace(/\s+/g,' ').replace(/[^a-z0-9×^⁻. -]/g,''); }
   function isCorrect(question, response){
@@ -261,7 +275,7 @@
 
     document.getElementById('level-list').innerHTML = Object.entries(levels).map(([key, level]) => {
       const completed = state.completed[key];
-      const draft = state.drafts[key];
+      const draft = validDraft(key);
       const label = draft ? 'Resume' : completed ? 'Retake' : 'Start exam';
       return `<article class="level-card ${key}">
         <div class="level-icon">${level.code}</div>
@@ -288,8 +302,21 @@
         : 'Unlocked. Finish an exam with an incorrect answer to create a review set.';
   }
 
-  function startExam(level){
+  function validDraft(level){
     const saved = state.drafts[level];
+    if (!saved || !Array.isArray(saved.questionIds) || !saved.questionIds.length) return null;
+    const allowed = new Set(questions.filter(question => level === 'review' || question.level === level).map(question => question.id));
+    if (saved.questionIds.some(id => !allowed.has(id))) return null;
+    return {
+      ...saved,
+      index:Number.isInteger(saved.index) ? Math.max(0, Math.min(saved.index, saved.questionIds.length - 1)) : 0,
+      responses:saved.responses && typeof saved.responses === 'object' ? saved.responses : {}
+    };
+  }
+
+  function startExam(level){
+    if (!currentBank || !state || (level !== 'review' && !levels[level])) return;
+    const saved = validDraft(level);
     let pool;
     if (saved) {
       pool = saved.questionIds.map(id => questions.find(question => question.id === id)).filter(Boolean);
@@ -300,7 +327,7 @@
         : questions.filter(question => question.level === level);
       activeExam = { level, questions:pool, index:0, responses:{}, startedAt:new Date().toISOString() };
     }
-    if (!pool.length) { showToast('There are no saved mistakes to review yet.'); return; }
+    if (!pool.length) { activeExam = null; showToast(level === 'review' ? 'There are no saved mistakes to review yet.' : 'No questions are available for this level.'); return; }
     persistDraft();
     showView('exam');
     renderQuestion();
@@ -314,7 +341,7 @@
       responses:{ ...activeExam.responses },
       startedAt:activeExam.startedAt
     };
-    saveState();
+    return saveState();
   }
 
   function renderQuestion(){
@@ -333,7 +360,8 @@
       <h2>${escapeHTML(question.prompt)}</h2>${question.figure || ''}${input}
       <div class="exam-actions"><button class="ghost-button" id="exit-exam">Save & exit</button><button class="primary-button" id="next-question" ${saved ? '' : 'disabled'}>${activeExam.index === total - 1 ? 'Finish exam' : 'Next question'}</button></div>`;
     document.getElementById('exit-exam').addEventListener('click', () => {
-      persistDraft(); activeExam = null; showView('dashboard'); showToast('Exam progress saved.');
+      const saved = persistDraft(); activeExam = null; showView('dashboard');
+      showToast(saved ? 'Exam progress saved.' : 'Progress could not be saved. Keep this page open.');
     });
     const next = document.getElementById('next-question');
     if (question.type === 'mcq') {
