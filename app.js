@@ -9,6 +9,8 @@
     medium: { label:'Medium', code:'02', note:'Procedures & interpretation' },
     hard: { label:'Hard', code:'03', note:'Application & troubleshooting' }
   };
+  const comprehensiveLevel = { comprehensive:{ label:'Comprehensive', code:'ALL', note:'Every question · no difficulty levels' } };
+  function examLevels(){ return currentBank?.examMode === 'comprehensive' ? comprehensiveLevel : levels; }
   const colors = {
     teal:['#2fa499','rgba(47,164,153,.14)'], blue:['#3f7cac','rgba(63,124,172,.13)'],
     orange:['#e8954f','rgba(232,149,79,.15)'], purple:['#8064a2','rgba(128,100,162,.14)'],
@@ -26,7 +28,7 @@
 
   const flashcardDecks = {
     ...Object.fromEntries(Object.values(banks).map(bank => [bank.id, { ...bank }])),
-    allSubjects:{ id:'allSubjects', title:'All Exam Banks', shortTitle:'All Subjects', code:'ALL', accent:'navy', description:'A combined flashcard deck containing every source-mapped question in this application.', questions:Object.values(banks).filter(bank => !bank.parentId).flatMap(bank => bank.questions) }
+    allSubjects:{ id:'allSubjects', title:'All Exam Banks', shortTitle:'All Subjects', code:'ALL', accent:'navy', description:'A combined flashcard deck containing every source-mapped question in this application.', questions:Object.values(banks).filter(bank => !bank.parentId || bank.id === 'lectureMaeita').flatMap(bank => bank.questions) }
   };
 
   function initialState(){
@@ -219,7 +221,7 @@
     activeExam = null;
     document.getElementById('side-collection').textContent = currentBank.shortTitle;
     document.getElementById('dashboard-collection').textContent = currentBank.title;
-    document.getElementById('dashboard-copy').textContent = `${currentBank.description} Complete all three levels to unlock a review made only from questions missed in this collection.`;
+    document.getElementById('dashboard-copy').textContent = `${currentBank.description} ${currentBank.examMode === 'comprehensive' ? 'Complete the comprehensive exam once' : 'Complete all three levels'} to unlock a review made only from questions missed in this collection.`;
     updateCoverage();
     showView('dashboard');
   }
@@ -231,6 +233,12 @@
     document.getElementById('source-count').textContent = currentBank.sourceCount;
     document.getElementById('coverage-copy').textContent = `Every question in ${currentBank.title} is mapped to a reviewed source unit or a generated A&P practice figure.`;
     document.getElementById('source-table-body').innerHTML = currentBank.coverage.map(row => `<tr><td>${escapeHTML(row[0])}</td><td>${escapeHTML(row[1])}</td><td>${escapeHTML(row[2])}</td><td><span class="status-tag complete">Covered</span></td></tr>`).join('');
+    const slidePanel = document.getElementById('slide-coverage-panel');
+    slidePanel.hidden = !currentBank.slideCoverage;
+    if (currentBank.slideCoverage) {
+      const questionNumbers = new Map(questions.map((question, index) => [question.id, index + 1]));
+      slidePanel.innerHTML = `<h2 class="section-title">Slide-by-slide coverage</h2><p class="section-copy">${currentBank.slideCoverage.length} slides reviewed. Content slides have linked questions. Title slides define the chapter scope; objective, checklist, and review slides link to the questions that test their concepts.</p><p><a href="coverage/maeita-slides.json" target="_blank" rel="noopener">Open the complete coverage ledger</a></p>${currentBank.slideCoverage.map(slide => `<details style="margin-top:10px"><summary>Chapter ${slide.chapter} · Slide ${slide.slide} · ${escapeHTML(slide.title)} · ${slide.kind === 'content' ? 'Content' : escapeHTML(slide.kind)}</summary><p>${escapeHTML(slide.reason)}</p><p>Linked questions: ${slide.questionIds.filter(id => questionNumbers.has(id)).map(id => `#${questionNumbers.get(id)}`).join(', ')}</p></details>`).join('')}`;
+    }
   }
 
   function showView(name){
@@ -259,6 +267,15 @@
   }
 
   function renderDashboard(){
+    const customPanel = document.getElementById('lecture-custom-panel');
+    const isCustom = currentBank.examMode === 'comprehensive';
+    customPanel.hidden = currentBank.id !== 'lectureExam1' && !isCustom;
+    if (!customPanel.hidden && banks.lectureMaeita) {
+      const customBanks = [banks.lectureMaeita, ...Object.values(banks).filter(bank => bank.parentId === 'lectureMaeita')];
+      customPanel.innerHTML = currentBank.id === 'lectureExam1'
+        ? `<h2 class="section-title">🩷maeita custom</h2><p class="section-copy">Take one comprehensive exam across Chapters 7, 9, 10, 11, and 12, or a complete exam for one chapter. All questions are included, with no difficulty levels.</p><button class="primary-button" data-select-bank="lectureMaeita">🩷maeita custom</button>`
+        : `<h2 class="section-title">🩷maeita custom</h2><p class="section-copy">Choose all five chapters or one chapter. Each exam has its own saved progress and results. Every question is included.</p><div class="collection-grid">${customBanks.map(bank => `<button class="secondary-button" data-select-bank="${bank.id}" ${bank.id === currentBank.id ? 'aria-current="true"' : ''}>${escapeHTML(bank.id === 'lectureMaeita' ? 'All chapters · Comprehensive exam' : bank.title)} · ${bank.questions.length} questions</button>`).join('')}</div><p style="margin-top:16px"><button class="ghost-button" data-select-bank="lectureExam1">Back to Lecture Exam 1</button></p>`;
+    }
     const lessonPanel = document.getElementById('ap-lesson-panel');
     const apLessons = Object.values(banks).filter(bank => bank.parentId === 'apLab');
     lessonPanel.hidden = currentBank.id !== 'apLab' && currentBank.parentId !== 'apLab';
@@ -266,14 +283,17 @@
       lessonPanel.innerHTML = `<h2 class="section-title">A&P lesson exams</h2><p class="section-copy">Choose a lesson to practice only with your supplied course photos, or take the combined A&P exam.</p><div class="collection-grid">${[banks.apLab,...apLessons].map(bank => `<button class="secondary-button" data-ap-lesson="${bank.id}" ${bank.id === currentBank.id ? 'aria-current="true"' : ''}>${escapeHTML(bank.id === 'apLab' ? 'Combined A&P Exam' : bank.shortTitle)} · ${bank.questions.length} questions</button>`).join('')}</div>`;
       lessonPanel.querySelectorAll('[data-ap-lesson]').forEach(button => button.addEventListener('click', () => selectCollection(button.dataset.apLesson)));
     }
-    const completedCount = Object.values(state.completed).filter(Boolean).length;
+    const availableLevels = examLevels();
+    const completedCount = Object.keys(availableLevels).filter(key => state.completed[key]).length;
+    const requiredCount = Object.keys(availableLevels).length;
     const uniqueMistakes = [...new Set(state.mistakes.map(item => item.questionId))];
     document.getElementById('attempts-stat').textContent = state.history.length;
     document.getElementById('mistakes-stat').textContent = uniqueMistakes.length;
-    document.getElementById('levels-stat').textContent = `${completedCount}/3`;
-    document.getElementById('progress-ring').style.setProperty('--progress', `${completedCount / 3 * 100}%`);
+    document.getElementById('levels-stat').textContent = `${completedCount}/${requiredCount}`;
+    document.getElementById('progress-caption').textContent = isCustom ? 'exam completed' : 'levels completed';
+    document.getElementById('progress-ring').style.setProperty('--progress', `${completedCount / requiredCount * 100}%`);
 
-    document.getElementById('level-list').innerHTML = Object.entries(levels).map(([key, level]) => {
+    document.getElementById('level-list').innerHTML = Object.entries(availableLevels).map(([key, level]) => {
       const completed = state.completed[key];
       const draft = validDraft(key);
       const label = draft ? 'Resume' : completed ? 'Retake' : 'Start exam';
@@ -284,19 +304,19 @@
       </article>`;
     }).join('');
 
-    document.getElementById('best-scores').innerHTML = Object.keys(levels).map(key => {
+    document.getElementById('best-scores').innerHTML = Object.keys(availableLevels).map(key => {
       const tries = state.history.filter(item => item.level === key);
       const best = tries.length ? Math.max(...tries.map(item => item.score)) : 0;
-      return `<div class="progress-row"><div class="progress-label"><span>${levels[key].label}</span><strong>${tries.length ? `${best}%` : 'Not attempted'}</strong></div><div class="progress-track"><div class="progress-bar" style="width:${best}%"></div></div></div>`;
+      return `<div class="progress-row"><div class="progress-label"><span>${availableLevels[key].label}</span><strong>${tries.length ? `${best}%` : 'Not attempted'}</strong></div><div class="progress-track"><div class="progress-bar" style="width:${best}%"></div></div></div>`;
     }).join('');
 
-    document.getElementById('lock-row').innerHTML = Object.keys(levels).map(key => `<span class="lock-chip ${state.completed[key] ? 'done' : ''}">${state.completed[key] ? '✓' : '○'} ${levels[key].label}</span>`).join('');
-    const unlocked = completedCount === 3;
+    document.getElementById('lock-row').innerHTML = Object.keys(availableLevels).map(key => `<span class="lock-chip ${state.completed[key] ? 'done' : ''}">${state.completed[key] ? '✓' : '○'} ${availableLevels[key].label}</span>`).join('');
+    const unlocked = completedCount === requiredCount;
     const reviewButton = document.getElementById('review-button');
     reviewButton.disabled = !unlocked || uniqueMistakes.length === 0;
     reviewButton.textContent = !unlocked ? 'Locked' : state.drafts.review ? 'Resume review' : uniqueMistakes.length ? `Review ${uniqueMistakes.length} mistake${uniqueMistakes.length === 1 ? '' : 's'}` : 'No mistakes yet';
     document.getElementById('review-copy').textContent = !unlocked
-      ? 'Complete Easy, Medium, and Hard once to unlock this exam.'
+      ? isCustom ? 'Complete the comprehensive exam once to unlock this review.' : 'Complete Easy, Medium, and Hard once to unlock this exam.'
       : uniqueMistakes.length
         ? 'Unlocked. This exam uses only unique questions missed in earlier attempts for this collection.'
         : 'Unlocked. Finish an exam with an incorrect answer to create a review set.';
@@ -315,7 +335,7 @@
   }
 
   function startExam(level){
-    if (!currentBank || !state || (level !== 'review' && !levels[level])) return;
+    if (!currentBank || !state || (level !== 'review' && !examLevels()[level])) return;
     const saved = validDraft(level);
     let pool;
     if (saved) {
@@ -348,7 +368,7 @@
     const question = activeExam.questions[activeExam.index];
     const total = activeExam.questions.length;
     const saved = activeExam.responses[question.id] || '';
-    document.getElementById('exam-level-label').textContent = activeExam.level === 'review' ? `${currentBank.shortTitle} · Mistake Review` : `${currentBank.shortTitle} · ${levels[activeExam.level].label}`;
+    document.getElementById('exam-level-label').textContent = activeExam.level === 'review' ? `${currentBank.shortTitle} · Mistake Review` : `${currentBank.shortTitle} · ${examLevels()[activeExam.level].label}`;
     document.getElementById('question-count').textContent = `Question ${activeExam.index + 1} of ${total}`;
     document.getElementById('exam-progress-bar').style.width = `${(activeExam.index + 1) / total * 100}%`;
     const input = question.type === 'mcq'
@@ -423,7 +443,7 @@
       return;
     }
     list.innerHTML = state.history.map(item => {
-      const label = item.level === 'review' ? 'Mistake Review' : `${levels[item.level]?.label || item.level} Exam`;
+      const label = item.level === 'review' ? 'Mistake Review' : `${examLevels()[item.level]?.label || item.level} Exam`;
       const date = new Intl.DateTimeFormat(undefined, { dateStyle:'medium', timeStyle:'short' }).format(new Date(item.date));
       return `<article class="history-item"><div><div class="history-name">${escapeHTML(label)}</div><div class="history-date">${escapeHTML(date)}</div></div><div class="score-badge">${item.score}%</div><div class="history-answers">${item.correctCount}/${item.total} correct · ${item.total - item.correctCount} incorrect</div></article>`;
     }).join('');
@@ -473,8 +493,8 @@
         annotations:{ readOnlyHint:true, untrustedContentHint:false },
         execute(){
           if (!currentBank || !state) return { selectedCollection:null };
-          const bestScores = Object.fromEntries(Object.keys(levels).map(level => [level, Math.max(0, ...state.history.filter(item => item.level === level).map(item => item.score))]));
-          return { selectedCollection:currentBank.title, completedLevels:Object.keys(levels).filter(level => state.completed[level]), attempts:state.history.length, uniqueMistakes:new Set(state.mistakes.map(item => item.questionId)).size, bestScores };
+          const bestScores = Object.fromEntries(Object.keys(examLevels()).map(level => [level, Math.max(0, ...state.history.filter(item => item.level === level).map(item => item.score))]));
+          return { selectedCollection:currentBank.title, completedLevels:Object.keys(examLevels()).filter(level => state.completed[level]), attempts:state.history.length, uniqueMistakes:new Set(state.mistakes.map(item => item.questionId)).size, bestScores };
         }
       })).catch(() => {});
     } catch {}

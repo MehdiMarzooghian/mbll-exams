@@ -62,6 +62,30 @@
       ]
     }
   };
+  const custom = window.MAEITA_CUSTOM;
+  if (custom) {
+    const makeCustomBank = (id, title, chapters, parentId) => {
+      const selected = custom.chapters.filter(chapter => chapters.includes(chapter.chapter));
+      return {
+        id, title, shortTitle:title, code:'CUSTOM', accent:'purple', parentId,
+        examMode:'comprehensive',
+        description:'All-question multiple-choice exams with no difficulty selection. Save and resume at any time.',
+        questions:custom.questions.filter(question => chapters.includes(question.chapter)),
+        sourceCount:selected.length,
+        slideCoverage:custom.slides.filter(slide => chapters.includes(slide.chapter)),
+        coverage:selected.map(chapter => [
+          `Chapter ${chapter.chapter} · ${chapter.title}`,
+          `${chapter.slideCount}/${chapter.slideCount} slides reviewed`,
+          `${chapter.questionCount} multiple-choice questions · text, notes, figures, and review objectives`
+        ])
+      };
+    };
+    window.MBLL_BANKS.lectureMaeita = makeCustomBank('lectureMaeita','🩷maeita custom',custom.chapters.map(chapter => chapter.chapter),'lectureExam1');
+    custom.chapters.forEach(chapter => {
+      const id = `lectureMaeita${chapter.chapter}`;
+      window.MBLL_BANKS[id] = makeCustomBank(id,`Chapter ${chapter.chapter} · ${chapter.title}`,[chapter.chapter],'lectureMaeita');
+    });
+  }
   const photoQuestions = window.AP_PHOTO_QUESTIONS || [];
   const lessons = [
     ['apEndocrine','Endocrine system','Endocrine System','ENDO'],

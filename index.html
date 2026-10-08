@@ -386,6 +386,7 @@
         </section>
 
         <section class="view" id="view-dashboard" hidden>
+          <div class="panel panel-pad" id="lecture-custom-panel" hidden style="margin-bottom:22px"></div>
           <div class="panel panel-pad" id="ap-lesson-panel" hidden style="margin-bottom:22px"></div>
           <div class="dashboard-grid">
             <div class="panel panel-pad">
@@ -401,7 +402,7 @@
                 <div class="stat"><div class="stat-label">Saved mistakes</div><div class="stat-value" id="mistakes-stat">0</div></div>
               </div>
               <div class="ring-wrap">
-                <div class="ring" id="progress-ring"><div class="ring-content"><strong id="levels-stat">0/3</strong><span>levels completed</span></div></div>
+                <div class="ring" id="progress-ring"><div class="ring-content"><strong id="levels-stat">0/3</strong><span id="progress-caption">levels completed</span></div></div>
               </div>
               <h3 class="mini-heading">Best scores</h3>
               <div id="best-scores"></div>
@@ -442,6 +443,7 @@
             </table>
           </div>
           <div class="coverage-note"><strong>Coverage method</strong>The bank includes direct recall, procedure selection, experimental interpretation, safety scenarios, and figure-based identification. Every result explanation displays its source locator for review.</div>
+          <div class="panel panel-pad" id="slide-coverage-panel" hidden style="margin-top:22px"></div>
         </section>
 
         <section class="view exam-wrap" id="view-exam" hidden>
@@ -460,7 +462,8 @@
 
   <script src="mbll-question-banks.js?v=20260930"></script>
   <script src="ap-photo-lessons.js?v=20261006"></script>
-  <script src="exam-banks.js?v=20261006"></script>
-  <script src="app.js?v=20261007a"></script>
+  <script src="maeita-question-bank.js?v=20261008"></script>
+  <script src="exam-banks.js?v=20261008"></script>
+  <script src="app.js?v=20261008"></script>
 </body>
 </html>

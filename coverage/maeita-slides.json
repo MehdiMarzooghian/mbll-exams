@@ -1,0 +1,4220 @@
+{
+  "chapters": [
+    {
+      "chapter": 7,
+      "title": "Viruses",
+      "source": "Chapter+7+Viruses.ppt",
+      "sha256": "b3521ddf7a9d3cb442261b4f900b8a44f077bb9a53c316cae9d1d08af5f65efb",
+      "slideCount": 49,
+      "questionCount": 117
+    },
+    {
+      "chapter": 9,
+      "title": "Microbial Nutrition and Growth",
+      "source": "Chapter+9+Microbial+Nutrition+and+Growth.ppt",
+      "sha256": "3ef52c3794aa2083e7a2f435afa3f2913133d425c01afed2f9082a6483458d21",
+      "slideCount": 34,
+      "questionCount": 100
+    },
+    {
+      "chapter": 10,
+      "title": "Metabolism",
+      "source": "Chapter+10+Metabolism.ppt",
+      "sha256": "7c9a29a31deb7db2a84c2a8acaca589dd6228ef9037fd866cfd13af0aa43bb72",
+      "slideCount": 48,
+      "questionCount": 123
+    },
+    {
+      "chapter": 11,
+      "title": "Control of Microbial Growth",
+      "source": "Chapter+11+Control+of+Microbial+Growth.ppt",
+      "sha256": "354a166eb5cca6f6b3b59f5eaa6f116bff31c7dd76750acaabb048bdb88f990e",
+      "slideCount": 33,
+      "questionCount": 92
+    },
+    {
+      "chapter": 12,
+      "title": "Antimicrobial Treatment",
+      "source": "Chapter+12+Antimicrobial+Treatment.ppt",
+      "sha256": "fd45e15e63ac6ff241f774ca9d7c3ff1a8a2060839b0b034d3ed1aeb6053d1ef",
+      "slideCount": 44,
+      "questionCount": 147
+    }
+  ],
+  "slides": [
+    {
+      "chapter": 7,
+      "slide": 1,
+      "title": "Viruses",
+      "kind": "chapter-title",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch7-s03-q01"
+      ],
+      "reason": "Introductory title. Chapter scope is represented by the chapter exam."
+    },
+    {
+      "chapter": 7,
+      "slide": 2,
+      "title": "Chapter 7 Learning Objectives",
+      "kind": "objectives-checklist",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch7-s03-q01",
+        "maeita-ch7-s03-q02",
+        "maeita-ch7-s03-q03",
+        "maeita-ch7-s03-q04",
+        "maeita-ch7-s04-q01",
+        "maeita-ch7-s04-q02",
+        "maeita-ch7-s04-q03",
+        "maeita-ch7-s04-q04",
+        "maeita-ch7-s05-q01",
+        "maeita-ch7-s05-q02",
+        "maeita-ch7-s06-q01",
+        "maeita-ch7-s06-q02",
+        "maeita-ch7-s07-q01",
+        "maeita-ch7-s07-q02",
+        "maeita-ch7-s08-q01",
+        "maeita-ch7-s08-q02",
+        "maeita-ch7-s08-q03",
+        "maeita-ch7-s08-q04",
+        "maeita-ch7-s08-q05",
+        "maeita-ch7-s09-q01",
+        "maeita-ch7-s09-q02",
+        "maeita-ch7-s10-q01",
+        "maeita-ch7-s11-q01",
+        "maeita-ch7-s11-q02",
+        "maeita-ch7-s11-q03",
+        "maeita-ch7-s12-q01",
+        "maeita-ch7-s12-q02",
+        "maeita-ch7-s13-q01",
+        "maeita-ch7-s14-q01",
+        "maeita-ch7-s14-q02",
+        "maeita-ch7-s15-q01",
+        "maeita-ch7-s15-q02",
+        "maeita-ch7-s15-q03",
+        "maeita-ch7-s15-q04",
+        "maeita-ch7-s15-q05",
+        "maeita-ch7-s15-q06",
+        "maeita-ch7-s16-q01",
+        "maeita-ch7-s16-q02",
+        "maeita-ch7-s18-q01",
+        "maeita-ch7-s18-q02",
+        "maeita-ch7-s18-q03",
+        "maeita-ch7-s18-q04",
+        "maeita-ch7-s18-q05",
+        "maeita-ch7-s19-q01",
+        "maeita-ch7-s19-q02",
+        "maeita-ch7-s20-q01",
+        "maeita-ch7-s20-q02",
+        "maeita-ch7-s20-q03",
+        "maeita-ch7-s21-q01",
+        "maeita-ch7-s22-q01",
+        "maeita-ch7-s22-q02",
+        "maeita-ch7-s22-q03",
+        "maeita-ch7-s23-q01",
+        "maeita-ch7-s23-q02",
+        "maeita-ch7-s24-q01",
+        "maeita-ch7-s25-q01",
+        "maeita-ch7-s26-q01",
+        "maeita-ch7-s26-q02",
+        "maeita-ch7-s26-q03",
+        "maeita-ch7-s28-q01",
+        "maeita-ch7-s28-q02",
+        "maeita-ch7-s28-q03",
+        "maeita-ch7-s29-q01",
+        "maeita-ch7-s29-q02",
+        "maeita-ch7-s29-q03",
+        "maeita-ch7-s29-q04",
+        "maeita-ch7-s29-q05",
+        "maeita-ch7-s30-q01",
+        "maeita-ch7-s30-q02",
+        "maeita-ch7-s30-q03",
+        "maeita-ch7-s30-q04",
+        "maeita-ch7-s31-q01",
+        "maeita-ch7-s31-q02",
+        "maeita-ch7-s31-q03",
+        "maeita-ch7-s32-q01",
+        "maeita-ch7-s32-q02",
+        "maeita-ch7-s33-q01",
+        "maeita-ch7-s33-q02",
+        "maeita-ch7-s34-q01",
+        "maeita-ch7-s34-q02",
+        "maeita-ch7-s34-q03",
+        "maeita-ch7-s34-q04",
+        "maeita-ch7-s34-q05",
+        "maeita-ch7-s35-q01",
+        "maeita-ch7-s35-q02",
+        "maeita-ch7-s35-q03",
+        "maeita-ch7-s36-q01",
+        "maeita-ch7-s36-q02",
+        "maeita-ch7-s36-q03",
+        "maeita-ch7-s36-q04",
+        "maeita-ch7-s38-q01",
+        "maeita-ch7-s39-q01",
+        "maeita-ch7-s40-q01",
+        "maeita-ch7-s40-q02",
+        "maeita-ch7-s40-q03",
+        "maeita-ch7-s40-q04",
+        "maeita-ch7-s41-q01",
+        "maeita-ch7-s41-q02",
+        "maeita-ch7-s42-q01",
+        "maeita-ch7-s42-q02",
+        "maeita-ch7-s42-q03",
+        "maeita-ch7-s42-q04",
+        "maeita-ch7-s43-q01",
+        "maeita-ch7-s43-q02",
+        "maeita-ch7-s44-q01",
+        "maeita-ch7-s44-q02",
+        "maeita-ch7-s44-q03",
+        "maeita-ch7-s44-q04",
+        "maeita-ch7-s45-q01",
+        "maeita-ch7-s45-q02",
+        "maeita-ch7-s46-q01",
+        "maeita-ch7-s46-q02",
+        "maeita-ch7-s47-q01",
+        "maeita-ch7-s47-q02",
+        "maeita-ch7-s47-q03",
+        "maeita-ch7-s47-q04",
+        "maeita-ch7-s47-q05"
+      ],
+      "reason": "Objectives/checklist reviewed and linked to the chapter content questions; repeated objectives do not create duplicate questions."
+    },
+    {
+      "chapter": 7,
+      "slide": 3,
+      "title": "Historical Impact of Viruses",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch7-s03-q01",
+        "maeita-ch7-s03-q02",
+        "maeita-ch7-s03-q03",
+        "maeita-ch7-s03-q04"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 7,
+      "slide": 4,
+      "title": "Viruses",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch7-s04-q01",
+        "maeita-ch7-s04-q02",
+        "maeita-ch7-s04-q03",
+        "maeita-ch7-s04-q04"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 7,
+      "slide": 5,
+      "title": "Virus Size: Nanometer (nm)",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch7-s05-q01",
+        "maeita-ch7-s05-q02"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 7,
+      "slide": 6,
+      "title": "Virus Size: Nanometer (nm)",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch7-s06-q01",
+        "maeita-ch7-s06-q02"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 7,
+      "slide": 7,
+      "title": "Viral Components",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch7-s04-q03",
+        "maeita-ch7-s07-q01",
+        "maeita-ch7-s07-q02"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 7,
+      "slide": 8,
+      "title": "Viral Components",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch7-s07-q01",
+        "maeita-ch7-s08-q01",
+        "maeita-ch7-s08-q02",
+        "maeita-ch7-s08-q03",
+        "maeita-ch7-s08-q04",
+        "maeita-ch7-s08-q05"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 7,
+      "slide": 9,
+      "title": "Viral Components",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch7-s08-q04",
+        "maeita-ch7-s08-q05",
+        "maeita-ch7-s09-q01",
+        "maeita-ch7-s09-q02"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 7,
+      "slide": 10,
+      "title": "Viral Components",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch7-s08-q03",
+        "maeita-ch7-s10-q01"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 7,
+      "slide": 11,
+      "title": "Virus Shape",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch7-s11-q01",
+        "maeita-ch7-s11-q02",
+        "maeita-ch7-s11-q03"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 7,
+      "slide": 12,
+      "title": "Virus Shape",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch7-s12-q01",
+        "maeita-ch7-s12-q02"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 7,
+      "slide": 13,
+      "title": "Virus Shape",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch7-s13-q01"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 7,
+      "slide": 14,
+      "title": "Virus Shape",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch7-s14-q01",
+        "maeita-ch7-s14-q02"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 7,
+      "slide": 15,
+      "title": "Classification of Viruses",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch7-s15-q01",
+        "maeita-ch7-s15-q02",
+        "maeita-ch7-s15-q03",
+        "maeita-ch7-s15-q04",
+        "maeita-ch7-s15-q05",
+        "maeita-ch7-s15-q06"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 7,
+      "slide": 16,
+      "title": "Nucleic Acid Classification (Informal)",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch7-s16-q01",
+        "maeita-ch7-s16-q02"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 7,
+      "slide": 17,
+      "title": "Questions for Review",
+      "kind": "review",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch7-s04-q01",
+        "maeita-ch7-s04-q02",
+        "maeita-ch7-s04-q03",
+        "maeita-ch7-s04-q04",
+        "maeita-ch7-s05-q01",
+        "maeita-ch7-s05-q02",
+        "maeita-ch7-s07-q01",
+        "maeita-ch7-s08-q01",
+        "maeita-ch7-s08-q02",
+        "maeita-ch7-s08-q03",
+        "maeita-ch7-s08-q04",
+        "maeita-ch7-s08-q05",
+        "maeita-ch7-s12-q01",
+        "maeita-ch7-s12-q02"
+      ],
+      "reason": "Review prompts linked to the questions testing those concepts."
+    },
+    {
+      "chapter": 7,
+      "slide": 18,
+      "title": "Host Range",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch7-s18-q01",
+        "maeita-ch7-s18-q02",
+        "maeita-ch7-s18-q03",
+        "maeita-ch7-s18-q04",
+        "maeita-ch7-s18-q05"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 7,
+      "slide": 19,
+      "title": "RNA Viral Replication",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch7-s19-q01",
+        "maeita-ch7-s19-q02"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 7,
+      "slide": 20,
+      "title": "DNA Viral Replication",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch7-s19-q01",
+        "maeita-ch7-s20-q01",
+        "maeita-ch7-s20-q02",
+        "maeita-ch7-s20-q03"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 7,
+      "slide": 21,
+      "title": "Viral Replication: Adsorption",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch7-s21-q01"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 7,
+      "slide": 22,
+      "title": "Viral Replication: Penetration and Uncoating",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch7-s22-q01",
+        "maeita-ch7-s22-q02",
+        "maeita-ch7-s22-q03"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 7,
+      "slide": 23,
+      "title": "Viral Replication: RNA Synthesis",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch7-s16-q01",
+        "maeita-ch7-s16-q02",
+        "maeita-ch7-s23-q01",
+        "maeita-ch7-s23-q02"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 7,
+      "slide": 24,
+      "title": "Viral Replication: DNA Synthesis",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch7-s24-q01"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 7,
+      "slide": 25,
+      "title": "Viral Replication: Assembly",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch7-s25-q01"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 7,
+      "slide": 26,
+      "title": "Viral Replication: Release",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch7-s26-q01",
+        "maeita-ch7-s26-q02",
+        "maeita-ch7-s26-q03"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 7,
+      "slide": 27,
+      "title": "Questions for Review",
+      "kind": "review",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch7-s19-q01",
+        "maeita-ch7-s16-q01",
+        "maeita-ch7-s16-q02",
+        "maeita-ch7-s18-q01",
+        "maeita-ch7-s18-q02",
+        "maeita-ch7-s18-q03",
+        "maeita-ch7-s18-q04",
+        "maeita-ch7-s18-q05",
+        "maeita-ch7-s19-q02",
+        "maeita-ch7-s20-q01",
+        "maeita-ch7-s20-q02",
+        "maeita-ch7-s20-q03",
+        "maeita-ch7-s21-q01",
+        "maeita-ch7-s22-q01",
+        "maeita-ch7-s22-q02",
+        "maeita-ch7-s22-q03",
+        "maeita-ch7-s23-q01",
+        "maeita-ch7-s23-q02",
+        "maeita-ch7-s24-q01",
+        "maeita-ch7-s25-q01",
+        "maeita-ch7-s26-q01",
+        "maeita-ch7-s26-q02",
+        "maeita-ch7-s26-q03"
+      ],
+      "reason": "Review prompts linked to the questions testing those concepts."
+    },
+    {
+      "chapter": 7,
+      "slide": 28,
+      "title": "Cytopathic Effect (CPE)",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch7-s28-q01",
+        "maeita-ch7-s28-q02",
+        "maeita-ch7-s28-q03"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 7,
+      "slide": 29,
+      "title": "4 Types of Infections",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch7-s29-q01",
+        "maeita-ch7-s29-q02",
+        "maeita-ch7-s29-q03",
+        "maeita-ch7-s29-q04",
+        "maeita-ch7-s29-q05"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 7,
+      "slide": 30,
+      "title": "Grouping of Human Viruses Based on Route of Transmission",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch7-s30-q01",
+        "maeita-ch7-s30-q02",
+        "maeita-ch7-s30-q03",
+        "maeita-ch7-s30-q04"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 7,
+      "slide": 31,
+      "title": "Viruses and Cancer",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch7-s31-q01",
+        "maeita-ch7-s31-q02",
+        "maeita-ch7-s31-q03"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 7,
+      "slide": 32,
+      "title": "Viruses and Cancer",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch7-s32-q01",
+        "maeita-ch7-s32-q02"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 7,
+      "slide": 33,
+      "title": "How Do Viruses Cause Cancer?",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch7-s33-q01",
+        "maeita-ch7-s33-q02"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 7,
+      "slide": 34,
+      "title": "Human Cancers Linked to Viruses",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch7-s34-q01",
+        "maeita-ch7-s34-q02",
+        "maeita-ch7-s34-q03",
+        "maeita-ch7-s34-q04",
+        "maeita-ch7-s34-q05"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 7,
+      "slide": 35,
+      "title": "Bacteriophages",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch7-s35-q01",
+        "maeita-ch7-s35-q02",
+        "maeita-ch7-s35-q03"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 7,
+      "slide": 36,
+      "title": "Lytic and Lysogenic",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch7-s36-q01",
+        "maeita-ch7-s36-q02",
+        "maeita-ch7-s36-q03",
+        "maeita-ch7-s36-q04"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 7,
+      "slide": 37,
+      "title": "Lytic and Lysogenic Cycles",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch7-s36-q01",
+        "maeita-ch7-s36-q02",
+        "maeita-ch7-s36-q03"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 7,
+      "slide": 38,
+      "title": "Bacteriophage Penetration",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch7-s38-q01"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 7,
+      "slide": 39,
+      "title": "Bacteriophage Lysis of Host Cell",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch7-s39-q01"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 7,
+      "slide": 40,
+      "title": "Burst time ",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch7-s40-q01",
+        "maeita-ch7-s40-q02",
+        "maeita-ch7-s40-q03",
+        "maeita-ch7-s40-q04"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 7,
+      "slide": 41,
+      "title": "Induction",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch7-s41-q01",
+        "maeita-ch7-s41-q02"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 7,
+      "slide": 42,
+      "title": "Lysogenic Conversion",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch7-s42-q01",
+        "maeita-ch7-s42-q02",
+        "maeita-ch7-s42-q03",
+        "maeita-ch7-s42-q04"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 7,
+      "slide": 43,
+      "title": "Virophages/Satellite Viruses",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch7-s43-q01",
+        "maeita-ch7-s43-q02"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 7,
+      "slide": 44,
+      "title": "Prions",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch7-s44-q01",
+        "maeita-ch7-s44-q02",
+        "maeita-ch7-s44-q03",
+        "maeita-ch7-s44-q04"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 7,
+      "slide": 45,
+      "title": "How Do Prions Replicate?",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch7-s45-q01",
+        "maeita-ch7-s45-q02"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 7,
+      "slide": 46,
+      "title": "Viroids",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch7-s46-q01",
+        "maeita-ch7-s46-q02"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 7,
+      "slide": 47,
+      "title": "Teratogenesis",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch7-s47-q01",
+        "maeita-ch7-s47-q02",
+        "maeita-ch7-s47-q03",
+        "maeita-ch7-s47-q04",
+        "maeita-ch7-s47-q05"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 7,
+      "slide": 48,
+      "title": "Questions for Review",
+      "kind": "review",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch7-s29-q01",
+        "maeita-ch7-s36-q01",
+        "maeita-ch7-s47-q01",
+        "maeita-ch7-s29-q02",
+        "maeita-ch7-s29-q03",
+        "maeita-ch7-s29-q04",
+        "maeita-ch7-s29-q05",
+        "maeita-ch7-s31-q01",
+        "maeita-ch7-s31-q02",
+        "maeita-ch7-s31-q03",
+        "maeita-ch7-s32-q01",
+        "maeita-ch7-s32-q02",
+        "maeita-ch7-s33-q01",
+        "maeita-ch7-s33-q02",
+        "maeita-ch7-s36-q02",
+        "maeita-ch7-s36-q03",
+        "maeita-ch7-s36-q04",
+        "maeita-ch7-s47-q02",
+        "maeita-ch7-s47-q03",
+        "maeita-ch7-s47-q04",
+        "maeita-ch7-s47-q05"
+      ],
+      "reason": "Review prompts linked to the questions testing those concepts."
+    },
+    {
+      "chapter": 7,
+      "slide": 49,
+      "title": "Chapter 7 Checklist",
+      "kind": "objectives-checklist",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch7-s03-q01",
+        "maeita-ch7-s03-q02",
+        "maeita-ch7-s03-q03",
+        "maeita-ch7-s03-q04",
+        "maeita-ch7-s04-q01",
+        "maeita-ch7-s04-q02",
+        "maeita-ch7-s04-q03",
+        "maeita-ch7-s04-q04",
+        "maeita-ch7-s05-q01",
+        "maeita-ch7-s05-q02",
+        "maeita-ch7-s06-q01",
+        "maeita-ch7-s06-q02",
+        "maeita-ch7-s07-q01",
+        "maeita-ch7-s07-q02",
+        "maeita-ch7-s08-q01",
+        "maeita-ch7-s08-q02",
+        "maeita-ch7-s08-q03",
+        "maeita-ch7-s08-q04",
+        "maeita-ch7-s08-q05",
+        "maeita-ch7-s09-q01",
+        "maeita-ch7-s09-q02",
+        "maeita-ch7-s10-q01",
+        "maeita-ch7-s11-q01",
+        "maeita-ch7-s11-q02",
+        "maeita-ch7-s11-q03",
+        "maeita-ch7-s12-q01",
+        "maeita-ch7-s12-q02",
+        "maeita-ch7-s13-q01",
+        "maeita-ch7-s14-q01",
+        "maeita-ch7-s14-q02",
+        "maeita-ch7-s15-q01",
+        "maeita-ch7-s15-q02",
+        "maeita-ch7-s15-q03",
+        "maeita-ch7-s15-q04",
+        "maeita-ch7-s15-q05",
+        "maeita-ch7-s15-q06",
+        "maeita-ch7-s16-q01",
+        "maeita-ch7-s16-q02",
+        "maeita-ch7-s18-q01",
+        "maeita-ch7-s18-q02",
+        "maeita-ch7-s18-q03",
+        "maeita-ch7-s18-q04",
+        "maeita-ch7-s18-q05",
+        "maeita-ch7-s19-q01",
+        "maeita-ch7-s19-q02",
+        "maeita-ch7-s20-q01",
+        "maeita-ch7-s20-q02",
+        "maeita-ch7-s20-q03",
+        "maeita-ch7-s21-q01",
+        "maeita-ch7-s22-q01",
+        "maeita-ch7-s22-q02",
+        "maeita-ch7-s22-q03",
+        "maeita-ch7-s23-q01",
+        "maeita-ch7-s23-q02",
+        "maeita-ch7-s24-q01",
+        "maeita-ch7-s25-q01",
+        "maeita-ch7-s26-q01",
+        "maeita-ch7-s26-q02",
+        "maeita-ch7-s26-q03",
+        "maeita-ch7-s28-q01",
+        "maeita-ch7-s28-q02",
+        "maeita-ch7-s28-q03",
+        "maeita-ch7-s29-q01",
+        "maeita-ch7-s29-q02",
+        "maeita-ch7-s29-q03",
+        "maeita-ch7-s29-q04",
+        "maeita-ch7-s29-q05",
+        "maeita-ch7-s30-q01",
+        "maeita-ch7-s30-q02",
+        "maeita-ch7-s30-q03",
+        "maeita-ch7-s30-q04",
+        "maeita-ch7-s31-q01",
+        "maeita-ch7-s31-q02",
+        "maeita-ch7-s31-q03",
+        "maeita-ch7-s32-q01",
+        "maeita-ch7-s32-q02",
+        "maeita-ch7-s33-q01",
+        "maeita-ch7-s33-q02",
+        "maeita-ch7-s34-q01",
+        "maeita-ch7-s34-q02",
+        "maeita-ch7-s34-q03",
+        "maeita-ch7-s34-q04",
+        "maeita-ch7-s34-q05",
+        "maeita-ch7-s35-q01",
+        "maeita-ch7-s35-q02",
+        "maeita-ch7-s35-q03",
+        "maeita-ch7-s36-q01",
+        "maeita-ch7-s36-q02",
+        "maeita-ch7-s36-q03",
+        "maeita-ch7-s36-q04",
+        "maeita-ch7-s38-q01",
+        "maeita-ch7-s39-q01",
+        "maeita-ch7-s40-q01",
+        "maeita-ch7-s40-q02",
+        "maeita-ch7-s40-q03",
+        "maeita-ch7-s40-q04",
+        "maeita-ch7-s41-q01",
+        "maeita-ch7-s41-q02",
+        "maeita-ch7-s42-q01",
+        "maeita-ch7-s42-q02",
+        "maeita-ch7-s42-q03",
+        "maeita-ch7-s42-q04",
+        "maeita-ch7-s43-q01",
+        "maeita-ch7-s43-q02",
+        "maeita-ch7-s44-q01",
+        "maeita-ch7-s44-q02",
+        "maeita-ch7-s44-q03",
+        "maeita-ch7-s44-q04",
+        "maeita-ch7-s45-q01",
+        "maeita-ch7-s45-q02",
+        "maeita-ch7-s46-q01",
+        "maeita-ch7-s46-q02",
+        "maeita-ch7-s47-q01",
+        "maeita-ch7-s47-q02",
+        "maeita-ch7-s47-q03",
+        "maeita-ch7-s47-q04",
+        "maeita-ch7-s47-q05"
+      ],
+      "reason": "Objectives/checklist reviewed and linked to the chapter content questions; repeated objectives do not create duplicate questions."
+    },
+    {
+      "chapter": 9,
+      "slide": 1,
+      "title": "Microbial Nutrition and Growth",
+      "kind": "chapter-title",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch9-s03-q01"
+      ],
+      "reason": "Introductory title. Chapter scope is represented by the chapter exam."
+    },
+    {
+      "chapter": 9,
+      "slide": 2,
+      "title": "Chapter 9 Learning Objectives",
+      "kind": "objectives-checklist",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch9-s03-q01",
+        "maeita-ch9-s03-q02",
+        "maeita-ch9-s04-q01",
+        "maeita-ch9-s04-q02",
+        "maeita-ch9-s05-q01",
+        "maeita-ch9-s05-q02",
+        "maeita-ch9-s05-q03",
+        "maeita-ch9-s05-q04",
+        "maeita-ch9-s05-q05",
+        "maeita-ch9-s05-q06",
+        "maeita-ch9-s06-q01",
+        "maeita-ch9-s06-q02",
+        "maeita-ch9-s06-q03",
+        "maeita-ch9-s06-q04",
+        "maeita-ch9-s06-q05",
+        "maeita-ch9-s06-q06",
+        "maeita-ch9-s07-q01",
+        "maeita-ch9-s07-q02",
+        "maeita-ch9-s07-q03",
+        "maeita-ch9-s07-q04",
+        "maeita-ch9-s07-q05",
+        "maeita-ch9-s07-q06",
+        "maeita-ch9-s07-q07",
+        "maeita-ch9-s07-q08",
+        "maeita-ch9-s08-q01",
+        "maeita-ch9-s08-q02",
+        "maeita-ch9-s10-q01",
+        "maeita-ch9-s10-q02",
+        "maeita-ch9-s10-q03",
+        "maeita-ch9-s10-q04",
+        "maeita-ch9-s10-q05",
+        "maeita-ch9-s10-q06",
+        "maeita-ch9-s10-q07",
+        "maeita-ch9-s11-q01",
+        "maeita-ch9-s11-q02",
+        "maeita-ch9-s12-q01",
+        "maeita-ch9-s12-q02",
+        "maeita-ch9-s13-q01",
+        "maeita-ch9-s13-q02",
+        "maeita-ch9-s13-q03",
+        "maeita-ch9-s14-q01",
+        "maeita-ch9-s14-q02",
+        "maeita-ch9-s15-q01",
+        "maeita-ch9-s15-q02",
+        "maeita-ch9-s15-q03",
+        "maeita-ch9-s15-q04",
+        "maeita-ch9-s15-q05",
+        "maeita-ch9-s15-q06",
+        "maeita-ch9-s15-q07",
+        "maeita-ch9-s15-q08",
+        "maeita-ch9-s16-q01",
+        "maeita-ch9-s16-q02",
+        "maeita-ch9-s16-q03",
+        "maeita-ch9-s16-q04",
+        "maeita-ch9-s16-q05",
+        "maeita-ch9-s18-q01",
+        "maeita-ch9-s18-q02",
+        "maeita-ch9-s19-q01",
+        "maeita-ch9-s19-q02",
+        "maeita-ch9-s19-q03",
+        "maeita-ch9-s19-q04",
+        "maeita-ch9-s19-q05",
+        "maeita-ch9-s20-q01",
+        "maeita-ch9-s20-q02",
+        "maeita-ch9-s20-q03",
+        "maeita-ch9-s21-q01",
+        "maeita-ch9-s21-q02",
+        "maeita-ch9-s22-q01",
+        "maeita-ch9-s22-q02",
+        "maeita-ch9-s22-q03",
+        "maeita-ch9-s23-q01",
+        "maeita-ch9-s23-q02",
+        "maeita-ch9-s23-q03",
+        "maeita-ch9-s23-q04",
+        "maeita-ch9-s23-q05",
+        "maeita-ch9-s23-q06",
+        "maeita-ch9-s24-q01",
+        "maeita-ch9-s24-q02",
+        "maeita-ch9-s24-q03",
+        "maeita-ch9-s24-q04",
+        "maeita-ch9-s26-q01",
+        "maeita-ch9-s26-q02",
+        "maeita-ch9-s27-q01",
+        "maeita-ch9-s27-q02",
+        "maeita-ch9-s27-q03",
+        "maeita-ch9-s27-q04",
+        "maeita-ch9-s27-q05",
+        "maeita-ch9-s28-q01",
+        "maeita-ch9-s28-q02",
+        "maeita-ch9-s29-q01",
+        "maeita-ch9-s29-q02",
+        "maeita-ch9-s29-q03",
+        "maeita-ch9-s30-q01",
+        "maeita-ch9-s30-q02",
+        "maeita-ch9-s30-q03",
+        "maeita-ch9-s30-q04",
+        "maeita-ch9-s30-q05",
+        "maeita-ch9-s30-q06",
+        "maeita-ch9-s31-q01",
+        "maeita-ch9-s32-q01"
+      ],
+      "reason": "Objectives/checklist reviewed and linked to the chapter content questions; repeated objectives do not create duplicate questions."
+    },
+    {
+      "chapter": 9,
+      "slide": 3,
+      "title": "Environmental Factors",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch9-s03-q01",
+        "maeita-ch9-s03-q02"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 9,
+      "slide": 4,
+      "title": "Nutritional Factors",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch9-s04-q01",
+        "maeita-ch9-s04-q02"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 9,
+      "slide": 5,
+      "title": "Nutritional Factors",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch9-s05-q01",
+        "maeita-ch9-s05-q02",
+        "maeita-ch9-s05-q03",
+        "maeita-ch9-s05-q04",
+        "maeita-ch9-s05-q05",
+        "maeita-ch9-s05-q06"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 9,
+      "slide": 6,
+      "title": "Other Important Nutritional Factors",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch9-s06-q01",
+        "maeita-ch9-s06-q02",
+        "maeita-ch9-s06-q03",
+        "maeita-ch9-s06-q04",
+        "maeita-ch9-s06-q05",
+        "maeita-ch9-s06-q06"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 9,
+      "slide": 7,
+      "title": "Nutritional Factors",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch9-s07-q01",
+        "maeita-ch9-s07-q02",
+        "maeita-ch9-s07-q03",
+        "maeita-ch9-s07-q04",
+        "maeita-ch9-s07-q05",
+        "maeita-ch9-s07-q06",
+        "maeita-ch9-s07-q07",
+        "maeita-ch9-s07-q08"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 9,
+      "slide": 8,
+      "title": "Microbial Cytoplasm Content",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch9-s08-q01",
+        "maeita-ch9-s08-q02"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 9,
+      "slide": 9,
+      "title": "Environmental Factors",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch9-s03-q01",
+        "maeita-ch9-s03-q02"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 9,
+      "slide": 10,
+      "title": "Psychrophile – cold-loving organism (-5 0C to 15 0C)",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch9-s10-q01",
+        "maeita-ch9-s10-q02",
+        "maeita-ch9-s10-q03",
+        "maeita-ch9-s10-q04",
+        "maeita-ch9-s10-q05",
+        "maeita-ch9-s10-q06",
+        "maeita-ch9-s10-q07"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 9,
+      "slide": 11,
+      "title": "Environmental Factors: Temperature",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch9-s10-q01",
+        "maeita-ch9-s10-q02",
+        "maeita-ch9-s10-q03",
+        "maeita-ch9-s10-q04",
+        "maeita-ch9-s10-q05",
+        "maeita-ch9-s10-q06",
+        "maeita-ch9-s11-q01",
+        "maeita-ch9-s11-q02"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 9,
+      "slide": 12,
+      "title": "“Red snow” of a psychrophile",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch9-s12-q01",
+        "maeita-ch9-s12-q02"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 9,
+      "slide": 13,
+      "title": "Temperature and Food",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch9-s13-q01",
+        "maeita-ch9-s13-q02",
+        "maeita-ch9-s13-q03"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 9,
+      "slide": 14,
+      "title": "Aerobes – require oxygen",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch9-s14-q01",
+        "maeita-ch9-s14-q02"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 9,
+      "slide": 15,
+      "title": "Obligate aerobes – only grow in oxygen",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch9-s15-q01",
+        "maeita-ch9-s15-q02",
+        "maeita-ch9-s15-q03",
+        "maeita-ch9-s15-q04",
+        "maeita-ch9-s15-q05",
+        "maeita-ch9-s15-q06",
+        "maeita-ch9-s15-q07",
+        "maeita-ch9-s15-q08"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 9,
+      "slide": 16,
+      "title": "O2-. + O2-. + 2H+ O2 + H2O2 2H20 + O2",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch9-s15-q01",
+        "maeita-ch9-s15-q02",
+        "maeita-ch9-s15-q03",
+        "maeita-ch9-s15-q04",
+        "maeita-ch9-s15-q05",
+        "maeita-ch9-s15-q08",
+        "maeita-ch9-s16-q01",
+        "maeita-ch9-s16-q02",
+        "maeita-ch9-s16-q03",
+        "maeita-ch9-s16-q04",
+        "maeita-ch9-s16-q05"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 9,
+      "slide": 17,
+      "title": "Environmental Factors: Oxygen",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch9-s15-q01",
+        "maeita-ch9-s15-q02",
+        "maeita-ch9-s15-q03"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 9,
+      "slide": 18,
+      "title": "Acid – hydrogen ion donor (H+)",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch9-s18-q01",
+        "maeita-ch9-s18-q02"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 9,
+      "slide": 19,
+      "title": "Most grow at their optimal pH, usually ~ pH 7 (neutral)",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch9-s19-q01",
+        "maeita-ch9-s19-q02",
+        "maeita-ch9-s19-q03",
+        "maeita-ch9-s19-q04",
+        "maeita-ch9-s19-q05"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 9,
+      "slide": 20,
+      "title": "Water and Solute Availability",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch9-s20-q01",
+        "maeita-ch9-s20-q02",
+        "maeita-ch9-s20-q03"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 9,
+      "slide": 21,
+      "title": "Can kill organisms or cause mutation in their DNA, leading to death",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch9-s21-q01",
+        "maeita-ch9-s21-q02"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 9,
+      "slide": 22,
+      "title": "Pressure exerted by standing water, in proportion to its depth",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch9-s22-q01",
+        "maeita-ch9-s22-q02",
+        "maeita-ch9-s22-q03"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 9,
+      "slide": 23,
+      "title": "How Organism Interactions Affect Growth",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch9-s23-q01",
+        "maeita-ch9-s23-q02",
+        "maeita-ch9-s23-q03",
+        "maeita-ch9-s23-q04",
+        "maeita-ch9-s23-q05",
+        "maeita-ch9-s23-q06"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 9,
+      "slide": 24,
+      "title": "How Organism Interactions Affect Growth: Biofilms",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch9-s24-q01",
+        "maeita-ch9-s24-q02",
+        "maeita-ch9-s24-q03",
+        "maeita-ch9-s24-q04"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 9,
+      "slide": 25,
+      "title": "Questions for Review",
+      "kind": "review",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch9-s13-q01",
+        "maeita-ch9-s19-q04",
+        "maeita-ch9-s10-q01",
+        "maeita-ch9-s10-q02",
+        "maeita-ch9-s10-q03",
+        "maeita-ch9-s10-q04",
+        "maeita-ch9-s10-q05",
+        "maeita-ch9-s10-q06",
+        "maeita-ch9-s10-q07",
+        "maeita-ch9-s11-q01",
+        "maeita-ch9-s11-q02",
+        "maeita-ch9-s13-q02",
+        "maeita-ch9-s13-q03",
+        "maeita-ch9-s19-q01",
+        "maeita-ch9-s19-q02",
+        "maeita-ch9-s19-q03",
+        "maeita-ch9-s19-q05"
+      ],
+      "reason": "Review prompts linked to the questions testing those concepts."
+    },
+    {
+      "chapter": 9,
+      "slide": 26,
+      "title": "Binary fission – multiplication of bacteria",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch9-s26-q01",
+        "maeita-ch9-s26-q02"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 9,
+      "slide": 27,
+      "title": "Microbial growth – increase in the number of cells by binary fission",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch9-s27-q01",
+        "maeita-ch9-s27-q02",
+        "maeita-ch9-s27-q03",
+        "maeita-ch9-s27-q04",
+        "maeita-ch9-s27-q05"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 9,
+      "slide": 28,
+      "title": "Bacterial Growth",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch9-s27-q03",
+        "maeita-ch9-s28-q01",
+        "maeita-ch9-s28-q02"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 9,
+      "slide": 29,
+      "title": "Open/continuous culture – cells are maintained in a state of continuous growth as nutrients are freshly supplied and wastes are continuously removed",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch9-s29-q01",
+        "maeita-ch9-s29-q02",
+        "maeita-ch9-s29-q03"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 9,
+      "slide": 30,
+      "title": "Bacterial Growth Curve",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch9-s30-q01",
+        "maeita-ch9-s30-q02",
+        "maeita-ch9-s30-q03",
+        "maeita-ch9-s30-q04",
+        "maeita-ch9-s30-q05",
+        "maeita-ch9-s30-q06"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 9,
+      "slide": 31,
+      "title": "Bacterial Growth Curve",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch9-s30-q01",
+        "maeita-ch9-s30-q02",
+        "maeita-ch9-s30-q05",
+        "maeita-ch9-s30-q06",
+        "maeita-ch9-s31-q01"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 9,
+      "slide": 32,
+      "title": "Bacterial Growth Curve",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch9-s30-q03",
+        "maeita-ch9-s30-q04",
+        "maeita-ch9-s32-q01"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 9,
+      "slide": 33,
+      "title": "Questions for Review",
+      "kind": "review",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch9-s30-q05",
+        "maeita-ch9-s30-q01",
+        "maeita-ch9-s30-q02",
+        "maeita-ch9-s30-q03",
+        "maeita-ch9-s30-q04",
+        "maeita-ch9-s30-q06",
+        "maeita-ch9-s31-q01",
+        "maeita-ch9-s32-q01"
+      ],
+      "reason": "Review prompts linked to the questions testing those concepts."
+    },
+    {
+      "chapter": 9,
+      "slide": 34,
+      "title": "Chapter 9 Checklist",
+      "kind": "objectives-checklist",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch9-s03-q01",
+        "maeita-ch9-s03-q02",
+        "maeita-ch9-s04-q01",
+        "maeita-ch9-s04-q02",
+        "maeita-ch9-s05-q01",
+        "maeita-ch9-s05-q02",
+        "maeita-ch9-s05-q03",
+        "maeita-ch9-s05-q04",
+        "maeita-ch9-s05-q05",
+        "maeita-ch9-s05-q06",
+        "maeita-ch9-s06-q01",
+        "maeita-ch9-s06-q02",
+        "maeita-ch9-s06-q03",
+        "maeita-ch9-s06-q04",
+        "maeita-ch9-s06-q05",
+        "maeita-ch9-s06-q06",
+        "maeita-ch9-s07-q01",
+        "maeita-ch9-s07-q02",
+        "maeita-ch9-s07-q03",
+        "maeita-ch9-s07-q04",
+        "maeita-ch9-s07-q05",
+        "maeita-ch9-s07-q06",
+        "maeita-ch9-s07-q07",
+        "maeita-ch9-s07-q08",
+        "maeita-ch9-s08-q01",
+        "maeita-ch9-s08-q02",
+        "maeita-ch9-s10-q01",
+        "maeita-ch9-s10-q02",
+        "maeita-ch9-s10-q03",
+        "maeita-ch9-s10-q04",
+        "maeita-ch9-s10-q05",
+        "maeita-ch9-s10-q06",
+        "maeita-ch9-s10-q07",
+        "maeita-ch9-s11-q01",
+        "maeita-ch9-s11-q02",
+        "maeita-ch9-s12-q01",
+        "maeita-ch9-s12-q02",
+        "maeita-ch9-s13-q01",
+        "maeita-ch9-s13-q02",
+        "maeita-ch9-s13-q03",
+        "maeita-ch9-s14-q01",
+        "maeita-ch9-s14-q02",
+        "maeita-ch9-s15-q01",
+        "maeita-ch9-s15-q02",
+        "maeita-ch9-s15-q03",
+        "maeita-ch9-s15-q04",
+        "maeita-ch9-s15-q05",
+        "maeita-ch9-s15-q06",
+        "maeita-ch9-s15-q07",
+        "maeita-ch9-s15-q08",
+        "maeita-ch9-s16-q01",
+        "maeita-ch9-s16-q02",
+        "maeita-ch9-s16-q03",
+        "maeita-ch9-s16-q04",
+        "maeita-ch9-s16-q05",
+        "maeita-ch9-s18-q01",
+        "maeita-ch9-s18-q02",
+        "maeita-ch9-s19-q01",
+        "maeita-ch9-s19-q02",
+        "maeita-ch9-s19-q03",
+        "maeita-ch9-s19-q04",
+        "maeita-ch9-s19-q05",
+        "maeita-ch9-s20-q01",
+        "maeita-ch9-s20-q02",
+        "maeita-ch9-s20-q03",
+        "maeita-ch9-s21-q01",
+        "maeita-ch9-s21-q02",
+        "maeita-ch9-s22-q01",
+        "maeita-ch9-s22-q02",
+        "maeita-ch9-s22-q03",
+        "maeita-ch9-s23-q01",
+        "maeita-ch9-s23-q02",
+        "maeita-ch9-s23-q03",
+        "maeita-ch9-s23-q04",
+        "maeita-ch9-s23-q05",
+        "maeita-ch9-s23-q06",
+        "maeita-ch9-s24-q01",
+        "maeita-ch9-s24-q02",
+        "maeita-ch9-s24-q03",
+        "maeita-ch9-s24-q04",
+        "maeita-ch9-s26-q01",
+        "maeita-ch9-s26-q02",
+        "maeita-ch9-s27-q01",
+        "maeita-ch9-s27-q02",
+        "maeita-ch9-s27-q03",
+        "maeita-ch9-s27-q04",
+        "maeita-ch9-s27-q05",
+        "maeita-ch9-s28-q01",
+        "maeita-ch9-s28-q02",
+        "maeita-ch9-s29-q01",
+        "maeita-ch9-s29-q02",
+        "maeita-ch9-s29-q03",
+        "maeita-ch9-s30-q01",
+        "maeita-ch9-s30-q02",
+        "maeita-ch9-s30-q03",
+        "maeita-ch9-s30-q04",
+        "maeita-ch9-s30-q05",
+        "maeita-ch9-s30-q06",
+        "maeita-ch9-s31-q01",
+        "maeita-ch9-s32-q01"
+      ],
+      "reason": "Objectives/checklist reviewed and linked to the chapter content questions; repeated objectives do not create duplicate questions."
+    },
+    {
+      "chapter": 10,
+      "slide": 1,
+      "title": "Metabolism",
+      "kind": "chapter-title",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch10-s03-q01"
+      ],
+      "reason": "Introductory title. Chapter scope is represented by the chapter exam."
+    },
+    {
+      "chapter": 10,
+      "slide": 2,
+      "title": "Chapter 10 Learning Objectives",
+      "kind": "objectives-checklist",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch10-s03-q01",
+        "maeita-ch10-s03-q02",
+        "maeita-ch10-s03-q03",
+        "maeita-ch10-s03-q04",
+        "maeita-ch10-s03-q05",
+        "maeita-ch10-s04-q01",
+        "maeita-ch10-s05-q01",
+        "maeita-ch10-s05-q02",
+        "maeita-ch10-s05-q03",
+        "maeita-ch10-s05-q04",
+        "maeita-ch10-s05-q05",
+        "maeita-ch10-s06-q01",
+        "maeita-ch10-s06-q02",
+        "maeita-ch10-s06-q03",
+        "maeita-ch10-s06-q04",
+        "maeita-ch10-s06-q05",
+        "maeita-ch10-s06-q06",
+        "maeita-ch10-s06-q07",
+        "maeita-ch10-s07-q01",
+        "maeita-ch10-s07-q02",
+        "maeita-ch10-s07-q03",
+        "maeita-ch10-s08-q01",
+        "maeita-ch10-s08-q02",
+        "maeita-ch10-s08-q03",
+        "maeita-ch10-s09-q01",
+        "maeita-ch10-s10-q01",
+        "maeita-ch10-s10-q02",
+        "maeita-ch10-s10-q03",
+        "maeita-ch10-s10-q04",
+        "maeita-ch10-s10-q05",
+        "maeita-ch10-s10-q06",
+        "maeita-ch10-s11-q01",
+        "maeita-ch10-s12-q01",
+        "maeita-ch10-s12-q02",
+        "maeita-ch10-s12-q03",
+        "maeita-ch10-s13-q01",
+        "maeita-ch10-s13-q02",
+        "maeita-ch10-s14-q01",
+        "maeita-ch10-s15-q01",
+        "maeita-ch10-s15-q02",
+        "maeita-ch10-s16-q01",
+        "maeita-ch10-s16-q02",
+        "maeita-ch10-s16-q03",
+        "maeita-ch10-s16-q04",
+        "maeita-ch10-s16-q05",
+        "maeita-ch10-s17-q01",
+        "maeita-ch10-s17-q02",
+        "maeita-ch10-s17-q03",
+        "maeita-ch10-s17-q04",
+        "maeita-ch10-s18-q01",
+        "maeita-ch10-s19-q01",
+        "maeita-ch10-s20-q01",
+        "maeita-ch10-s20-q02",
+        "maeita-ch10-s20-q03",
+        "maeita-ch10-s21-q01",
+        "maeita-ch10-s21-q02",
+        "maeita-ch10-s21-q03",
+        "maeita-ch10-s22-q01",
+        "maeita-ch10-s22-q02",
+        "maeita-ch10-s22-q03",
+        "maeita-ch10-s23-q01",
+        "maeita-ch10-s23-q02",
+        "maeita-ch10-s23-q03",
+        "maeita-ch10-s24-q01",
+        "maeita-ch10-s24-q02",
+        "maeita-ch10-s24-q03",
+        "maeita-ch10-s24-q04",
+        "maeita-ch10-s24-q05",
+        "maeita-ch10-s24-q06",
+        "maeita-ch10-s24-q07",
+        "maeita-ch10-s26-q01",
+        "maeita-ch10-s26-q02",
+        "maeita-ch10-s27-q01",
+        "maeita-ch10-s27-q02",
+        "maeita-ch10-s27-q03",
+        "maeita-ch10-s27-q04",
+        "maeita-ch10-s27-q05",
+        "maeita-ch10-s28-q01",
+        "maeita-ch10-s28-q02",
+        "maeita-ch10-s28-q03",
+        "maeita-ch10-s29-q01",
+        "maeita-ch10-s29-q02",
+        "maeita-ch10-s29-q03",
+        "maeita-ch10-s29-q04",
+        "maeita-ch10-s31-q01",
+        "maeita-ch10-s31-q02",
+        "maeita-ch10-s31-q03",
+        "maeita-ch10-s32-q01",
+        "maeita-ch10-s32-q02",
+        "maeita-ch10-s32-q03",
+        "maeita-ch10-s32-q04",
+        "maeita-ch10-s32-q05",
+        "maeita-ch10-s32-q06",
+        "maeita-ch10-s33-q01",
+        "maeita-ch10-s33-q02",
+        "maeita-ch10-s34-q01",
+        "maeita-ch10-s35-q01",
+        "maeita-ch10-s35-q02",
+        "maeita-ch10-s35-q03",
+        "maeita-ch10-s37-q01",
+        "maeita-ch10-s37-q02",
+        "maeita-ch10-s37-q03",
+        "maeita-ch10-s37-q04",
+        "maeita-ch10-s39-q01",
+        "maeita-ch10-s40-q01",
+        "maeita-ch10-s41-q01",
+        "maeita-ch10-s41-q02",
+        "maeita-ch10-s41-q03",
+        "maeita-ch10-s41-q04",
+        "maeita-ch10-s41-q05",
+        "maeita-ch10-s41-q06",
+        "maeita-ch10-s42-q01",
+        "maeita-ch10-s43-q01",
+        "maeita-ch10-s43-q02",
+        "maeita-ch10-s43-q03",
+        "maeita-ch10-s43-q04",
+        "maeita-ch10-s43-q05",
+        "maeita-ch10-s44-q01",
+        "maeita-ch10-s45-q01",
+        "maeita-ch10-s46-q01",
+        "maeita-ch10-s46-q02",
+        "maeita-ch10-s46-q03",
+        "maeita-ch10-s46-q04"
+      ],
+      "reason": "Objectives/checklist reviewed and linked to the chapter content questions; repeated objectives do not create duplicate questions."
+    },
+    {
+      "chapter": 10,
+      "slide": 3,
+      "title": "Metabolism – sum of all the chemical processes carried out by living organisms",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch10-s03-q01",
+        "maeita-ch10-s03-q02",
+        "maeita-ch10-s03-q03",
+        "maeita-ch10-s03-q04",
+        "maeita-ch10-s03-q05"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 10,
+      "slide": 4,
+      "title": "Diagram",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch10-s03-q02",
+        "maeita-ch10-s03-q03",
+        "maeita-ch10-s03-q04",
+        "maeita-ch10-s04-q01"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 10,
+      "slide": 5,
+      "title": "Enzyme-Substrate Interactions",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch10-s05-q01",
+        "maeita-ch10-s05-q02",
+        "maeita-ch10-s05-q03",
+        "maeita-ch10-s05-q04",
+        "maeita-ch10-s05-q05"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 10,
+      "slide": 6,
+      "title": "Enzyme Structure",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch10-s06-q01",
+        "maeita-ch10-s06-q02",
+        "maeita-ch10-s06-q03",
+        "maeita-ch10-s06-q04",
+        "maeita-ch10-s06-q05",
+        "maeita-ch10-s06-q06",
+        "maeita-ch10-s06-q07"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 10,
+      "slide": 7,
+      "title": "Factors That Affect Enzymatic Reactions",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch10-s07-q01",
+        "maeita-ch10-s07-q02",
+        "maeita-ch10-s07-q03"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 10,
+      "slide": 8,
+      "title": "Enzyme Inhibition",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch10-s08-q01",
+        "maeita-ch10-s08-q02",
+        "maeita-ch10-s08-q03"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 10,
+      "slide": 9,
+      "title": "Questions for Review",
+      "kind": "review",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch10-s06-q01",
+        "maeita-ch10-s06-q05",
+        "maeita-ch10-s07-q01",
+        "maeita-ch10-s09-q01",
+        "maeita-ch10-s06-q02",
+        "maeita-ch10-s06-q03",
+        "maeita-ch10-s06-q04",
+        "maeita-ch10-s06-q06",
+        "maeita-ch10-s06-q07",
+        "maeita-ch10-s07-q02",
+        "maeita-ch10-s07-q03"
+      ],
+      "reason": "Review prompts linked to the questions testing those concepts."
+    },
+    {
+      "chapter": 10,
+      "slide": 10,
+      "title": "Energy",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch10-s10-q01",
+        "maeita-ch10-s10-q02",
+        "maeita-ch10-s10-q03",
+        "maeita-ch10-s10-q04",
+        "maeita-ch10-s10-q05",
+        "maeita-ch10-s10-q06"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 10,
+      "slide": 11,
+      "title": "Energy",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch10-s10-q05",
+        "maeita-ch10-s11-q01"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 10,
+      "slide": 12,
+      "title": "ATP and Phosphorylation",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch10-s12-q01",
+        "maeita-ch10-s12-q02",
+        "maeita-ch10-s12-q03"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 10,
+      "slide": 13,
+      "title": "ATP and Phosphorylation",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch10-s12-q03",
+        "maeita-ch10-s13-q01",
+        "maeita-ch10-s13-q02"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 10,
+      "slide": 14,
+      "title": "ATP and Phosphorylation",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch10-s13-q02",
+        "maeita-ch10-s14-q01"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 10,
+      "slide": 15,
+      "title": "ATP and Phosphorylation",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch10-s15-q01",
+        "maeita-ch10-s15-q02"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 10,
+      "slide": 16,
+      "title": "Redox Reactions",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch10-s16-q01",
+        "maeita-ch10-s16-q02",
+        "maeita-ch10-s16-q03",
+        "maeita-ch10-s16-q04",
+        "maeita-ch10-s16-q05"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 10,
+      "slide": 17,
+      "title": "Electron Carriers",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch10-s06-q07",
+        "maeita-ch10-s17-q01",
+        "maeita-ch10-s17-q02",
+        "maeita-ch10-s17-q03",
+        "maeita-ch10-s17-q04"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 10,
+      "slide": 18,
+      "title": "Questions for Review",
+      "kind": "review",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch10-s12-q03",
+        "maeita-ch10-s17-q01",
+        "maeita-ch10-s18-q01",
+        "maeita-ch10-s06-q07",
+        "maeita-ch10-s12-q01",
+        "maeita-ch10-s12-q02",
+        "maeita-ch10-s13-q01",
+        "maeita-ch10-s13-q02",
+        "maeita-ch10-s17-q02",
+        "maeita-ch10-s17-q03",
+        "maeita-ch10-s17-q04"
+      ],
+      "reason": "Review prompts linked to the questions testing those concepts."
+    },
+    {
+      "chapter": 10,
+      "slide": 19,
+      "title": "Metabolic Pathways ",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch10-s19-q01"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 10,
+      "slide": 20,
+      "title": "Metabolic Pathways",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch10-s20-q01",
+        "maeita-ch10-s20-q02",
+        "maeita-ch10-s20-q03"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 10,
+      "slide": 21,
+      "title": "Metabolic Pathways",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch10-s21-q01",
+        "maeita-ch10-s21-q02",
+        "maeita-ch10-s21-q03"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 10,
+      "slide": 22,
+      "title": "Metabolic Pathways",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch10-s22-q01",
+        "maeita-ch10-s22-q02",
+        "maeita-ch10-s22-q03"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 10,
+      "slide": 23,
+      "title": "Glycolysis",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch10-s23-q01",
+        "maeita-ch10-s23-q02",
+        "maeita-ch10-s23-q03"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 10,
+      "slide": 24,
+      "title": "Glucose",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch10-s23-q02",
+        "maeita-ch10-s23-q03",
+        "maeita-ch10-s24-q01",
+        "maeita-ch10-s24-q02",
+        "maeita-ch10-s24-q03",
+        "maeita-ch10-s24-q04",
+        "maeita-ch10-s24-q05",
+        "maeita-ch10-s24-q06",
+        "maeita-ch10-s24-q07"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 10,
+      "slide": 25,
+      "title": "Glycolysis",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch10-s23-q02",
+        "maeita-ch10-s23-q03",
+        "maeita-ch10-s24-q01",
+        "maeita-ch10-s24-q02",
+        "maeita-ch10-s24-q04",
+        "maeita-ch10-s24-q06"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 10,
+      "slide": 26,
+      "title": "Glucose",
+      "kind": "review",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch10-s26-q01",
+        "maeita-ch10-s26-q02",
+        "maeita-ch10-s23-q01",
+        "maeita-ch10-s23-q02",
+        "maeita-ch10-s23-q03",
+        "maeita-ch10-s27-q01",
+        "maeita-ch10-s27-q02",
+        "maeita-ch10-s27-q03",
+        "maeita-ch10-s27-q04",
+        "maeita-ch10-s27-q05",
+        "maeita-ch10-s41-q01",
+        "maeita-ch10-s41-q02",
+        "maeita-ch10-s41-q03",
+        "maeita-ch10-s41-q04",
+        "maeita-ch10-s41-q05",
+        "maeita-ch10-s41-q06"
+      ],
+      "reason": "Review prompts linked to the questions testing those concepts."
+    },
+    {
+      "chapter": 10,
+      "slide": 27,
+      "title": "Pyruvic acid Acetyl Acetyl-CoA",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch10-s27-q01",
+        "maeita-ch10-s27-q02",
+        "maeita-ch10-s27-q03",
+        "maeita-ch10-s27-q04",
+        "maeita-ch10-s27-q05"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 10,
+      "slide": 28,
+      "title": "Krebs/TCA Cycle (with oxygen!)",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch10-s22-q02",
+        "maeita-ch10-s28-q01",
+        "maeita-ch10-s28-q02",
+        "maeita-ch10-s28-q03"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 10,
+      "slide": 29,
+      "title": "Pyruvic acid",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch10-s28-q03",
+        "maeita-ch10-s29-q01",
+        "maeita-ch10-s29-q02",
+        "maeita-ch10-s29-q03",
+        "maeita-ch10-s29-q04"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 10,
+      "slide": 30,
+      "title": "Krebs/TCA Cycle",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch10-s28-q03",
+        "maeita-ch10-s29-q03",
+        "maeita-ch10-s29-q04"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 10,
+      "slide": 31,
+      "title": "Questions for Review",
+      "kind": "review",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch10-s31-q01",
+        "maeita-ch10-s31-q02",
+        "maeita-ch10-s31-q03",
+        "maeita-ch10-s22-q02",
+        "maeita-ch10-s23-q01",
+        "maeita-ch10-s23-q02",
+        "maeita-ch10-s23-q03",
+        "maeita-ch10-s24-q01",
+        "maeita-ch10-s24-q02",
+        "maeita-ch10-s24-q03",
+        "maeita-ch10-s24-q04",
+        "maeita-ch10-s24-q05",
+        "maeita-ch10-s24-q06",
+        "maeita-ch10-s24-q07",
+        "maeita-ch10-s27-q01",
+        "maeita-ch10-s27-q02",
+        "maeita-ch10-s27-q03",
+        "maeita-ch10-s27-q04",
+        "maeita-ch10-s27-q05",
+        "maeita-ch10-s28-q01",
+        "maeita-ch10-s28-q02",
+        "maeita-ch10-s28-q03",
+        "maeita-ch10-s29-q01",
+        "maeita-ch10-s29-q02",
+        "maeita-ch10-s29-q03",
+        "maeita-ch10-s29-q04"
+      ],
+      "reason": "Review prompts linked to the questions testing those concepts."
+    },
+    {
+      "chapter": 10,
+      "slide": 32,
+      "title": "Electron Transport Chain ",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch10-s15-q02",
+        "maeita-ch10-s22-q03",
+        "maeita-ch10-s32-q01",
+        "maeita-ch10-s32-q02",
+        "maeita-ch10-s32-q03",
+        "maeita-ch10-s32-q04",
+        "maeita-ch10-s32-q05",
+        "maeita-ch10-s32-q06"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 10,
+      "slide": 33,
+      "title": "Electron Transport Chain",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch10-s32-q03",
+        "maeita-ch10-s33-q01",
+        "maeita-ch10-s33-q02"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 10,
+      "slide": 34,
+      "title": "Electron Transport Chain",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch10-s34-q01"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 10,
+      "slide": 35,
+      "title": "Electron Transport Chain",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch10-s21-q01",
+        "maeita-ch10-s35-q01",
+        "maeita-ch10-s35-q02",
+        "maeita-ch10-s35-q03"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 10,
+      "slide": 36,
+      "title": "Electron Transport Chain",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch10-s32-q03",
+        "maeita-ch10-s33-q02"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 10,
+      "slide": 37,
+      "title": "Summary of Glycolysis and Aerobic Metabolism ",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch10-s37-q01",
+        "maeita-ch10-s37-q02",
+        "maeita-ch10-s37-q03",
+        "maeita-ch10-s37-q04"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 10,
+      "slide": 38,
+      "title": "Questions for Review",
+      "kind": "review",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch10-s32-q04",
+        "maeita-ch10-s32-q05",
+        "maeita-ch10-s15-q02",
+        "maeita-ch10-s22-q03",
+        "maeita-ch10-s32-q01",
+        "maeita-ch10-s32-q02",
+        "maeita-ch10-s32-q03",
+        "maeita-ch10-s32-q06"
+      ],
+      "reason": "Review prompts linked to the questions testing those concepts."
+    },
+    {
+      "chapter": 10,
+      "slide": 39,
+      "title": "Diagram",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch10-s39-q01"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 10,
+      "slide": 40,
+      "title": "Diagram",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch10-s40-q01"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 10,
+      "slide": 41,
+      "title": "Fermentation (No Oxygen!)",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch10-s26-q02",
+        "maeita-ch10-s41-q01",
+        "maeita-ch10-s41-q02",
+        "maeita-ch10-s41-q03",
+        "maeita-ch10-s41-q04",
+        "maeita-ch10-s41-q05",
+        "maeita-ch10-s41-q06"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 10,
+      "slide": 42,
+      "title": "Fermentation (No Oxygen!)",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch10-s41-q03",
+        "maeita-ch10-s42-q01"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 10,
+      "slide": 43,
+      "title": "Other Forms of Fermentation",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch10-s43-q01",
+        "maeita-ch10-s43-q02",
+        "maeita-ch10-s43-q03",
+        "maeita-ch10-s43-q04",
+        "maeita-ch10-s43-q05"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 10,
+      "slide": 44,
+      "title": "Glucose",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch10-s37-q03",
+        "maeita-ch10-s41-q02",
+        "maeita-ch10-s44-q01"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 10,
+      "slide": 45,
+      "title": "Various Fates of Pyruvic Acid",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch10-s45-q01"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 10,
+      "slide": 46,
+      "title": "Catabolism of Other Nutrients",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch10-s46-q01",
+        "maeita-ch10-s46-q02",
+        "maeita-ch10-s46-q03",
+        "maeita-ch10-s46-q04"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 10,
+      "slide": 47,
+      "title": "Questions for Review",
+      "kind": "review",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch10-s41-q02",
+        "maeita-ch10-s44-q01",
+        "maeita-ch10-s26-q02",
+        "maeita-ch10-s37-q03",
+        "maeita-ch10-s41-q01",
+        "maeita-ch10-s41-q03",
+        "maeita-ch10-s41-q04",
+        "maeita-ch10-s41-q05",
+        "maeita-ch10-s41-q06",
+        "maeita-ch10-s42-q01",
+        "maeita-ch10-s43-q01",
+        "maeita-ch10-s43-q02",
+        "maeita-ch10-s43-q03",
+        "maeita-ch10-s43-q04",
+        "maeita-ch10-s43-q05"
+      ],
+      "reason": "Review prompts linked to the questions testing those concepts."
+    },
+    {
+      "chapter": 10,
+      "slide": 48,
+      "title": "Chapter 10 Checklist",
+      "kind": "objectives-checklist",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch10-s03-q01",
+        "maeita-ch10-s03-q02",
+        "maeita-ch10-s03-q03",
+        "maeita-ch10-s03-q04",
+        "maeita-ch10-s03-q05",
+        "maeita-ch10-s04-q01",
+        "maeita-ch10-s05-q01",
+        "maeita-ch10-s05-q02",
+        "maeita-ch10-s05-q03",
+        "maeita-ch10-s05-q04",
+        "maeita-ch10-s05-q05",
+        "maeita-ch10-s06-q01",
+        "maeita-ch10-s06-q02",
+        "maeita-ch10-s06-q03",
+        "maeita-ch10-s06-q04",
+        "maeita-ch10-s06-q05",
+        "maeita-ch10-s06-q06",
+        "maeita-ch10-s06-q07",
+        "maeita-ch10-s07-q01",
+        "maeita-ch10-s07-q02",
+        "maeita-ch10-s07-q03",
+        "maeita-ch10-s08-q01",
+        "maeita-ch10-s08-q02",
+        "maeita-ch10-s08-q03",
+        "maeita-ch10-s09-q01",
+        "maeita-ch10-s10-q01",
+        "maeita-ch10-s10-q02",
+        "maeita-ch10-s10-q03",
+        "maeita-ch10-s10-q04",
+        "maeita-ch10-s10-q05",
+        "maeita-ch10-s10-q06",
+        "maeita-ch10-s11-q01",
+        "maeita-ch10-s12-q01",
+        "maeita-ch10-s12-q02",
+        "maeita-ch10-s12-q03",
+        "maeita-ch10-s13-q01",
+        "maeita-ch10-s13-q02",
+        "maeita-ch10-s14-q01",
+        "maeita-ch10-s15-q01",
+        "maeita-ch10-s15-q02",
+        "maeita-ch10-s16-q01",
+        "maeita-ch10-s16-q02",
+        "maeita-ch10-s16-q03",
+        "maeita-ch10-s16-q04",
+        "maeita-ch10-s16-q05",
+        "maeita-ch10-s17-q01",
+        "maeita-ch10-s17-q02",
+        "maeita-ch10-s17-q03",
+        "maeita-ch10-s17-q04",
+        "maeita-ch10-s18-q01",
+        "maeita-ch10-s19-q01",
+        "maeita-ch10-s20-q01",
+        "maeita-ch10-s20-q02",
+        "maeita-ch10-s20-q03",
+        "maeita-ch10-s21-q01",
+        "maeita-ch10-s21-q02",
+        "maeita-ch10-s21-q03",
+        "maeita-ch10-s22-q01",
+        "maeita-ch10-s22-q02",
+        "maeita-ch10-s22-q03",
+        "maeita-ch10-s23-q01",
+        "maeita-ch10-s23-q02",
+        "maeita-ch10-s23-q03",
+        "maeita-ch10-s24-q01",
+        "maeita-ch10-s24-q02",
+        "maeita-ch10-s24-q03",
+        "maeita-ch10-s24-q04",
+        "maeita-ch10-s24-q05",
+        "maeita-ch10-s24-q06",
+        "maeita-ch10-s24-q07",
+        "maeita-ch10-s26-q01",
+        "maeita-ch10-s26-q02",
+        "maeita-ch10-s27-q01",
+        "maeita-ch10-s27-q02",
+        "maeita-ch10-s27-q03",
+        "maeita-ch10-s27-q04",
+        "maeita-ch10-s27-q05",
+        "maeita-ch10-s28-q01",
+        "maeita-ch10-s28-q02",
+        "maeita-ch10-s28-q03",
+        "maeita-ch10-s29-q01",
+        "maeita-ch10-s29-q02",
+        "maeita-ch10-s29-q03",
+        "maeita-ch10-s29-q04",
+        "maeita-ch10-s31-q01",
+        "maeita-ch10-s31-q02",
+        "maeita-ch10-s31-q03",
+        "maeita-ch10-s32-q01",
+        "maeita-ch10-s32-q02",
+        "maeita-ch10-s32-q03",
+        "maeita-ch10-s32-q04",
+        "maeita-ch10-s32-q05",
+        "maeita-ch10-s32-q06",
+        "maeita-ch10-s33-q01",
+        "maeita-ch10-s33-q02",
+        "maeita-ch10-s34-q01",
+        "maeita-ch10-s35-q01",
+        "maeita-ch10-s35-q02",
+        "maeita-ch10-s35-q03",
+        "maeita-ch10-s37-q01",
+        "maeita-ch10-s37-q02",
+        "maeita-ch10-s37-q03",
+        "maeita-ch10-s37-q04",
+        "maeita-ch10-s39-q01",
+        "maeita-ch10-s40-q01",
+        "maeita-ch10-s41-q01",
+        "maeita-ch10-s41-q02",
+        "maeita-ch10-s41-q03",
+        "maeita-ch10-s41-q04",
+        "maeita-ch10-s41-q05",
+        "maeita-ch10-s41-q06",
+        "maeita-ch10-s42-q01",
+        "maeita-ch10-s43-q01",
+        "maeita-ch10-s43-q02",
+        "maeita-ch10-s43-q03",
+        "maeita-ch10-s43-q04",
+        "maeita-ch10-s43-q05",
+        "maeita-ch10-s44-q01",
+        "maeita-ch10-s45-q01",
+        "maeita-ch10-s46-q01",
+        "maeita-ch10-s46-q02",
+        "maeita-ch10-s46-q03",
+        "maeita-ch10-s46-q04"
+      ],
+      "reason": "Objectives/checklist reviewed and linked to the chapter content questions; repeated objectives do not create duplicate questions."
+    },
+    {
+      "chapter": 11,
+      "slide": 1,
+      "title": "Control of Microbial Growth",
+      "kind": "chapter-title",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch11-s03-q01"
+      ],
+      "reason": "Introductory title. Chapter scope is represented by the chapter exam."
+    },
+    {
+      "chapter": 11,
+      "slide": 2,
+      "title": "Chapter 11 Learning Objectives",
+      "kind": "objectives-checklist",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch11-s03-q01",
+        "maeita-ch11-s03-q02",
+        "maeita-ch11-s04-q01",
+        "maeita-ch11-s04-q02",
+        "maeita-ch11-s04-q03",
+        "maeita-ch11-s04-q04",
+        "maeita-ch11-s04-q05",
+        "maeita-ch11-s04-q06",
+        "maeita-ch11-s04-q07",
+        "maeita-ch11-s04-q08",
+        "maeita-ch11-s05-q01",
+        "maeita-ch11-s05-q02",
+        "maeita-ch11-s05-q03",
+        "maeita-ch11-s05-q04",
+        "maeita-ch11-s06-q01",
+        "maeita-ch11-s06-q02",
+        "maeita-ch11-s06-q03",
+        "maeita-ch11-s06-q04",
+        "maeita-ch11-s06-q05",
+        "maeita-ch11-s07-q01",
+        "maeita-ch11-s07-q02",
+        "maeita-ch11-s07-q03",
+        "maeita-ch11-s07-q04",
+        "maeita-ch11-s08-q01",
+        "maeita-ch11-s08-q02",
+        "maeita-ch11-s08-q03",
+        "maeita-ch11-s08-q04",
+        "maeita-ch11-s09-q01",
+        "maeita-ch11-s09-q02",
+        "maeita-ch11-s09-q03",
+        "maeita-ch11-s09-q04",
+        "maeita-ch11-s10-q01",
+        "maeita-ch11-s10-q02",
+        "maeita-ch11-s10-q03",
+        "maeita-ch11-s10-q04",
+        "maeita-ch11-s12-q01",
+        "maeita-ch11-s12-q02",
+        "maeita-ch11-s12-q03",
+        "maeita-ch11-s13-q01",
+        "maeita-ch11-s13-q02",
+        "maeita-ch11-s14-q01",
+        "maeita-ch11-s15-q01",
+        "maeita-ch11-s16-q01",
+        "maeita-ch11-s16-q02",
+        "maeita-ch11-s16-q03",
+        "maeita-ch11-s17-q01",
+        "maeita-ch11-s17-q02",
+        "maeita-ch11-s17-q03",
+        "maeita-ch11-s17-q04",
+        "maeita-ch11-s17-q05",
+        "maeita-ch11-s17-q06",
+        "maeita-ch11-s17-q07",
+        "maeita-ch11-s17-q08",
+        "maeita-ch11-s17-q09",
+        "maeita-ch11-s19-q01",
+        "maeita-ch11-s19-q02",
+        "maeita-ch11-s19-q03",
+        "maeita-ch11-s19-q04",
+        "maeita-ch11-s20-q01",
+        "maeita-ch11-s20-q02",
+        "maeita-ch11-s20-q03",
+        "maeita-ch11-s21-q01",
+        "maeita-ch11-s21-q02",
+        "maeita-ch11-s21-q03",
+        "maeita-ch11-s22-q01",
+        "maeita-ch11-s22-q02",
+        "maeita-ch11-s23-q01",
+        "maeita-ch11-s23-q02",
+        "maeita-ch11-s24-q01",
+        "maeita-ch11-s24-q02",
+        "maeita-ch11-s24-q03",
+        "maeita-ch11-s24-q04",
+        "maeita-ch11-s25-q01",
+        "maeita-ch11-s26-q01",
+        "maeita-ch11-s26-q02",
+        "maeita-ch11-s27-q01",
+        "maeita-ch11-s28-q01",
+        "maeita-ch11-s28-q02",
+        "maeita-ch11-s29-q01",
+        "maeita-ch11-s29-q02",
+        "maeita-ch11-s29-q03",
+        "maeita-ch11-s29-q04",
+        "maeita-ch11-s29-q05",
+        "maeita-ch11-s30-q01",
+        "maeita-ch11-s30-q02",
+        "maeita-ch11-s30-q03",
+        "maeita-ch11-s32-q01",
+        "maeita-ch11-s32-q02",
+        "maeita-ch11-s32-q03",
+        "maeita-ch11-s32-q04",
+        "maeita-ch11-s32-q05",
+        "maeita-ch11-s32-q06"
+      ],
+      "reason": "Objectives/checklist reviewed and linked to the chapter content questions; repeated objectives do not create duplicate questions."
+    },
+    {
+      "chapter": 11,
+      "slide": 3,
+      "title": "Microbial Control Methods",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch11-s03-q01",
+        "maeita-ch11-s03-q02"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 11,
+      "slide": 4,
+      "title": "Antimicrobials",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch11-s04-q01",
+        "maeita-ch11-s04-q02",
+        "maeita-ch11-s04-q03",
+        "maeita-ch11-s04-q04",
+        "maeita-ch11-s04-q05",
+        "maeita-ch11-s04-q06",
+        "maeita-ch11-s04-q07",
+        "maeita-ch11-s04-q08"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 11,
+      "slide": 5,
+      "title": "Antimicrobials",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch11-s05-q01",
+        "maeita-ch11-s05-q02",
+        "maeita-ch11-s05-q03",
+        "maeita-ch11-s05-q04"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 11,
+      "slide": 6,
+      "title": "Resistance to Antimicrobials",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch11-s04-q08",
+        "maeita-ch11-s06-q01",
+        "maeita-ch11-s06-q02",
+        "maeita-ch11-s06-q03",
+        "maeita-ch11-s06-q04",
+        "maeita-ch11-s06-q05"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 11,
+      "slide": 7,
+      "title": "Considerations When Choosing Antimicrobials:",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch11-s07-q01",
+        "maeita-ch11-s07-q02",
+        "maeita-ch11-s07-q03",
+        "maeita-ch11-s07-q04"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 11,
+      "slide": 8,
+      "title": "Factors Influencing Antimicrobial Agents",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch11-s08-q01",
+        "maeita-ch11-s08-q02",
+        "maeita-ch11-s08-q03",
+        "maeita-ch11-s08-q04"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 11,
+      "slide": 9,
+      "title": "Factors Influencing Antimicrobial Agents",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch11-s09-q01",
+        "maeita-ch11-s09-q02",
+        "maeita-ch11-s09-q03",
+        "maeita-ch11-s09-q04"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 11,
+      "slide": 10,
+      "title": "Factors Influencing Antimicrobial Agents",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch11-s08-q01",
+        "maeita-ch11-s10-q01",
+        "maeita-ch11-s10-q02",
+        "maeita-ch11-s10-q03",
+        "maeita-ch11-s10-q04"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 11,
+      "slide": 11,
+      "title": "Questions for Review",
+      "kind": "review",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch11-s04-q03",
+        "maeita-ch11-s05-q01",
+        "maeita-ch11-s04-q01",
+        "maeita-ch11-s04-q02",
+        "maeita-ch11-s04-q04",
+        "maeita-ch11-s04-q05",
+        "maeita-ch11-s04-q06",
+        "maeita-ch11-s04-q07",
+        "maeita-ch11-s04-q08",
+        "maeita-ch11-s05-q02",
+        "maeita-ch11-s05-q03",
+        "maeita-ch11-s05-q04",
+        "maeita-ch11-s08-q01",
+        "maeita-ch11-s08-q02",
+        "maeita-ch11-s08-q03",
+        "maeita-ch11-s08-q04",
+        "maeita-ch11-s09-q01",
+        "maeita-ch11-s09-q02",
+        "maeita-ch11-s09-q03",
+        "maeita-ch11-s09-q04"
+      ],
+      "reason": "Review prompts linked to the questions testing those concepts."
+    },
+    {
+      "chapter": 11,
+      "slide": 12,
+      "title": "Cell Wall",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch11-s12-q01",
+        "maeita-ch11-s12-q02",
+        "maeita-ch11-s12-q03"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 11,
+      "slide": 13,
+      "title": "Proteins",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch11-s13-q01",
+        "maeita-ch11-s13-q02"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 11,
+      "slide": 14,
+      "title": "Physical Methods",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch11-s03-q01",
+        "maeita-ch11-s14-q01"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 11,
+      "slide": 15,
+      "title": "Physical Antimicrobial Methods:",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch11-s14-q01",
+        "maeita-ch11-s15-q01"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 11,
+      "slide": 16,
+      "title": "Heat Killing",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch11-s16-q01",
+        "maeita-ch11-s16-q02",
+        "maeita-ch11-s16-q03"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 11,
+      "slide": 17,
+      "title": "Heat Killing",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch11-s17-q01",
+        "maeita-ch11-s17-q02",
+        "maeita-ch11-s17-q03",
+        "maeita-ch11-s17-q04",
+        "maeita-ch11-s17-q05",
+        "maeita-ch11-s17-q06",
+        "maeita-ch11-s17-q07",
+        "maeita-ch11-s17-q08",
+        "maeita-ch11-s17-q09"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 11,
+      "slide": 18,
+      "title": "Heat Killing",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch11-s17-q06",
+        "maeita-ch11-s17-q07"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 11,
+      "slide": 19,
+      "title": "Heat Killing",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch11-s19-q01",
+        "maeita-ch11-s19-q02",
+        "maeita-ch11-s19-q03",
+        "maeita-ch11-s19-q04"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 11,
+      "slide": 20,
+      "title": "Freezing",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch11-s20-q01",
+        "maeita-ch11-s20-q02",
+        "maeita-ch11-s20-q03"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 11,
+      "slide": 21,
+      "title": "Drying/Dessication",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch11-s21-q01",
+        "maeita-ch11-s21-q02",
+        "maeita-ch11-s21-q03"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 11,
+      "slide": 22,
+      "title": "Lyophilization (Freeze-Drying)",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch11-s22-q01",
+        "maeita-ch11-s22-q02"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 11,
+      "slide": 23,
+      "title": "Radiation",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch11-s23-q01",
+        "maeita-ch11-s23-q02"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 11,
+      "slide": 24,
+      "title": "Radiation",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch11-s24-q01",
+        "maeita-ch11-s24-q02",
+        "maeita-ch11-s24-q03",
+        "maeita-ch11-s24-q04"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 11,
+      "slide": 25,
+      "title": "Radiation",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch11-s25-q01"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 11,
+      "slide": 26,
+      "title": "Radiation",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch11-s26-q01",
+        "maeita-ch11-s26-q02"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 11,
+      "slide": 27,
+      "title": "Radiation",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch11-s27-q01"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 11,
+      "slide": 28,
+      "title": "Radiation",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch11-s28-q01",
+        "maeita-ch11-s28-q02"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 11,
+      "slide": 29,
+      "title": "Passage of material through a filter with very small pores (~ 0.2 microns)",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch11-s29-q01",
+        "maeita-ch11-s29-q02",
+        "maeita-ch11-s29-q03",
+        "maeita-ch11-s29-q04",
+        "maeita-ch11-s29-q05"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 11,
+      "slide": 30,
+      "title": "Osmotic Pressure",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch11-s30-q01",
+        "maeita-ch11-s30-q02",
+        "maeita-ch11-s30-q03"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 11,
+      "slide": 31,
+      "title": "Questions for Review",
+      "kind": "review",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch11-s22-q01",
+        "maeita-ch11-s25-q01",
+        "maeita-ch11-s29-q03",
+        "maeita-ch11-s16-q01",
+        "maeita-ch11-s16-q02",
+        "maeita-ch11-s16-q03",
+        "maeita-ch11-s17-q01",
+        "maeita-ch11-s17-q02",
+        "maeita-ch11-s17-q03",
+        "maeita-ch11-s17-q04",
+        "maeita-ch11-s17-q05",
+        "maeita-ch11-s17-q06",
+        "maeita-ch11-s17-q07",
+        "maeita-ch11-s17-q08",
+        "maeita-ch11-s17-q09",
+        "maeita-ch11-s19-q01",
+        "maeita-ch11-s19-q02",
+        "maeita-ch11-s19-q03",
+        "maeita-ch11-s19-q04",
+        "maeita-ch11-s22-q02",
+        "maeita-ch11-s29-q01",
+        "maeita-ch11-s29-q02",
+        "maeita-ch11-s29-q04",
+        "maeita-ch11-s29-q05"
+      ],
+      "reason": "Review prompts linked to the questions testing those concepts."
+    },
+    {
+      "chapter": 11,
+      "slide": 32,
+      "title": "Chemical Antimicrobial Agents:",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch11-s32-q01",
+        "maeita-ch11-s32-q02",
+        "maeita-ch11-s32-q03",
+        "maeita-ch11-s32-q04",
+        "maeita-ch11-s32-q05",
+        "maeita-ch11-s32-q06"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 11,
+      "slide": 33,
+      "title": "Chapter 11 Checklist",
+      "kind": "objectives-checklist",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch11-s03-q01",
+        "maeita-ch11-s03-q02",
+        "maeita-ch11-s04-q01",
+        "maeita-ch11-s04-q02",
+        "maeita-ch11-s04-q03",
+        "maeita-ch11-s04-q04",
+        "maeita-ch11-s04-q05",
+        "maeita-ch11-s04-q06",
+        "maeita-ch11-s04-q07",
+        "maeita-ch11-s04-q08",
+        "maeita-ch11-s05-q01",
+        "maeita-ch11-s05-q02",
+        "maeita-ch11-s05-q03",
+        "maeita-ch11-s05-q04",
+        "maeita-ch11-s06-q01",
+        "maeita-ch11-s06-q02",
+        "maeita-ch11-s06-q03",
+        "maeita-ch11-s06-q04",
+        "maeita-ch11-s06-q05",
+        "maeita-ch11-s07-q01",
+        "maeita-ch11-s07-q02",
+        "maeita-ch11-s07-q03",
+        "maeita-ch11-s07-q04",
+        "maeita-ch11-s08-q01",
+        "maeita-ch11-s08-q02",
+        "maeita-ch11-s08-q03",
+        "maeita-ch11-s08-q04",
+        "maeita-ch11-s09-q01",
+        "maeita-ch11-s09-q02",
+        "maeita-ch11-s09-q03",
+        "maeita-ch11-s09-q04",
+        "maeita-ch11-s10-q01",
+        "maeita-ch11-s10-q02",
+        "maeita-ch11-s10-q03",
+        "maeita-ch11-s10-q04",
+        "maeita-ch11-s12-q01",
+        "maeita-ch11-s12-q02",
+        "maeita-ch11-s12-q03",
+        "maeita-ch11-s13-q01",
+        "maeita-ch11-s13-q02",
+        "maeita-ch11-s14-q01",
+        "maeita-ch11-s15-q01",
+        "maeita-ch11-s16-q01",
+        "maeita-ch11-s16-q02",
+        "maeita-ch11-s16-q03",
+        "maeita-ch11-s17-q01",
+        "maeita-ch11-s17-q02",
+        "maeita-ch11-s17-q03",
+        "maeita-ch11-s17-q04",
+        "maeita-ch11-s17-q05",
+        "maeita-ch11-s17-q06",
+        "maeita-ch11-s17-q07",
+        "maeita-ch11-s17-q08",
+        "maeita-ch11-s17-q09",
+        "maeita-ch11-s19-q01",
+        "maeita-ch11-s19-q02",
+        "maeita-ch11-s19-q03",
+        "maeita-ch11-s19-q04",
+        "maeita-ch11-s20-q01",
+        "maeita-ch11-s20-q02",
+        "maeita-ch11-s20-q03",
+        "maeita-ch11-s21-q01",
+        "maeita-ch11-s21-q02",
+        "maeita-ch11-s21-q03",
+        "maeita-ch11-s22-q01",
+        "maeita-ch11-s22-q02",
+        "maeita-ch11-s23-q01",
+        "maeita-ch11-s23-q02",
+        "maeita-ch11-s24-q01",
+        "maeita-ch11-s24-q02",
+        "maeita-ch11-s24-q03",
+        "maeita-ch11-s24-q04",
+        "maeita-ch11-s25-q01",
+        "maeita-ch11-s26-q01",
+        "maeita-ch11-s26-q02",
+        "maeita-ch11-s27-q01",
+        "maeita-ch11-s28-q01",
+        "maeita-ch11-s28-q02",
+        "maeita-ch11-s29-q01",
+        "maeita-ch11-s29-q02",
+        "maeita-ch11-s29-q03",
+        "maeita-ch11-s29-q04",
+        "maeita-ch11-s29-q05",
+        "maeita-ch11-s30-q01",
+        "maeita-ch11-s30-q02",
+        "maeita-ch11-s30-q03",
+        "maeita-ch11-s32-q01",
+        "maeita-ch11-s32-q02",
+        "maeita-ch11-s32-q03",
+        "maeita-ch11-s32-q04",
+        "maeita-ch11-s32-q05",
+        "maeita-ch11-s32-q06"
+      ],
+      "reason": "Objectives/checklist reviewed and linked to the chapter content questions; repeated objectives do not create duplicate questions."
+    },
+    {
+      "chapter": 12,
+      "slide": 1,
+      "title": "Antimicrobial Treatment",
+      "kind": "chapter-title",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch12-s03-q01"
+      ],
+      "reason": "Introductory title. Chapter scope is represented by the chapter exam."
+    },
+    {
+      "chapter": 12,
+      "slide": 2,
+      "title": "Chapter 12 Learning Objectives",
+      "kind": "objectives-checklist",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch12-s03-q01",
+        "maeita-ch12-s03-q02",
+        "maeita-ch12-s03-q03",
+        "maeita-ch12-s03-q04",
+        "maeita-ch12-s03-q05",
+        "maeita-ch12-s03-q06",
+        "maeita-ch12-s03-q07",
+        "maeita-ch12-s03-q08",
+        "maeita-ch12-s03-q09",
+        "maeita-ch12-s04-q01",
+        "maeita-ch12-s04-q02",
+        "maeita-ch12-s04-q03",
+        "maeita-ch12-s05-q01",
+        "maeita-ch12-s05-q02",
+        "maeita-ch12-s06-q01",
+        "maeita-ch12-s06-q02",
+        "maeita-ch12-s07-q01",
+        "maeita-ch12-s07-q02",
+        "maeita-ch12-s08-q01",
+        "maeita-ch12-s08-q02",
+        "maeita-ch12-s09-q01",
+        "maeita-ch12-s09-q02",
+        "maeita-ch12-s10-q01",
+        "maeita-ch12-s10-q02",
+        "maeita-ch12-s10-q03",
+        "maeita-ch12-s10-q04",
+        "maeita-ch12-s10-q05",
+        "maeita-ch12-s11-q01",
+        "maeita-ch12-s11-q02",
+        "maeita-ch12-s11-q03",
+        "maeita-ch12-s12-q01",
+        "maeita-ch12-s12-q02",
+        "maeita-ch12-s12-q03",
+        "maeita-ch12-s13-q01",
+        "maeita-ch12-s13-q02",
+        "maeita-ch12-s13-q03",
+        "maeita-ch12-s13-q04",
+        "maeita-ch12-s14-q01",
+        "maeita-ch12-s14-q02",
+        "maeita-ch12-s14-q03",
+        "maeita-ch12-s14-q04",
+        "maeita-ch12-s15-q01",
+        "maeita-ch12-s15-q02",
+        "maeita-ch12-s17-q01",
+        "maeita-ch12-s17-q02",
+        "maeita-ch12-s17-q03",
+        "maeita-ch12-s18-q01",
+        "maeita-ch12-s18-q02",
+        "maeita-ch12-s19-q01",
+        "maeita-ch12-s19-q02",
+        "maeita-ch12-s19-q03",
+        "maeita-ch12-s19-q04",
+        "maeita-ch12-s19-q05",
+        "maeita-ch12-s19-q06",
+        "maeita-ch12-s20-q01",
+        "maeita-ch12-s20-q02",
+        "maeita-ch12-s20-q03",
+        "maeita-ch12-s20-q04",
+        "maeita-ch12-s20-q05",
+        "maeita-ch12-s20-q06",
+        "maeita-ch12-s20-q07",
+        "maeita-ch12-s20-q08",
+        "maeita-ch12-s20-q09",
+        "maeita-ch12-s21-q01",
+        "maeita-ch12-s22-q01",
+        "maeita-ch12-s22-q02",
+        "maeita-ch12-s23-q01",
+        "maeita-ch12-s23-q02",
+        "maeita-ch12-s23-q03",
+        "maeita-ch12-s23-q04",
+        "maeita-ch12-s23-q05",
+        "maeita-ch12-s24-q01",
+        "maeita-ch12-s24-q02",
+        "maeita-ch12-s24-q03",
+        "maeita-ch12-s25-q01",
+        "maeita-ch12-s25-q02",
+        "maeita-ch12-s25-q03",
+        "maeita-ch12-s25-q04",
+        "maeita-ch12-s25-q05",
+        "maeita-ch12-s26-q01",
+        "maeita-ch12-s26-q02",
+        "maeita-ch12-s26-q03",
+        "maeita-ch12-s27-q01",
+        "maeita-ch12-s27-q02",
+        "maeita-ch12-s27-q03",
+        "maeita-ch12-s27-q04",
+        "maeita-ch12-s29-q01",
+        "maeita-ch12-s29-q02",
+        "maeita-ch12-s29-q03",
+        "maeita-ch12-s29-q04",
+        "maeita-ch12-s29-q05",
+        "maeita-ch12-s29-q06",
+        "maeita-ch12-s29-q07",
+        "maeita-ch12-s30-q01",
+        "maeita-ch12-s30-q02",
+        "maeita-ch12-s30-q03",
+        "maeita-ch12-s30-q04",
+        "maeita-ch12-s30-q05",
+        "maeita-ch12-s31-q01",
+        "maeita-ch12-s31-q02",
+        "maeita-ch12-s31-q03",
+        "maeita-ch12-s32-q01",
+        "maeita-ch12-s32-q02",
+        "maeita-ch12-s32-q03",
+        "maeita-ch12-s33-q01",
+        "maeita-ch12-s33-q02",
+        "maeita-ch12-s33-q03",
+        "maeita-ch12-s33-q04",
+        "maeita-ch12-s33-q05",
+        "maeita-ch12-s33-q06",
+        "maeita-ch12-s34-q01",
+        "maeita-ch12-s34-q02",
+        "maeita-ch12-s34-q03",
+        "maeita-ch12-s34-q04",
+        "maeita-ch12-s36-q01",
+        "maeita-ch12-s36-q02",
+        "maeita-ch12-s36-q03",
+        "maeita-ch12-s36-q04",
+        "maeita-ch12-s36-q05",
+        "maeita-ch12-s37-q01",
+        "maeita-ch12-s37-q02",
+        "maeita-ch12-s37-q03",
+        "maeita-ch12-s37-q04",
+        "maeita-ch12-s37-q05",
+        "maeita-ch12-s38-q01",
+        "maeita-ch12-s38-q02",
+        "maeita-ch12-s39-q01",
+        "maeita-ch12-s39-q02",
+        "maeita-ch12-s39-q03",
+        "maeita-ch12-s40-q01",
+        "maeita-ch12-s40-q02",
+        "maeita-ch12-s40-q03",
+        "maeita-ch12-s40-q04",
+        "maeita-ch12-s40-q05",
+        "maeita-ch12-s40-q06",
+        "maeita-ch12-s41-q01",
+        "maeita-ch12-s41-q02",
+        "maeita-ch12-s41-q03",
+        "maeita-ch12-s41-q04",
+        "maeita-ch12-s41-q05",
+        "maeita-ch12-s41-q06",
+        "maeita-ch12-s41-q07",
+        "maeita-ch12-s42-q01",
+        "maeita-ch12-s42-q02",
+        "maeita-ch12-s42-q03",
+        "maeita-ch12-s42-q04",
+        "maeita-ch12-s42-q05"
+      ],
+      "reason": "Objectives/checklist reviewed and linked to the chapter content questions; repeated objectives do not create duplicate questions."
+    },
+    {
+      "chapter": 12,
+      "slide": 3,
+      "title": "Chemotherapy – use of chemical substances (chemotherapeutic agents/drugs) to treat disease",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch12-s03-q01",
+        "maeita-ch12-s03-q02",
+        "maeita-ch12-s03-q03",
+        "maeita-ch12-s03-q04",
+        "maeita-ch12-s03-q05",
+        "maeita-ch12-s03-q06",
+        "maeita-ch12-s03-q07",
+        "maeita-ch12-s03-q08",
+        "maeita-ch12-s03-q09"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 12,
+      "slide": 4,
+      "title": "Characteristics of an Ideal Antimicrobial Agent",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch12-s04-q01",
+        "maeita-ch12-s04-q02",
+        "maeita-ch12-s04-q03"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 12,
+      "slide": 5,
+      "title": "Starting Treatment",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch12-s05-q01",
+        "maeita-ch12-s05-q02"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 12,
+      "slide": 6,
+      "title": "Studying the Effectiveness of Antimicrobial Agents",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch12-s06-q01",
+        "maeita-ch12-s06-q02"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 12,
+      "slide": 7,
+      "title": "Studying the Effectiveness of Antimicrobial Agents",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch12-s06-q01",
+        "maeita-ch12-s06-q02",
+        "maeita-ch12-s07-q01",
+        "maeita-ch12-s07-q02"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 12,
+      "slide": 8,
+      "title": "Studying the Effectiveness of Antimicrobial Agents",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch12-s08-q01",
+        "maeita-ch12-s08-q02"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 12,
+      "slide": 9,
+      "title": "Studying the Effectiveness of Antimicrobial Agents",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch12-s09-q01",
+        "maeita-ch12-s09-q02"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 12,
+      "slide": 10,
+      "title": "Toxicity",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch12-s04-q01",
+        "maeita-ch12-s10-q01",
+        "maeita-ch12-s10-q02",
+        "maeita-ch12-s10-q03",
+        "maeita-ch12-s10-q04",
+        "maeita-ch12-s10-q05"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 12,
+      "slide": 11,
+      "title": "Activity",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch12-s11-q01",
+        "maeita-ch12-s11-q02",
+        "maeita-ch12-s11-q03"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 12,
+      "slide": 12,
+      "title": "Distribution and Half-life",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch12-s12-q01",
+        "maeita-ch12-s12-q02",
+        "maeita-ch12-s12-q03"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 12,
+      "slide": 13,
+      "title": "Effects of Drug Combinations",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch12-s13-q01",
+        "maeita-ch12-s13-q02",
+        "maeita-ch12-s13-q03",
+        "maeita-ch12-s13-q04"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 12,
+      "slide": 14,
+      "title": "Side Effects",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch12-s14-q01",
+        "maeita-ch12-s14-q02",
+        "maeita-ch12-s14-q03",
+        "maeita-ch12-s14-q04"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 12,
+      "slide": 15,
+      "title": "Side Effects",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch12-s15-q01",
+        "maeita-ch12-s15-q02"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 12,
+      "slide": 16,
+      "title": "Questions for Review",
+      "kind": "review",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch12-s10-q01",
+        "maeita-ch12-s10-q02",
+        "maeita-ch12-s11-q01",
+        "maeita-ch12-s14-q01",
+        "maeita-ch12-s04-q01",
+        "maeita-ch12-s10-q03",
+        "maeita-ch12-s10-q04",
+        "maeita-ch12-s10-q05",
+        "maeita-ch12-s11-q02",
+        "maeita-ch12-s11-q03",
+        "maeita-ch12-s14-q02",
+        "maeita-ch12-s14-q03",
+        "maeita-ch12-s14-q04",
+        "maeita-ch12-s15-q01",
+        "maeita-ch12-s15-q02"
+      ],
+      "reason": "Review prompts linked to the questions testing those concepts."
+    },
+    {
+      "chapter": 12,
+      "slide": 17,
+      "title": "Mechanisms of Action",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch12-s17-q01",
+        "maeita-ch12-s17-q02",
+        "maeita-ch12-s17-q03"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 12,
+      "slide": 18,
+      "title": "Mechanisms of Action",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch12-s17-q01",
+        "maeita-ch12-s18-q01",
+        "maeita-ch12-s18-q02"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 12,
+      "slide": 19,
+      "title": "Mechanisms of Action",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch12-s17-q01",
+        "maeita-ch12-s19-q01",
+        "maeita-ch12-s19-q02",
+        "maeita-ch12-s19-q03",
+        "maeita-ch12-s19-q04",
+        "maeita-ch12-s19-q05",
+        "maeita-ch12-s19-q06"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 12,
+      "slide": 20,
+      "title": "Cell Wall Inhibitors: Penicillin",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch12-s17-q02",
+        "maeita-ch12-s20-q01",
+        "maeita-ch12-s20-q02",
+        "maeita-ch12-s20-q03",
+        "maeita-ch12-s20-q04",
+        "maeita-ch12-s20-q05",
+        "maeita-ch12-s20-q06",
+        "maeita-ch12-s20-q07",
+        "maeita-ch12-s20-q08",
+        "maeita-ch12-s20-q09"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 12,
+      "slide": 21,
+      "title": "Cell Wall Inhibitors: Penicillin",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch12-s20-q02",
+        "maeita-ch12-s21-q01"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 12,
+      "slide": 22,
+      "title": "Diagram",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch12-s17-q02",
+        "maeita-ch12-s22-q01",
+        "maeita-ch12-s22-q02"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 12,
+      "slide": 23,
+      "title": "Protein Synthesis Inhibitors: Tetracycline",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch12-s23-q01",
+        "maeita-ch12-s23-q02",
+        "maeita-ch12-s23-q03",
+        "maeita-ch12-s23-q04",
+        "maeita-ch12-s23-q05"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 12,
+      "slide": 24,
+      "title": "Protein Synthesis Inhibitors",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch12-s24-q01",
+        "maeita-ch12-s24-q02",
+        "maeita-ch12-s24-q03"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 12,
+      "slide": 25,
+      "title": "Antimetabolites: Sulfonamides (Sulfa Drugs)",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch12-s25-q01",
+        "maeita-ch12-s25-q02",
+        "maeita-ch12-s25-q03",
+        "maeita-ch12-s25-q04",
+        "maeita-ch12-s25-q05"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 12,
+      "slide": 26,
+      "title": "Nucleic Acid Inhibitors: Quinolones",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch12-s26-q01",
+        "maeita-ch12-s26-q02",
+        "maeita-ch12-s26-q03"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 12,
+      "slide": 27,
+      "title": "Cell Membrane: Polymyxins",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch12-s27-q01",
+        "maeita-ch12-s27-q02",
+        "maeita-ch12-s27-q03",
+        "maeita-ch12-s27-q04"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 12,
+      "slide": 28,
+      "title": "Questions for Review",
+      "kind": "review",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch12-s17-q01",
+        "maeita-ch12-s20-q06",
+        "maeita-ch12-s17-q02",
+        "maeita-ch12-s17-q03",
+        "maeita-ch12-s18-q01",
+        "maeita-ch12-s18-q02",
+        "maeita-ch12-s19-q01",
+        "maeita-ch12-s19-q02",
+        "maeita-ch12-s19-q03",
+        "maeita-ch12-s19-q04",
+        "maeita-ch12-s19-q05",
+        "maeita-ch12-s19-q06",
+        "maeita-ch12-s20-q01",
+        "maeita-ch12-s20-q02",
+        "maeita-ch12-s20-q03",
+        "maeita-ch12-s20-q04",
+        "maeita-ch12-s20-q05",
+        "maeita-ch12-s20-q07",
+        "maeita-ch12-s20-q08",
+        "maeita-ch12-s20-q09",
+        "maeita-ch12-s23-q01",
+        "maeita-ch12-s23-q02",
+        "maeita-ch12-s23-q03",
+        "maeita-ch12-s23-q04",
+        "maeita-ch12-s23-q05"
+      ],
+      "reason": "Review prompts linked to the questions testing those concepts."
+    },
+    {
+      "chapter": 12,
+      "slide": 29,
+      "title": "Antibiotics and Biofilms",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch12-s29-q01",
+        "maeita-ch12-s29-q02",
+        "maeita-ch12-s29-q03",
+        "maeita-ch12-s29-q04",
+        "maeita-ch12-s29-q05",
+        "maeita-ch12-s29-q06",
+        "maeita-ch12-s29-q07"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 12,
+      "slide": 30,
+      "title": "Antifungal Agents",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch12-s30-q01",
+        "maeita-ch12-s30-q02",
+        "maeita-ch12-s30-q03",
+        "maeita-ch12-s30-q04",
+        "maeita-ch12-s30-q05"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 12,
+      "slide": 31,
+      "title": "Antiprotozoal Agents",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch12-s31-q01",
+        "maeita-ch12-s31-q02",
+        "maeita-ch12-s31-q03"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 12,
+      "slide": 32,
+      "title": "Antihelminthic Agents",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch12-s32-q01",
+        "maeita-ch12-s32-q02",
+        "maeita-ch12-s32-q03"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 12,
+      "slide": 33,
+      "title": "Antiviral Agents",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch12-s33-q01",
+        "maeita-ch12-s33-q02",
+        "maeita-ch12-s33-q03",
+        "maeita-ch12-s33-q04",
+        "maeita-ch12-s33-q05",
+        "maeita-ch12-s33-q06"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 12,
+      "slide": 34,
+      "title": "Antiviral Agents for HIV",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch12-s34-q01",
+        "maeita-ch12-s34-q02",
+        "maeita-ch12-s34-q03",
+        "maeita-ch12-s34-q04"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 12,
+      "slide": 35,
+      "title": "Questions for Review",
+      "kind": "review",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch12-s30-q01",
+        "maeita-ch12-s31-q01",
+        "maeita-ch12-s33-q06",
+        "maeita-ch12-s30-q02",
+        "maeita-ch12-s30-q03",
+        "maeita-ch12-s30-q04",
+        "maeita-ch12-s30-q05",
+        "maeita-ch12-s31-q02",
+        "maeita-ch12-s31-q03",
+        "maeita-ch12-s33-q01",
+        "maeita-ch12-s33-q02",
+        "maeita-ch12-s33-q03",
+        "maeita-ch12-s33-q04",
+        "maeita-ch12-s33-q05"
+      ],
+      "reason": "Review prompts linked to the questions testing those concepts."
+    },
+    {
+      "chapter": 12,
+      "slide": 36,
+      "title": "Resistance",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch12-s36-q01",
+        "maeita-ch12-s36-q02",
+        "maeita-ch12-s36-q03",
+        "maeita-ch12-s36-q04",
+        "maeita-ch12-s36-q05"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 12,
+      "slide": 37,
+      "title": "Diagram",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch12-s37-q01",
+        "maeita-ch12-s37-q02",
+        "maeita-ch12-s37-q03",
+        "maeita-ch12-s37-q04",
+        "maeita-ch12-s37-q05"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 12,
+      "slide": 38,
+      "title": "Resistance",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch12-s38-q01",
+        "maeita-ch12-s38-q02"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 12,
+      "slide": 39,
+      "title": "What Exacerbates Resistance?",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch12-s39-q01",
+        "maeita-ch12-s39-q02",
+        "maeita-ch12-s39-q03"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 12,
+      "slide": 40,
+      "title": "“ESKAPE” Pathogens",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch12-s40-q01",
+        "maeita-ch12-s40-q02",
+        "maeita-ch12-s40-q03",
+        "maeita-ch12-s40-q04",
+        "maeita-ch12-s40-q05",
+        "maeita-ch12-s40-q06"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 12,
+      "slide": 41,
+      "title": "New Approaches to Antimicrobial Therapy",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch12-s41-q01",
+        "maeita-ch12-s41-q02",
+        "maeita-ch12-s41-q03",
+        "maeita-ch12-s41-q04",
+        "maeita-ch12-s41-q05",
+        "maeita-ch12-s41-q06",
+        "maeita-ch12-s41-q07"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 12,
+      "slide": 42,
+      "title": "Probiotics and Prebiotics",
+      "kind": "content",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch12-s42-q01",
+        "maeita-ch12-s42-q02",
+        "maeita-ch12-s42-q03",
+        "maeita-ch12-s42-q04",
+        "maeita-ch12-s42-q05"
+      ],
+      "reason": "Text, notes, and figure content reviewed and tested by the linked questions."
+    },
+    {
+      "chapter": 12,
+      "slide": 43,
+      "title": "Questions for Review",
+      "kind": "review",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch12-s37-q01",
+        "maeita-ch12-s36-q01",
+        "maeita-ch12-s36-q02",
+        "maeita-ch12-s36-q03",
+        "maeita-ch12-s36-q04",
+        "maeita-ch12-s36-q05",
+        "maeita-ch12-s37-q02",
+        "maeita-ch12-s37-q03",
+        "maeita-ch12-s37-q04",
+        "maeita-ch12-s37-q05",
+        "maeita-ch12-s38-q01",
+        "maeita-ch12-s38-q02"
+      ],
+      "reason": "Review prompts linked to the questions testing those concepts."
+    },
+    {
+      "chapter": 12,
+      "slide": 44,
+      "title": "Chapter 12 Learning Objectives",
+      "kind": "objectives-checklist",
+      "reviewed": true,
+      "questionIds": [
+        "maeita-ch12-s03-q01",
+        "maeita-ch12-s03-q02",
+        "maeita-ch12-s03-q03",
+        "maeita-ch12-s03-q04",
+        "maeita-ch12-s03-q05",
+        "maeita-ch12-s03-q06",
+        "maeita-ch12-s03-q07",
+        "maeita-ch12-s03-q08",
+        "maeita-ch12-s03-q09",
+        "maeita-ch12-s04-q01",
+        "maeita-ch12-s04-q02",
+        "maeita-ch12-s04-q03",
+        "maeita-ch12-s05-q01",
+        "maeita-ch12-s05-q02",
+        "maeita-ch12-s06-q01",
+        "maeita-ch12-s06-q02",
+        "maeita-ch12-s07-q01",
+        "maeita-ch12-s07-q02",
+        "maeita-ch12-s08-q01",
+        "maeita-ch12-s08-q02",
+        "maeita-ch12-s09-q01",
+        "maeita-ch12-s09-q02",
+        "maeita-ch12-s10-q01",
+        "maeita-ch12-s10-q02",
+        "maeita-ch12-s10-q03",
+        "maeita-ch12-s10-q04",
+        "maeita-ch12-s10-q05",
+        "maeita-ch12-s11-q01",
+        "maeita-ch12-s11-q02",
+        "maeita-ch12-s11-q03",
+        "maeita-ch12-s12-q01",
+        "maeita-ch12-s12-q02",
+        "maeita-ch12-s12-q03",
+        "maeita-ch12-s13-q01",
+        "maeita-ch12-s13-q02",
+        "maeita-ch12-s13-q03",
+        "maeita-ch12-s13-q04",
+        "maeita-ch12-s14-q01",
+        "maeita-ch12-s14-q02",
+        "maeita-ch12-s14-q03",
+        "maeita-ch12-s14-q04",
+        "maeita-ch12-s15-q01",
+        "maeita-ch12-s15-q02",
+        "maeita-ch12-s17-q01",
+        "maeita-ch12-s17-q02",
+        "maeita-ch12-s17-q03",
+        "maeita-ch12-s18-q01",
+        "maeita-ch12-s18-q02",
+        "maeita-ch12-s19-q01",
+        "maeita-ch12-s19-q02",
+        "maeita-ch12-s19-q03",
+        "maeita-ch12-s19-q04",
+        "maeita-ch12-s19-q05",
+        "maeita-ch12-s19-q06",
+        "maeita-ch12-s20-q01",
+        "maeita-ch12-s20-q02",
+        "maeita-ch12-s20-q03",
+        "maeita-ch12-s20-q04",
+        "maeita-ch12-s20-q05",
+        "maeita-ch12-s20-q06",
+        "maeita-ch12-s20-q07",
+        "maeita-ch12-s20-q08",
+        "maeita-ch12-s20-q09",
+        "maeita-ch12-s21-q01",
+        "maeita-ch12-s22-q01",
+        "maeita-ch12-s22-q02",
+        "maeita-ch12-s23-q01",
+        "maeita-ch12-s23-q02",
+        "maeita-ch12-s23-q03",
+        "maeita-ch12-s23-q04",
+        "maeita-ch12-s23-q05",
+        "maeita-ch12-s24-q01",
+        "maeita-ch12-s24-q02",
+        "maeita-ch12-s24-q03",
+        "maeita-ch12-s25-q01",
+        "maeita-ch12-s25-q02",
+        "maeita-ch12-s25-q03",
+        "maeita-ch12-s25-q04",
+        "maeita-ch12-s25-q05",
+        "maeita-ch12-s26-q01",
+        "maeita-ch12-s26-q02",
+        "maeita-ch12-s26-q03",
+        "maeita-ch12-s27-q01",
+        "maeita-ch12-s27-q02",
+        "maeita-ch12-s27-q03",
+        "maeita-ch12-s27-q04",
+        "maeita-ch12-s29-q01",
+        "maeita-ch12-s29-q02",
+        "maeita-ch12-s29-q03",
+        "maeita-ch12-s29-q04",
+        "maeita-ch12-s29-q05",
+        "maeita-ch12-s29-q06",
+        "maeita-ch12-s29-q07",
+        "maeita-ch12-s30-q01",
+        "maeita-ch12-s30-q02",
+        "maeita-ch12-s30-q03",
+        "maeita-ch12-s30-q04",
+        "maeita-ch12-s30-q05",
+        "maeita-ch12-s31-q01",
+        "maeita-ch12-s31-q02",
+        "maeita-ch12-s31-q03",
+        "maeita-ch12-s32-q01",
+        "maeita-ch12-s32-q02",
+        "maeita-ch12-s32-q03",
+        "maeita-ch12-s33-q01",
+        "maeita-ch12-s33-q02",
+        "maeita-ch12-s33-q03",
+        "maeita-ch12-s33-q04",
+        "maeita-ch12-s33-q05",
+        "maeita-ch12-s33-q06",
+        "maeita-ch12-s34-q01",
+        "maeita-ch12-s34-q02",
+        "maeita-ch12-s34-q03",
+        "maeita-ch12-s34-q04",
+        "maeita-ch12-s36-q01",
+        "maeita-ch12-s36-q02",
+        "maeita-ch12-s36-q03",
+        "maeita-ch12-s36-q04",
+        "maeita-ch12-s36-q05",
+        "maeita-ch12-s37-q01",
+        "maeita-ch12-s37-q02",
+        "maeita-ch12-s37-q03",
+        "maeita-ch12-s37-q04",
+        "maeita-ch12-s37-q05",
+        "maeita-ch12-s38-q01",
+        "maeita-ch12-s38-q02",
+        "maeita-ch12-s39-q01",
+        "maeita-ch12-s39-q02",
+        "maeita-ch12-s39-q03",
+        "maeita-ch12-s40-q01",
+        "maeita-ch12-s40-q02",
+        "maeita-ch12-s40-q03",
+        "maeita-ch12-s40-q04",
+        "maeita-ch12-s40-q05",
+        "maeita-ch12-s40-q06",
+        "maeita-ch12-s41-q01",
+        "maeita-ch12-s41-q02",
+        "maeita-ch12-s41-q03",
+        "maeita-ch12-s41-q04",
+        "maeita-ch12-s41-q05",
+        "maeita-ch12-s41-q06",
+        "maeita-ch12-s41-q07",
+        "maeita-ch12-s42-q01",
+        "maeita-ch12-s42-q02",
+        "maeita-ch12-s42-q03",
+        "maeita-ch12-s42-q04",
+        "maeita-ch12-s42-q05"
+      ],
+      "reason": "Objectives/checklist reviewed and linked to the chapter content questions; repeated objectives do not create duplicate questions."
+    }
+  ]
+}
