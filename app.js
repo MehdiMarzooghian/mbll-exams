@@ -411,7 +411,7 @@
       document.querySelectorAll('[data-option]').forEach(button => {
         button.disabled = true;
         button.classList.toggle('answer-correct', button.dataset.option === question.answer);
-        button.classList.toggle('answer-wrong', button.dataset.option === activeExam.responses[question.id] && !correct);
+        button.classList.toggle('answer-wrong', button.dataset.option !== question.answer);
       });
       const input = document.getElementById('short-answer');
       if (input) { input.disabled = true; input.classList.add(correct ? 'answer-correct' : 'answer-wrong'); document.getElementById('check-answer').hidden = true; }
