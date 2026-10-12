@@ -62,13 +62,36 @@
       ]
     }
   };
+  const courseUnits = {
+    microbiologyLab:[[7,'Eukaryotic Microbes'],[8,'Quantitative Microbiology'],[9,'Growth Requirements'],[10,'Selective and Differential Media']],
+    lectureExam1:[[7,'Viruses'],[9,'Microbial Nutrition and Growth'],[10,'Metabolism'],[11,'Control of Microbial Growth'],[12,'Antimicrobial Treatment']],
+    lectureExam2:[[13,'Microbe–Human Interactions'],[14,'Epidemiology'],[15,'Innate Immunity'],[16,'Adaptive Immunity'],[17,'Disorders in Immunity']]
+  };
+  for (const [id, units] of Object.entries(courseUnits)) {
+    const bank = window.MBLL_BANKS[id];
+    bank.examMode = 'comprehensive';
+    bank.instantFeedback = true;
+    bank.questions = bank.questions.map(question => ({ ...question, level:'comprehensive' }));
+    bank.description += ' Comprehensive practice with immediate answer feedback.';
+    bank.courseParent = id;
+    for (const [number, title] of units) {
+      const unitId = `${id}Unit${number}`;
+      const label = `${id === 'microbiologyLab' ? 'Lab Module' : 'Chapter'} ${number} · ${title}`;
+      window.MBLL_BANKS[unitId] = {
+        ...bank, id:unitId, parentId:id, title:label, shortTitle:label,
+        questions:bank.questions.filter(question => (question.module || question.chapter) === number),
+        coverage:bank.coverage.filter((row, index) => index === units.findIndex(unit => unit[0] === number)),
+        sourceCount:1
+      };
+    }
+  }
   const custom = window.MAEITA_CUSTOM;
   if (custom) {
     const makeCustomBank = (id, title, chapters, parentId) => {
       const selected = custom.chapters.filter(chapter => chapters.includes(chapter.chapter));
       return {
         id, title, shortTitle:title, code:'CUSTOM', accent:'purple', parentId,
-        examMode:'comprehensive',
+        examMode:'comprehensive', instantFeedback:true,
         description:'All-question multiple-choice exams with no difficulty selection. Save and resume at any time.',
         questions:custom.questions.filter(question => chapters.includes(question.chapter)),
         sourceCount:selected.length,

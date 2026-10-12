@@ -13,7 +13,9 @@ The A&P dashboard also offers six photo-based lesson exams: Endocrine System (23
 
 Existing browser storage keys, original question IDs, saved results, and drafts are preserved. Each new lesson has its own progress and mistake-review unlock. The all-subject flashcard deck avoids duplicates from lesson sub-banks.
 
-Every bank has Easy, Medium, and Hard levels. Completing all three levels unlocks Mistake Review, which uses only questions previously answered incorrectly.
+The three microbiology banks offer comprehensive exams for the entire course or individual chapters/modules, with no difficulty selection. Multiple-choice answers receive immediate green/red feedback and lock the first selection. Lab short answers use Check answer. Completing a comprehensive exam unlocks Mistake Review. The 579-question Maeita custom deck also uses immediate feedback. A&P banks retain Easy, Medium, and Hard levels.
+
+Existing results and mistakes keep their browser storage keys and question IDs. Legacy microbiology drafts are combined into a comprehensive draft with their responses preserved; completing all three legacy levels counts as completed comprehensive practice.
 
 ## Saved data
 

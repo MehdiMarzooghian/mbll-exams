@@ -39,11 +39,24 @@
     try {
       const parsed = JSON.parse(localStorage.getItem(storageKey(id)));
       if (!parsed || parsed.version !== 3) return initialState();
-      return {
+      const loaded = {
         ...initialState(), ...parsed,
         completed:{ ...initialState().completed, ...(parsed.completed || {}) },
         drafts:{ ...(parsed.drafts || {}) }
       };
+      if (banks[id]?.instantFeedback && banks[id]?.courseParent === id) {
+        loaded.completed.comprehensive ||= ['easy','medium','hard'].every(level => loaded.completed[level]);
+        if (!loaded.drafts.comprehensive) {
+          const oldDrafts = ['easy','medium','hard'].map(level => loaded.drafts[level]).filter(Boolean);
+          if (oldDrafts.length) {
+            const questionIds = banks[id].questions.map(question => question.id);
+            const responses = Object.assign({}, ...oldDrafts.map(draft => draft.responses || {}));
+            const index = questionIds.findIndex(questionId => !responses[questionId]);
+            loaded.drafts.comprehensive = { questionIds, responses, index:Math.max(0,index), startedAt:oldDrafts[0].startedAt };
+          }
+        }
+      }
+      return loaded;
     } catch { return initialState(); }
   }
   // A blocked or full browser store must not prevent an exam from opening.
@@ -96,14 +109,15 @@
   function renderLibrary(){
     document.getElementById('collection-grid').innerHTML = Object.values(banks).filter(bank => !bank.parentId).map(bank => {
       const saved = loadState(bank.id);
-      const completed = Object.values(saved.completed).filter(Boolean).length;
+      const comprehensive = bank.examMode === 'comprehensive';
+      const completed = comprehensive ? Number(Boolean(saved.completed.comprehensive)) : Object.values(saved.completed).filter(Boolean).length;
       const counts = Object.fromEntries(Object.keys(levels).map(level => [level, bank.questions.filter(question => question.level === level).length]));
       const [color, soft] = colors[bank.accent] || colors.teal;
       return `<button class="panel collection-card" data-select-bank="${bank.id}" style="--collection-color:${color};--collection-soft:${soft}">
         <span class="collection-code">${escapeHTML(bank.code)}</span>
         <span class="collection-copy"><h3>${escapeHTML(bank.title)}</h3><p>${escapeHTML(bank.description)}</p>
-          <span class="collection-meta"><span class="collection-chip">${bank.questions.length} questions</span><span class="collection-chip">${counts.easy}/${counts.medium}/${counts.hard} by level</span></span>
-          <span class="collection-progress">${completed}/3 levels completed · ${saved.history.length} saved attempt${saved.history.length === 1 ? '' : 's'}</span>
+          <span class="collection-meta"><span class="collection-chip">${bank.questions.length} questions</span><span class="collection-chip">${comprehensive ? 'Comprehensive · all questions' : `${counts.easy}/${counts.medium}/${counts.hard} by level`}</span></span>
+          <span class="collection-progress">${completed}/${comprehensive ? 1 : 3} ${comprehensive ? 'exam' : 'levels'} completed · ${saved.history.length} saved attempt${saved.history.length === 1 ? '' : 's'}</span>
         </span>
       </button>`;
     }).join('');
@@ -269,8 +283,11 @@
   function renderDashboard(){
     const customPanel = document.getElementById('lecture-custom-panel');
     const isCustom = currentBank.examMode === 'comprehensive';
-    customPanel.hidden = currentBank.id !== 'lectureExam1' && !isCustom;
-    if (!customPanel.hidden && banks.lectureMaeita) {
+    customPanel.hidden = !currentBank.courseParent && !currentBank.id.startsWith('lectureMaeita');
+    if (currentBank.courseParent) {
+      const parent = banks[currentBank.courseParent];
+      customPanel.innerHTML = `<h2 class="section-title">Comprehensive exams</h2><p class="section-copy">Choose all course units or one unit. Each exam includes every question in its bank, with immediate feedback and no difficulty levels.</p><div class="collection-grid">${[parent,...Object.values(banks).filter(bank => bank.parentId === parent.id && bank.courseParent)].map(bank => `<button class="secondary-button" data-select-bank="${bank.id}" ${bank.id === currentBank.id ? 'aria-current="true"' : ''}>${escapeHTML(bank.id === parent.id ? 'All units · Comprehensive exam' : bank.title)} · ${bank.questions.length} questions</button>`).join('')}</div>${parent.id === 'lectureExam1' ? '<p><button class="primary-button" data-select-bank="lectureMaeita">🩷maeita custom · 579 questions</button></p>' : ''}`;
+    } else if (!customPanel.hidden && banks.lectureMaeita) {
       const customBanks = [banks.lectureMaeita, ...Object.values(banks).filter(bank => bank.parentId === 'lectureMaeita')];
       customPanel.innerHTML = currentBank.id === 'lectureExam1'
         ? `<h2 class="section-title">🩷maeita custom</h2><p class="section-copy">Take one comprehensive exam across Chapters 7, 9, 10, 11, and 12, or a complete exam for one chapter. All questions are included, with no difficulty levels.</p><button class="primary-button" data-select-bank="lectureMaeita">🩷maeita custom</button>`
@@ -330,7 +347,8 @@
     return {
       ...saved,
       index:Number.isInteger(saved.index) ? Math.max(0, Math.min(saved.index, saved.questionIds.length - 1)) : 0,
-      responses:saved.responses && typeof saved.responses === 'object' ? saved.responses : {}
+      responses:saved.responses && typeof saved.responses === 'object' ? saved.responses : {},
+      checked:saved.checked || {}
     };
   }
 
@@ -340,12 +358,12 @@
     let pool;
     if (saved) {
       pool = saved.questionIds.map(id => questions.find(question => question.id === id)).filter(Boolean);
-      activeExam = { level, questions:pool, index:Math.min(saved.index, Math.max(0, pool.length - 1)), responses:{ ...saved.responses }, startedAt:saved.startedAt };
+      activeExam = { level, questions:pool, index:Math.min(saved.index, Math.max(0, pool.length - 1)), responses:{ ...saved.responses }, checked:{ ...saved.checked }, startedAt:saved.startedAt };
     } else {
       pool = level === 'review'
         ? [...new Set(state.mistakes.map(item => item.questionId))].map(id => questions.find(question => question.id === id)).filter(Boolean)
         : questions.filter(question => question.level === level);
-      activeExam = { level, questions:pool, index:0, responses:{}, startedAt:new Date().toISOString() };
+      activeExam = { level, questions:pool, index:0, responses:{}, checked:{}, startedAt:new Date().toISOString() };
     }
     if (!pool.length) { activeExam = null; showToast(level === 'review' ? 'There are no saved mistakes to review yet.' : 'No questions are available for this level.'); return; }
     persistDraft();
@@ -359,6 +377,7 @@
       questionIds:activeExam.questions.map(question => question.id),
       index:activeExam.index,
       responses:{ ...activeExam.responses },
+      checked:{ ...activeExam.checked },
       startedAt:activeExam.startedAt
     };
     return saveState();
@@ -378,28 +397,51 @@
     document.getElementById('question-card').innerHTML = `
       <div class="question-type">${typeLabel} · ${escapeHTML(question.topic)}</div>
       <h2>${escapeHTML(question.prompt)}</h2>${question.figure || ''}${input}
+      ${currentBank.instantFeedback ? `<div id="answer-feedback" role="status" aria-live="polite"></div>${question.type === 'short' ? '<button class="secondary-button" id="check-answer">Check answer</button>' : ''}` : ''}
       <div class="exam-actions"><button class="ghost-button" id="exit-exam">Save & exit</button><button class="primary-button" id="next-question" ${saved ? '' : 'disabled'}>${activeExam.index === total - 1 ? 'Finish exam' : 'Next question'}</button></div>`;
     document.getElementById('exit-exam').addEventListener('click', () => {
       const saved = persistDraft(); activeExam = null; showView('dashboard');
       showToast(saved ? 'Exam progress saved.' : 'Progress could not be saved. Keep this page open.');
     });
     const next = document.getElementById('next-question');
+    const instant = currentBank.instantFeedback;
+    const showFeedback = () => {
+      const correct = isCorrect(question, activeExam.responses[question.id]);
+      activeExam.checked[question.id] = true;
+      document.querySelectorAll('[data-option]').forEach(button => {
+        button.disabled = true;
+        button.classList.toggle('answer-correct', button.dataset.option === question.answer);
+        button.classList.toggle('answer-wrong', button.dataset.option === activeExam.responses[question.id] && !correct);
+      });
+      const input = document.getElementById('short-answer');
+      if (input) { input.disabled = true; input.classList.add(correct ? 'answer-correct' : 'answer-wrong'); document.getElementById('check-answer').hidden = true; }
+      const feedback = document.getElementById('answer-feedback');
+      feedback.className = `answer-feedback ${correct ? 'answer-correct' : 'answer-wrong'}`;
+      feedback.innerHTML = `<strong>${correct ? '✓ Correct' : '✗ Incorrect'}</strong>${correct ? '' : `<p>Correct answer: ${escapeHTML(question.type === 'mcq' ? question.answer : question.displayAnswer)}</p>`}<p>${escapeHTML(question.explanation)}</p>`;
+      next.disabled = false;
+      persistDraft();
+    };
+    if (instant) next.disabled = true;
     if (question.type === 'mcq') {
       document.querySelectorAll('[data-option]').forEach(button => button.addEventListener('click', () => {
+        if (instant && activeExam.checked[question.id]) return;
         activeExam.responses[question.id] = button.dataset.option;
         document.querySelectorAll('[data-option]').forEach(item => { item.classList.toggle('selected', item === button); item.setAttribute('aria-checked', item === button); });
-        next.disabled = false; persistDraft();
+        if (instant) showFeedback(); else { next.disabled = false; persistDraft(); }
       }));
     } else {
       const answer = document.getElementById('short-answer');
       answer.focus();
-      answer.addEventListener('input', () => { activeExam.responses[question.id] = answer.value; next.disabled = !answer.value.trim(); persistDraft(); });
-      answer.addEventListener('keydown', event => { if (event.key === 'Enter' && answer.value.trim()) advanceExam(); });
+      answer.addEventListener('input', () => { activeExam.responses[question.id] = answer.value; next.disabled = instant || !answer.value.trim(); persistDraft(); });
+      if (instant) document.getElementById('check-answer').addEventListener('click', () => { if (answer.value.trim()) showFeedback(); });
+      answer.addEventListener('keydown', event => { if (event.key === 'Enter' && answer.value.trim()) { if (instant && !activeExam.checked[question.id]) showFeedback(); else advanceExam(); } });
     }
     next.addEventListener('click', advanceExam);
+    if (instant && (activeExam.checked[question.id] || (question.type === 'mcq' && saved))) showFeedback();
   }
 
   function advanceExam(){
+    if (currentBank.instantFeedback && !activeExam.checked[activeExam.questions[activeExam.index].id]) return;
     if (activeExam.index < activeExam.questions.length - 1) {
       activeExam.index += 1; persistDraft(); renderQuestion(); window.scrollTo({ top:0, behavior:'smooth' });
     } else finishExam();
@@ -443,7 +485,7 @@
       return;
     }
     list.innerHTML = state.history.map(item => {
-      const label = item.level === 'review' ? 'Mistake Review' : `${examLevels()[item.level]?.label || item.level} Exam`;
+      const label = item.level === 'review' ? 'Mistake Review' : `${examLevels()[item.level]?.label || levels[item.level]?.label || item.level} Exam`;
       const date = new Intl.DateTimeFormat(undefined, { dateStyle:'medium', timeStyle:'short' }).format(new Date(item.date));
       return `<article class="history-item"><div><div class="history-name">${escapeHTML(label)}</div><div class="history-date">${escapeHTML(date)}</div></div><div class="score-badge">${item.score}%</div><div class="history-answers">${item.correctCount}/${item.total} correct · ${item.total - item.correctCount} incorrect</div></article>`;
     }).join('');

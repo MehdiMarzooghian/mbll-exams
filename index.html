@@ -251,6 +251,13 @@
     .option.selected .option-key { color: white; background: var(--teal); }
     .short-input { width: 100%; border: 1px solid var(--line); border-radius: 13px; padding: 14px 16px; color: var(--ink); background: white; }
     .short-input:focus { border-color: var(--teal); }
+    .option.answer-correct, .short-input.answer-correct, .answer-feedback.answer-correct { border-color:#23854b; background:#eaf8ee; color:#145c31; }
+    .option.answer-wrong, .short-input.answer-wrong, .answer-feedback.answer-wrong { border-color:#c33737; background:#fff0f0; color:#9c2020; }
+    .option.answer-correct .option-key { background:#23854b; color:white; }
+    .option.answer-wrong .option-key { background:#c33737; color:white; }
+    .option:disabled, .short-input:disabled { opacity:1; cursor:default; }
+    .answer-feedback { border:1px solid; border-radius:13px; padding:16px; margin:16px 0; }
+    .answer-feedback p { margin:8px 0 0; }
     .input-hint { margin: 8px 0 0; color: var(--muted); font-size: .76rem; }
     .exam-actions { margin-top: 25px; display: flex; justify-content: space-between; gap: 12px; }
     .primary-button { padding: 12px 20px; color: white; background: var(--navy); }
@@ -359,7 +366,7 @@
           <div class="library-hero">
             <p class="section-kicker">Choose your course set</p>
             <h2 class="section-title">Choose an exam or practice an A&P lesson.</h2>
-            <p class="section-copy">Each exam saves its own Easy, Medium, Hard, history, flashcard, and Mistake Review progress. Open Human A&P Lab Exam to choose a lesson.</p>
+            <p class="section-copy">Microbiology exams include comprehensive course and chapter practice with immediate feedback. Each exam saves its own history, flashcards, and mistake review. Open Human A&P Lab Exam to choose an A&P lesson.</p>
           </div>
           <div class="collection-grid" id="collection-grid"></div>
         </section>
@@ -463,7 +470,7 @@
   <script src="mbll-question-banks.js?v=20260930"></script>
   <script src="ap-photo-lessons.js?v=20261006"></script>
   <script src="maeita-question-bank.js?v=20261008"></script>
-  <script src="exam-banks.js?v=20261008"></script>
-  <script src="app.js?v=20261008"></script>
+  <script src="exam-banks.js?v=20261012"></script>
+  <script src="app.js?v=20261012"></script>
 </body>
 </html>
