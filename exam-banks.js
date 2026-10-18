@@ -1,16 +1,8 @@
 (() => {
   const prepareQuestions = (questions) => {
-    const answerPositions = {};
-    const levelOffsets = { easy:0, medium:1, hard:2 };
     return questions.map((question) => {
       if (question.type !== 'mcq' || !Array.isArray(question.options)) return { ...question };
-      const group = question.level || 'all';
-      const position = ((answerPositions[group] || 0) + (levelOffsets[group] || 0)) % question.options.length;
-      answerPositions[group] = (answerPositions[group] || 0) + 1;
-      const distractors = question.options.filter(option => option !== question.answer);
-      const options = [...distractors];
-      options.splice(position, 0, question.answer);
-      return { ...question, options };
+      return { ...question, options:[...question.options] };
     });
   };
 
@@ -71,6 +63,7 @@
     const bank = window.MBLL_BANKS[id];
     bank.examMode = 'comprehensive';
     bank.instantFeedback = true;
+    bank.contentRevision = '2026-10-18';
     bank.questions = bank.questions.map(question => ({ ...question, level:'comprehensive' }));
     bank.description += ' Comprehensive practice with immediate answer feedback.';
     bank.courseParent = id;
@@ -87,6 +80,7 @@
   }
   const custom = window.MAEITA_CUSTOM;
   if (custom) {
+    window.MBLL_BANKS.lectureExam1.slideCoverage = custom.slides;
     const makeCustomBank = (id, title, chapters, parentId) => {
       const selected = custom.chapters.filter(chapter => chapters.includes(chapter.chapter));
       return {

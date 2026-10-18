@@ -28,7 +28,7 @@
 
   const flashcardDecks = {
     ...Object.fromEntries(Object.values(banks).map(bank => [bank.id, { ...bank }])),
-    allSubjects:{ id:'allSubjects', title:'All Exam Banks', shortTitle:'All Subjects', code:'ALL', accent:'navy', description:'A combined flashcard deck containing every source-mapped question in this application.', questions:Object.values(banks).filter(bank => !bank.parentId || bank.id === 'lectureMaeita').flatMap(bank => bank.questions) }
+    allSubjects:{ id:'allSubjects', title:'All Exam Banks', shortTitle:'All Subjects', code:'ALL', accent:'navy', description:'A combined flashcard deck containing every source-mapped question in this application.', questions:[...new Map(Object.values(banks).filter(bank => !bank.parentId || bank.id === 'lectureMaeita').flatMap(bank => bank.questions).map(question => [question.id,question])).values()] }
   };
 
   function initialState(){
@@ -36,15 +36,24 @@
   }
   function storageKey(id){ return `${STORAGE_PREFIX}${id}`; }
   function loadState(id){
+    const freshState = () => ({ ...initialState(), contentRevision:banks[id]?.contentRevision });
     try {
       const parsed = JSON.parse(localStorage.getItem(storageKey(id)));
-      if (!parsed || parsed.version !== 3) return initialState();
+      if (!parsed || parsed.version !== 3) return freshState();
       const loaded = {
         ...initialState(), ...parsed,
         completed:{ ...initialState().completed, ...(parsed.completed || {}) },
         drafts:{ ...(parsed.drafts || {}) }
       };
-      if (banks[id]?.instantFeedback && banks[id]?.courseParent === id) {
+      const revision = banks[id]?.contentRevision;
+      if (revision && loaded.contentRevision !== revision) {
+        loaded.archivedDrafts = { ...(loaded.archivedDrafts || {}), [loaded.contentRevision || 'legacy']:loaded.drafts };
+        loaded.archivedCompletion = { ...(loaded.archivedCompletion || {}), [loaded.contentRevision || 'legacy']:loaded.completed };
+        loaded.drafts = {};
+        loaded.completed = { ...initialState().completed, comprehensive:false };
+        loaded.contentRevision = revision;
+      }
+      if (!revision && banks[id]?.instantFeedback && banks[id]?.courseParent === id) {
         loaded.completed.comprehensive ||= ['easy','medium','hard'].every(level => loaded.completed[level]);
         if (!loaded.drafts.comprehensive) {
           const oldDrafts = ['easy','medium','hard'].map(level => loaded.drafts[level]).filter(Boolean);
@@ -57,7 +66,7 @@
         }
       }
       return loaded;
-    } catch { return initialState(); }
+    } catch { return freshState(); }
   }
   // A blocked or full browser store must not prevent an exam from opening.
   function saveProgress(key, value){
@@ -245,7 +254,11 @@
     document.getElementById('bank-size').textContent = questions.length;
     document.getElementById('topic-count').textContent = new Set(questions.map(question => question.topic)).size;
     document.getElementById('source-count').textContent = currentBank.sourceCount;
-    document.getElementById('coverage-copy').textContent = `Every question in ${currentBank.title} is mapped to a reviewed source unit or a generated A&P practice figure.`;
+    document.getElementById('coverage-copy').textContent = currentBank.contentRevision
+      ? 'Questions use specific concepts from your course files. Page and slide references are shown with each answer. The coverage ledger records source-to-question links; a link does not claim that every sentence has been tested.'
+      : `Every question in ${currentBank.title} is mapped to a reviewed source unit or a generated A&P practice figure.`;
+    const auditLink = document.getElementById('reviewed-coverage-link');
+    auditLink.hidden = !currentBank.contentRevision;
     document.getElementById('source-table-body').innerHTML = currentBank.coverage.map(row => `<tr><td>${escapeHTML(row[0])}</td><td>${escapeHTML(row[1])}</td><td>${escapeHTML(row[2])}</td><td><span class="status-tag complete">Covered</span></td></tr>`).join('');
     const slidePanel = document.getElementById('slide-coverage-panel');
     slidePanel.hidden = !currentBank.slideCoverage;
@@ -303,7 +316,8 @@
     const availableLevels = examLevels();
     const completedCount = Object.keys(availableLevels).filter(key => state.completed[key]).length;
     const requiredCount = Object.keys(availableLevels).length;
-    const uniqueMistakes = [...new Set(state.mistakes.map(item => item.questionId))];
+    const validIds = new Set(questions.map(question => question.id));
+    const uniqueMistakes = [...new Set(state.mistakes.map(item => item.questionId).filter(id => validIds.has(id)))];
     document.getElementById('attempts-stat').textContent = state.history.length;
     document.getElementById('mistakes-stat').textContent = uniqueMistakes.length;
     document.getElementById('levels-stat').textContent = `${completedCount}/${requiredCount}`;
@@ -322,7 +336,7 @@
     }).join('');
 
     document.getElementById('best-scores').innerHTML = Object.keys(availableLevels).map(key => {
-      const tries = state.history.filter(item => item.level === key);
+      const tries = state.history.filter(item => item.level === key && (!currentBank.contentRevision || item.contentRevision === currentBank.contentRevision));
       const best = tries.length ? Math.max(...tries.map(item => item.score)) : 0;
       return `<div class="progress-row"><div class="progress-label"><span>${availableLevels[key].label}</span><strong>${tries.length ? `${best}%` : 'Not attempted'}</strong></div><div class="progress-track"><div class="progress-bar" style="width:${best}%"></div></div></div>`;
     }).join('');
@@ -344,6 +358,7 @@
     if (!saved || !Array.isArray(saved.questionIds) || !saved.questionIds.length) return null;
     const allowed = new Set(questions.filter(question => level === 'review' || question.level === level).map(question => question.id));
     if (saved.questionIds.some(id => !allowed.has(id))) return null;
+    if (level !== 'review' && (saved.questionIds.length !== allowed.size || new Set(saved.questionIds).size !== allowed.size)) return null;
     return {
       ...saved,
       index:Number.isInteger(saved.index) ? Math.max(0, Math.min(saved.index, saved.questionIds.length - 1)) : 0,
@@ -417,7 +432,7 @@
       if (input) { input.disabled = true; input.classList.add(correct ? 'answer-correct' : 'answer-wrong'); document.getElementById('check-answer').hidden = true; }
       const feedback = document.getElementById('answer-feedback');
       feedback.className = `answer-feedback ${correct ? 'answer-correct' : 'answer-wrong'}`;
-      feedback.innerHTML = `<strong>${correct ? '✓ Correct' : '✗ Incorrect'}</strong>${correct ? '' : `<p>Correct answer: ${escapeHTML(question.type === 'mcq' ? question.answer : question.displayAnswer)}</p>`}<p>${escapeHTML(question.explanation)}</p>`;
+      feedback.innerHTML = `<strong>${correct ? '✓ Correct' : '✗ Incorrect'}</strong>${correct ? '' : `<p>Correct answer: ${escapeHTML(question.type === 'mcq' ? question.answer : question.displayAnswer)}</p>`}<p>${escapeHTML(question.explanation)}</p><p class="input-hint">Source: ${escapeHTML(question.source)}</p>`;
       next.disabled = false;
       persistDraft();
     };
@@ -458,7 +473,7 @@
     const attemptId = `attempt-${Date.now()}`;
     const completedAt = new Date().toISOString();
     graded.filter(item => !item.correct).forEach(item => state.mistakes.push({ questionId:item.questionId, attemptId, response:item.response, date:completedAt }));
-    state.history.unshift({ id:attemptId, collectionId:currentBank.id, level:exam.level, score, correctCount, total:graded.length, answers:graded, startedAt:exam.startedAt, date:completedAt });
+    state.history.unshift({ id:attemptId, collectionId:currentBank.id, contentRevision:currentBank.contentRevision, level:exam.level, score, correctCount, total:graded.length, answers:graded, startedAt:exam.startedAt, date:completedAt });
     if (exam.level !== 'review') state.completed[exam.level] = true;
     delete state.drafts[exam.level];
     saveState(); activeExam = null;
@@ -493,7 +508,7 @@
 
   function exportResults(){
     if (!state.history.length) { showToast('Complete an exam before exporting results.'); return; }
-    const payload = { exportedAt:new Date().toISOString(), app:'MBLL Exam Studio', collection:{ id:currentBank.id, title:currentBank.title }, results:state.history, mistakeHistory:state.mistakes };
+    const payload = { exportedAt:new Date().toISOString(), app:'MBLL Exam Studio', collection:{ id:currentBank.id, title:currentBank.title }, results:state.history, mistakeHistory:state.mistakes, archivedDrafts:state.archivedDrafts, archivedCompletion:state.archivedCompletion };
     const blob = new Blob([JSON.stringify(payload, null, 2)], { type:'application/json' });
     const url = URL.createObjectURL(blob);
     const link = document.createElement('a');
@@ -535,8 +550,9 @@
         annotations:{ readOnlyHint:true, untrustedContentHint:false },
         execute(){
           if (!currentBank || !state) return { selectedCollection:null };
-          const bestScores = Object.fromEntries(Object.keys(examLevels()).map(level => [level, Math.max(0, ...state.history.filter(item => item.level === level).map(item => item.score))]));
-          return { selectedCollection:currentBank.title, completedLevels:Object.keys(examLevels()).filter(level => state.completed[level]), attempts:state.history.length, uniqueMistakes:new Set(state.mistakes.map(item => item.questionId)).size, bestScores };
+          const bestScores = Object.fromEntries(Object.keys(examLevels()).map(level => [level, Math.max(0, ...state.history.filter(item => item.level === level && (!currentBank.contentRevision || item.contentRevision === currentBank.contentRevision)).map(item => item.score))]));
+          const ids = new Set(questions.map(question => question.id));
+          return { selectedCollection:currentBank.title, completedLevels:Object.keys(examLevels()).filter(level => state.completed[level]), attempts:state.history.length, uniqueMistakes:new Set(state.mistakes.map(item => item.questionId).filter(id => ids.has(id))).size, bestScores };
         }
       })).catch(() => {});
     } catch {}

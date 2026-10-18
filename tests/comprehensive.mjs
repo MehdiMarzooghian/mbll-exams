@@ -33,11 +33,12 @@ const first = banks.lectureExam1.questions[0];
 const key = 'mbll-exams-v2-lectureExam1';
 store.set(key,JSON.stringify({version:3,history:[{id:'previous',level:'easy',score:50}],mistakes:[],completed:{easy:true,medium:true,hard:true},drafts:{easy:{questionIds:[first.id],responses:{[first.id]:first.answer},index:0,startedAt:'2026-10-01'}}}));
 api.selectCollection('lectureExam1');
-assert.equal(api.getState().completed.comprehensive,true);
+assert.equal(api.getState().completed.comprehensive,false);
 assert.equal(api.getState().history[0].id,'previous');
-assert.equal(api.getState().drafts.comprehensive.responses[first.id],first.answer);
+assert.equal(api.getState().archivedDrafts.legacy.easy.responses[first.id],first.answer);
+assert.equal(Object.keys(api.getState().drafts).length,0);
 api.startExam('comprehensive');
-assert.equal(api.getExam().questions.length,155);
+assert.equal(api.getExam().questions.length,579);
 // Complete a tiny fixture through the actual selection, persistence, grading and unlock flow.
 banks.fixture = {...banks.microbiologyLab,id:'fixture',courseParent:'fixture',questions:[
   {...first,id:'mc',options:['correct','wrong'],answer:'correct'},
@@ -59,6 +60,8 @@ api.advanceExam();
 assert.equal(api.getState().history[0].score,50);
 assert.equal(api.getState().mistakes[0].questionId,'mc');
 assert.equal(api.getState().completed.comprehensive,true);
+api.selectCollection('fixture');
+assert.equal(api.getState().completed.comprehensive,true,'new completion must survive reloading its collection');
 api.startExam('review');
 assert.equal(api.getExam().questions.length,1);
 assert.equal(api.getExam().questions[0].id,'mc');

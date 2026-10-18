@@ -1,0 +1,5364 @@
+{
+  "revision": "2026-10-18",
+  "method": "Human-authored stems, three related distractors, a distinct explanation, and explicit page/slide references. Linked status is traceability, not a guarantee that every sentence is tested.",
+  "units": [
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_10_Metabolism.pptx",
+      "number": 10,
+      "unit": 1,
+      "title": "Metabolism",
+      "status": "objectives-or-review",
+      "questionIds": []
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_10_Metabolism.pptx",
+      "number": 10,
+      "unit": 2,
+      "title": "Chapter 10 Learning Objectives",
+      "status": "objectives-or-review",
+      "questionIds": []
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_10_Metabolism.pptx",
+      "number": 10,
+      "unit": 3,
+      "title": "Metabolism – sum of all the chemical processes carried out by living organisms",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch10-s03-q01",
+        "maeita-ch10-s03-q02",
+        "maeita-ch10-s03-q03",
+        "maeita-ch10-s03-q04",
+        "maeita-ch10-s03-q05"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_10_Metabolism.pptx",
+      "number": 10,
+      "unit": 4,
+      "title": "",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch10-s03-q02",
+        "maeita-ch10-s03-q03",
+        "maeita-ch10-s03-q04",
+        "maeita-ch10-s04-q01"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_10_Metabolism.pptx",
+      "number": 10,
+      "unit": 5,
+      "title": "Enzyme-Substrate Interactions",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch10-s05-q01",
+        "maeita-ch10-s05-q02",
+        "maeita-ch10-s05-q03",
+        "maeita-ch10-s05-q04",
+        "maeita-ch10-s05-q05"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_10_Metabolism.pptx",
+      "number": 10,
+      "unit": 6,
+      "title": "Enzyme Structure",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch10-s06-q01",
+        "maeita-ch10-s06-q02",
+        "maeita-ch10-s06-q03",
+        "maeita-ch10-s06-q04",
+        "maeita-ch10-s06-q05",
+        "maeita-ch10-s06-q06",
+        "maeita-ch10-s06-q07"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_10_Metabolism.pptx",
+      "number": 10,
+      "unit": 7,
+      "title": "Factors That Affect Enzymatic Reactions",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch10-s07-q01",
+        "maeita-ch10-s07-q02",
+        "maeita-ch10-s07-q03"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_10_Metabolism.pptx",
+      "number": 10,
+      "unit": 8,
+      "title": "Enzyme Inhibition",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch10-s08-q01",
+        "maeita-ch10-s08-q02",
+        "maeita-ch10-s08-q03"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_10_Metabolism.pptx",
+      "number": 10,
+      "unit": 9,
+      "title": "Questions for Review",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch10-s06-q01",
+        "maeita-ch10-s06-q05",
+        "maeita-ch10-s07-q01",
+        "maeita-ch10-s09-q01"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_10_Metabolism.pptx",
+      "number": 10,
+      "unit": 10,
+      "title": "Energy",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch10-s10-q01",
+        "maeita-ch10-s10-q02",
+        "maeita-ch10-s10-q03",
+        "maeita-ch10-s10-q04",
+        "maeita-ch10-s10-q05",
+        "maeita-ch10-s10-q06"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_10_Metabolism.pptx",
+      "number": 10,
+      "unit": 11,
+      "title": "Energy",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch10-s10-q05",
+        "maeita-ch10-s11-q01"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_10_Metabolism.pptx",
+      "number": 10,
+      "unit": 12,
+      "title": "ATP and Phosphorylation",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch10-s12-q01",
+        "maeita-ch10-s12-q02",
+        "maeita-ch10-s12-q03"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_10_Metabolism.pptx",
+      "number": 10,
+      "unit": 13,
+      "title": "ATP and Phosphorylation",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch10-s12-q03",
+        "maeita-ch10-s13-q01",
+        "maeita-ch10-s13-q02"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_10_Metabolism.pptx",
+      "number": 10,
+      "unit": 14,
+      "title": "ATP and Phosphorylation",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch10-s13-q02",
+        "maeita-ch10-s14-q01"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_10_Metabolism.pptx",
+      "number": 10,
+      "unit": 15,
+      "title": "ATP and Phosphorylation",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch10-s15-q01",
+        "maeita-ch10-s15-q02"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_10_Metabolism.pptx",
+      "number": 10,
+      "unit": 16,
+      "title": "Redox Reactions",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch10-s16-q01",
+        "maeita-ch10-s16-q02",
+        "maeita-ch10-s16-q03",
+        "maeita-ch10-s16-q04",
+        "maeita-ch10-s16-q05"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_10_Metabolism.pptx",
+      "number": 10,
+      "unit": 17,
+      "title": "Electron Carriers",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch10-s06-q07",
+        "maeita-ch10-s17-q01",
+        "maeita-ch10-s17-q02",
+        "maeita-ch10-s17-q03",
+        "maeita-ch10-s17-q04"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_10_Metabolism.pptx",
+      "number": 10,
+      "unit": 18,
+      "title": "Questions for Review",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch10-s12-q03",
+        "maeita-ch10-s17-q01",
+        "maeita-ch10-s18-q01"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_10_Metabolism.pptx",
+      "number": 10,
+      "unit": 19,
+      "title": "Metabolic Pathways ",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch10-s19-q01"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_10_Metabolism.pptx",
+      "number": 10,
+      "unit": 20,
+      "title": "Metabolic Pathways",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch10-s20-q01",
+        "maeita-ch10-s20-q02",
+        "maeita-ch10-s20-q03"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_10_Metabolism.pptx",
+      "number": 10,
+      "unit": 21,
+      "title": "Metabolic Pathways",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch10-s21-q01",
+        "maeita-ch10-s21-q02",
+        "maeita-ch10-s21-q03"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_10_Metabolism.pptx",
+      "number": 10,
+      "unit": 22,
+      "title": "Metabolic Pathways",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch10-s22-q01",
+        "maeita-ch10-s22-q02",
+        "maeita-ch10-s22-q03"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_10_Metabolism.pptx",
+      "number": 10,
+      "unit": 23,
+      "title": "Glycolysis",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch10-s23-q01",
+        "maeita-ch10-s23-q02",
+        "maeita-ch10-s23-q03"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_10_Metabolism.pptx",
+      "number": 10,
+      "unit": 24,
+      "title": "Glucose",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch10-s23-q02",
+        "maeita-ch10-s23-q03",
+        "maeita-ch10-s24-q01",
+        "maeita-ch10-s24-q02",
+        "maeita-ch10-s24-q03",
+        "maeita-ch10-s24-q04",
+        "maeita-ch10-s24-q05",
+        "maeita-ch10-s24-q06",
+        "maeita-ch10-s24-q07"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_10_Metabolism.pptx",
+      "number": 10,
+      "unit": 25,
+      "title": "Glycolysis",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch10-s23-q02",
+        "maeita-ch10-s23-q03",
+        "maeita-ch10-s24-q01",
+        "maeita-ch10-s24-q02",
+        "maeita-ch10-s24-q04",
+        "maeita-ch10-s24-q06"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_10_Metabolism.pptx",
+      "number": 10,
+      "unit": 26,
+      "title": "Glucose",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch10-s26-q01",
+        "maeita-ch10-s26-q02"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_10_Metabolism.pptx",
+      "number": 10,
+      "unit": 27,
+      "title": "Pyruvic acid Acetyl Acetyl-CoA",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch10-s27-q01",
+        "maeita-ch10-s27-q02",
+        "maeita-ch10-s27-q03",
+        "maeita-ch10-s27-q04",
+        "maeita-ch10-s27-q05"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_10_Metabolism.pptx",
+      "number": 10,
+      "unit": 28,
+      "title": "Krebs/TCA Cycle (with oxygen!)",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch10-s22-q02",
+        "maeita-ch10-s28-q01",
+        "maeita-ch10-s28-q02",
+        "maeita-ch10-s28-q03"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_10_Metabolism.pptx",
+      "number": 10,
+      "unit": 29,
+      "title": "Pyruvic acid",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch10-s28-q03",
+        "maeita-ch10-s29-q01",
+        "maeita-ch10-s29-q02",
+        "maeita-ch10-s29-q03",
+        "maeita-ch10-s29-q04"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_10_Metabolism.pptx",
+      "number": 10,
+      "unit": 30,
+      "title": "Krebs/TCA Cycle",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch10-s28-q03",
+        "maeita-ch10-s29-q03",
+        "maeita-ch10-s29-q04"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_10_Metabolism.pptx",
+      "number": 10,
+      "unit": 31,
+      "title": "Questions for Review",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch10-s31-q01",
+        "maeita-ch10-s31-q02",
+        "maeita-ch10-s31-q03"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_10_Metabolism.pptx",
+      "number": 10,
+      "unit": 32,
+      "title": "Electron Transport Chain ",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch10-s15-q02",
+        "maeita-ch10-s22-q03",
+        "maeita-ch10-s32-q01",
+        "maeita-ch10-s32-q02",
+        "maeita-ch10-s32-q03",
+        "maeita-ch10-s32-q04",
+        "maeita-ch10-s32-q05",
+        "maeita-ch10-s32-q06"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_10_Metabolism.pptx",
+      "number": 10,
+      "unit": 33,
+      "title": "Electron Transport Chain",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch10-s32-q03",
+        "maeita-ch10-s33-q01",
+        "maeita-ch10-s33-q02"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_10_Metabolism.pptx",
+      "number": 10,
+      "unit": 34,
+      "title": "Electron Transport Chain",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch10-s34-q01"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_10_Metabolism.pptx",
+      "number": 10,
+      "unit": 35,
+      "title": "Electron Transport Chain",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch10-s21-q01",
+        "maeita-ch10-s35-q01",
+        "maeita-ch10-s35-q02",
+        "maeita-ch10-s35-q03"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_10_Metabolism.pptx",
+      "number": 10,
+      "unit": 36,
+      "title": "Electron Transport Chain",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch10-s32-q03",
+        "maeita-ch10-s33-q02"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_10_Metabolism.pptx",
+      "number": 10,
+      "unit": 37,
+      "title": "Summary of Glycolysis and Aerobic Metabolism ",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch10-s37-q01",
+        "maeita-ch10-s37-q02",
+        "maeita-ch10-s37-q03",
+        "maeita-ch10-s37-q04"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_10_Metabolism.pptx",
+      "number": 10,
+      "unit": 38,
+      "title": "Questions for Review",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch10-s32-q04",
+        "maeita-ch10-s32-q05"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_10_Metabolism.pptx",
+      "number": 10,
+      "unit": 39,
+      "title": "",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch10-s39-q01"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_10_Metabolism.pptx",
+      "number": 10,
+      "unit": 40,
+      "title": "",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch10-s40-q01"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_10_Metabolism.pptx",
+      "number": 10,
+      "unit": 41,
+      "title": "Fermentation (No Oxygen!)",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch10-s26-q02",
+        "maeita-ch10-s41-q01",
+        "maeita-ch10-s41-q02",
+        "maeita-ch10-s41-q03",
+        "maeita-ch10-s41-q04",
+        "maeita-ch10-s41-q05",
+        "maeita-ch10-s41-q06"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_10_Metabolism.pptx",
+      "number": 10,
+      "unit": 42,
+      "title": "Fermentation (No Oxygen!)",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch10-s41-q03",
+        "maeita-ch10-s42-q01"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_10_Metabolism.pptx",
+      "number": 10,
+      "unit": 43,
+      "title": "Other Forms of Fermentation",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch10-s43-q01",
+        "maeita-ch10-s43-q02",
+        "maeita-ch10-s43-q03",
+        "maeita-ch10-s43-q04",
+        "maeita-ch10-s43-q05"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_10_Metabolism.pptx",
+      "number": 10,
+      "unit": 44,
+      "title": "Glucose",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch10-s37-q03",
+        "maeita-ch10-s41-q02",
+        "maeita-ch10-s44-q01"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_10_Metabolism.pptx",
+      "number": 10,
+      "unit": 45,
+      "title": "Various Fates of Pyruvic Acid",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch10-s45-q01"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_10_Metabolism.pptx",
+      "number": 10,
+      "unit": 46,
+      "title": "Catabolism of Other Nutrients",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch10-s46-q01",
+        "maeita-ch10-s46-q02",
+        "maeita-ch10-s46-q03",
+        "maeita-ch10-s46-q04"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_10_Metabolism.pptx",
+      "number": 10,
+      "unit": 47,
+      "title": "Questions for Review",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch10-s41-q02",
+        "maeita-ch10-s44-q01"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_10_Metabolism.pptx",
+      "number": 10,
+      "unit": 48,
+      "title": "Chapter 10 Checklist",
+      "status": "objectives-or-review",
+      "questionIds": []
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_11_Control_of_Microbial_Growth.pptx",
+      "number": 11,
+      "unit": 1,
+      "title": "Control of Microbial Growth",
+      "status": "objectives-or-review",
+      "questionIds": []
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_11_Control_of_Microbial_Growth.pptx",
+      "number": 11,
+      "unit": 2,
+      "title": "Chapter 11 Learning Objectives",
+      "status": "objectives-or-review",
+      "questionIds": []
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_11_Control_of_Microbial_Growth.pptx",
+      "number": 11,
+      "unit": 3,
+      "title": "Microbial Control Methods",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch11-s03-q01",
+        "maeita-ch11-s03-q02"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_11_Control_of_Microbial_Growth.pptx",
+      "number": 11,
+      "unit": 4,
+      "title": "Antimicrobials",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch11-s04-q01",
+        "maeita-ch11-s04-q02",
+        "maeita-ch11-s04-q03",
+        "maeita-ch11-s04-q04",
+        "maeita-ch11-s04-q05",
+        "maeita-ch11-s04-q06",
+        "maeita-ch11-s04-q07",
+        "maeita-ch11-s04-q08"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_11_Control_of_Microbial_Growth.pptx",
+      "number": 11,
+      "unit": 5,
+      "title": "Antimicrobials",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch11-s05-q01",
+        "maeita-ch11-s05-q02",
+        "maeita-ch11-s05-q03",
+        "maeita-ch11-s05-q04"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_11_Control_of_Microbial_Growth.pptx",
+      "number": 11,
+      "unit": 6,
+      "title": "Resistance to Antimicrobials",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch11-s04-q08",
+        "maeita-ch11-s06-q01",
+        "maeita-ch11-s06-q02",
+        "maeita-ch11-s06-q03",
+        "maeita-ch11-s06-q04",
+        "maeita-ch11-s06-q05"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_11_Control_of_Microbial_Growth.pptx",
+      "number": 11,
+      "unit": 7,
+      "title": "Considerations When Choosing Antimicrobials:",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch11-s07-q01",
+        "maeita-ch11-s07-q02",
+        "maeita-ch11-s07-q03",
+        "maeita-ch11-s07-q04"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_11_Control_of_Microbial_Growth.pptx",
+      "number": 11,
+      "unit": 8,
+      "title": "Factors Influencing Antimicrobial Agents",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch11-s08-q01",
+        "maeita-ch11-s08-q02",
+        "maeita-ch11-s08-q03",
+        "maeita-ch11-s08-q04"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_11_Control_of_Microbial_Growth.pptx",
+      "number": 11,
+      "unit": 9,
+      "title": "Factors Influencing Antimicrobial Agents",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch11-s09-q01",
+        "maeita-ch11-s09-q02",
+        "maeita-ch11-s09-q03",
+        "maeita-ch11-s09-q04"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_11_Control_of_Microbial_Growth.pptx",
+      "number": 11,
+      "unit": 10,
+      "title": "Factors Influencing Antimicrobial Agents",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch11-s08-q01",
+        "maeita-ch11-s10-q01",
+        "maeita-ch11-s10-q02",
+        "maeita-ch11-s10-q03",
+        "maeita-ch11-s10-q04"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_11_Control_of_Microbial_Growth.pptx",
+      "number": 11,
+      "unit": 11,
+      "title": "Questions for Review",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch11-s04-q03",
+        "maeita-ch11-s05-q01"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_11_Control_of_Microbial_Growth.pptx",
+      "number": 11,
+      "unit": 12,
+      "title": "Cell Wall",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch11-s12-q01",
+        "maeita-ch11-s12-q02",
+        "maeita-ch11-s12-q03"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_11_Control_of_Microbial_Growth.pptx",
+      "number": 11,
+      "unit": 13,
+      "title": "Proteins",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch11-s13-q01",
+        "maeita-ch11-s13-q02"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_11_Control_of_Microbial_Growth.pptx",
+      "number": 11,
+      "unit": 14,
+      "title": "Physical Methods",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch11-s03-q01",
+        "maeita-ch11-s14-q01"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_11_Control_of_Microbial_Growth.pptx",
+      "number": 11,
+      "unit": 15,
+      "title": "Physical Antimicrobial Methods:",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch11-s14-q01",
+        "maeita-ch11-s15-q01"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_11_Control_of_Microbial_Growth.pptx",
+      "number": 11,
+      "unit": 16,
+      "title": "Heat Killing",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch11-s16-q01",
+        "maeita-ch11-s16-q02",
+        "maeita-ch11-s16-q03"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_11_Control_of_Microbial_Growth.pptx",
+      "number": 11,
+      "unit": 17,
+      "title": "Heat Killing",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch11-s17-q01",
+        "maeita-ch11-s17-q02",
+        "maeita-ch11-s17-q03",
+        "maeita-ch11-s17-q04",
+        "maeita-ch11-s17-q05",
+        "maeita-ch11-s17-q06",
+        "maeita-ch11-s17-q07",
+        "maeita-ch11-s17-q08",
+        "maeita-ch11-s17-q09"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_11_Control_of_Microbial_Growth.pptx",
+      "number": 11,
+      "unit": 18,
+      "title": "Heat Killing",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch11-s17-q06",
+        "maeita-ch11-s17-q07"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_11_Control_of_Microbial_Growth.pptx",
+      "number": 11,
+      "unit": 19,
+      "title": "Heat Killing",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch11-s19-q01",
+        "maeita-ch11-s19-q02",
+        "maeita-ch11-s19-q03",
+        "maeita-ch11-s19-q04"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_11_Control_of_Microbial_Growth.pptx",
+      "number": 11,
+      "unit": 20,
+      "title": "Freezing",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch11-s20-q01",
+        "maeita-ch11-s20-q02",
+        "maeita-ch11-s20-q03"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_11_Control_of_Microbial_Growth.pptx",
+      "number": 11,
+      "unit": 21,
+      "title": "Drying/Dessication",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch11-s21-q01",
+        "maeita-ch11-s21-q02",
+        "maeita-ch11-s21-q03"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_11_Control_of_Microbial_Growth.pptx",
+      "number": 11,
+      "unit": 22,
+      "title": "Lyophilization (Freeze-Drying)",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch11-s22-q01",
+        "maeita-ch11-s22-q02"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_11_Control_of_Microbial_Growth.pptx",
+      "number": 11,
+      "unit": 23,
+      "title": "Radiation",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch11-s23-q01",
+        "maeita-ch11-s23-q02"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_11_Control_of_Microbial_Growth.pptx",
+      "number": 11,
+      "unit": 24,
+      "title": "Radiation",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch11-s24-q01",
+        "maeita-ch11-s24-q02",
+        "maeita-ch11-s24-q03",
+        "maeita-ch11-s24-q04"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_11_Control_of_Microbial_Growth.pptx",
+      "number": 11,
+      "unit": 25,
+      "title": "Radiation",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch11-s25-q01"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_11_Control_of_Microbial_Growth.pptx",
+      "number": 11,
+      "unit": 26,
+      "title": "Radiation",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch11-s26-q01",
+        "maeita-ch11-s26-q02"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_11_Control_of_Microbial_Growth.pptx",
+      "number": 11,
+      "unit": 27,
+      "title": "Radiation",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch11-s27-q01"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_11_Control_of_Microbial_Growth.pptx",
+      "number": 11,
+      "unit": 28,
+      "title": "Radiation",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch11-s28-q01",
+        "maeita-ch11-s28-q02"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_11_Control_of_Microbial_Growth.pptx",
+      "number": 11,
+      "unit": 29,
+      "title": "Passage of material through a filter with very small pores (~ 0.2 microns)",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch11-s29-q01",
+        "maeita-ch11-s29-q02",
+        "maeita-ch11-s29-q03",
+        "maeita-ch11-s29-q04",
+        "maeita-ch11-s29-q05"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_11_Control_of_Microbial_Growth.pptx",
+      "number": 11,
+      "unit": 30,
+      "title": "Osmotic Pressure",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch11-s30-q01",
+        "maeita-ch11-s30-q02",
+        "maeita-ch11-s30-q03"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_11_Control_of_Microbial_Growth.pptx",
+      "number": 11,
+      "unit": 31,
+      "title": "Questions for Review",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch11-s22-q01",
+        "maeita-ch11-s25-q01",
+        "maeita-ch11-s29-q03"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_11_Control_of_Microbial_Growth.pptx",
+      "number": 11,
+      "unit": 32,
+      "title": "Chemical Antimicrobial Agents:",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch11-s32-q01",
+        "maeita-ch11-s32-q02",
+        "maeita-ch11-s32-q03",
+        "maeita-ch11-s32-q04",
+        "maeita-ch11-s32-q05",
+        "maeita-ch11-s32-q06"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_11_Control_of_Microbial_Growth.pptx",
+      "number": 11,
+      "unit": 33,
+      "title": "Chapter 11 Checklist",
+      "status": "objectives-or-review",
+      "questionIds": []
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_12_Antimicrobial_Treatment.pptx",
+      "number": 12,
+      "unit": 1,
+      "title": "Antimicrobial Treatment",
+      "status": "objectives-or-review",
+      "questionIds": []
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_12_Antimicrobial_Treatment.pptx",
+      "number": 12,
+      "unit": 2,
+      "title": "Chapter 12 Learning Objectives",
+      "status": "objectives-or-review",
+      "questionIds": []
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_12_Antimicrobial_Treatment.pptx",
+      "number": 12,
+      "unit": 3,
+      "title": "Chemotherapy – use of chemical substances (chemotherapeutic agents/drugs) to treat disease",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch12-s03-q01",
+        "maeita-ch12-s03-q02",
+        "maeita-ch12-s03-q03",
+        "maeita-ch12-s03-q04",
+        "maeita-ch12-s03-q05",
+        "maeita-ch12-s03-q06",
+        "maeita-ch12-s03-q07",
+        "maeita-ch12-s03-q08",
+        "maeita-ch12-s03-q09"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_12_Antimicrobial_Treatment.pptx",
+      "number": 12,
+      "unit": 4,
+      "title": "Characteristics of an Ideal Antimicrobial Agent",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch12-s04-q01",
+        "maeita-ch12-s04-q02",
+        "maeita-ch12-s04-q03"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_12_Antimicrobial_Treatment.pptx",
+      "number": 12,
+      "unit": 5,
+      "title": "Starting Treatment",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch12-s05-q01",
+        "maeita-ch12-s05-q02"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_12_Antimicrobial_Treatment.pptx",
+      "number": 12,
+      "unit": 6,
+      "title": "Studying the Effectiveness of Antimicrobial Agents",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch12-s06-q01",
+        "maeita-ch12-s06-q02"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_12_Antimicrobial_Treatment.pptx",
+      "number": 12,
+      "unit": 7,
+      "title": "Studying the Effectiveness of Antimicrobial Agents",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch12-s06-q01",
+        "maeita-ch12-s06-q02",
+        "maeita-ch12-s07-q01",
+        "maeita-ch12-s07-q02"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_12_Antimicrobial_Treatment.pptx",
+      "number": 12,
+      "unit": 8,
+      "title": "Studying the Effectiveness of Antimicrobial Agents",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch12-s08-q01",
+        "maeita-ch12-s08-q02"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_12_Antimicrobial_Treatment.pptx",
+      "number": 12,
+      "unit": 9,
+      "title": "Studying the Effectiveness of Antimicrobial Agents",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch12-s09-q01",
+        "maeita-ch12-s09-q02"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_12_Antimicrobial_Treatment.pptx",
+      "number": 12,
+      "unit": 10,
+      "title": "Toxicity",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch12-s04-q01",
+        "maeita-ch12-s10-q01",
+        "maeita-ch12-s10-q02",
+        "maeita-ch12-s10-q03",
+        "maeita-ch12-s10-q04",
+        "maeita-ch12-s10-q05"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_12_Antimicrobial_Treatment.pptx",
+      "number": 12,
+      "unit": 11,
+      "title": "Activity",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch12-s11-q01",
+        "maeita-ch12-s11-q02",
+        "maeita-ch12-s11-q03"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_12_Antimicrobial_Treatment.pptx",
+      "number": 12,
+      "unit": 12,
+      "title": "Distribution and Half-life",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch12-s12-q01",
+        "maeita-ch12-s12-q02",
+        "maeita-ch12-s12-q03"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_12_Antimicrobial_Treatment.pptx",
+      "number": 12,
+      "unit": 13,
+      "title": "Effects of Drug Combinations",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch12-s13-q01",
+        "maeita-ch12-s13-q02",
+        "maeita-ch12-s13-q03",
+        "maeita-ch12-s13-q04"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_12_Antimicrobial_Treatment.pptx",
+      "number": 12,
+      "unit": 14,
+      "title": "Side Effects",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch12-s14-q01",
+        "maeita-ch12-s14-q02",
+        "maeita-ch12-s14-q03",
+        "maeita-ch12-s14-q04"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_12_Antimicrobial_Treatment.pptx",
+      "number": 12,
+      "unit": 15,
+      "title": "Side Effects",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch12-s15-q01",
+        "maeita-ch12-s15-q02"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_12_Antimicrobial_Treatment.pptx",
+      "number": 12,
+      "unit": 16,
+      "title": "Questions for Review",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch12-s10-q01",
+        "maeita-ch12-s10-q02",
+        "maeita-ch12-s11-q01",
+        "maeita-ch12-s14-q01"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_12_Antimicrobial_Treatment.pptx",
+      "number": 12,
+      "unit": 17,
+      "title": "Mechanisms of Action",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch12-s17-q01",
+        "maeita-ch12-s17-q02",
+        "maeita-ch12-s17-q03"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_12_Antimicrobial_Treatment.pptx",
+      "number": 12,
+      "unit": 18,
+      "title": "Mechanisms of Action",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch12-s17-q01",
+        "maeita-ch12-s18-q01",
+        "maeita-ch12-s18-q02"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_12_Antimicrobial_Treatment.pptx",
+      "number": 12,
+      "unit": 19,
+      "title": "Mechanisms of Action",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch12-s17-q01",
+        "maeita-ch12-s19-q01",
+        "maeita-ch12-s19-q02",
+        "maeita-ch12-s19-q03",
+        "maeita-ch12-s19-q04",
+        "maeita-ch12-s19-q05",
+        "maeita-ch12-s19-q06"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_12_Antimicrobial_Treatment.pptx",
+      "number": 12,
+      "unit": 20,
+      "title": "Cell Wall Inhibitors: Penicillin",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch12-s17-q02",
+        "maeita-ch12-s20-q01",
+        "maeita-ch12-s20-q02",
+        "maeita-ch12-s20-q03",
+        "maeita-ch12-s20-q04",
+        "maeita-ch12-s20-q05",
+        "maeita-ch12-s20-q06",
+        "maeita-ch12-s20-q07",
+        "maeita-ch12-s20-q08",
+        "maeita-ch12-s20-q09"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_12_Antimicrobial_Treatment.pptx",
+      "number": 12,
+      "unit": 21,
+      "title": "Cell Wall Inhibitors: Penicillin",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch12-s20-q02",
+        "maeita-ch12-s21-q01"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_12_Antimicrobial_Treatment.pptx",
+      "number": 12,
+      "unit": 22,
+      "title": "",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch12-s17-q02",
+        "maeita-ch12-s22-q01",
+        "maeita-ch12-s22-q02"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_12_Antimicrobial_Treatment.pptx",
+      "number": 12,
+      "unit": 23,
+      "title": "Protein Synthesis Inhibitors: Tetracycline",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch12-s23-q01",
+        "maeita-ch12-s23-q02",
+        "maeita-ch12-s23-q03",
+        "maeita-ch12-s23-q04",
+        "maeita-ch12-s23-q05"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_12_Antimicrobial_Treatment.pptx",
+      "number": 12,
+      "unit": 24,
+      "title": "Protein Synthesis Inhibitors",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch12-s24-q01",
+        "maeita-ch12-s24-q02",
+        "maeita-ch12-s24-q03"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_12_Antimicrobial_Treatment.pptx",
+      "number": 12,
+      "unit": 25,
+      "title": "Antimetabolites: Sulfonamides (Sulfa Drugs)",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch12-s25-q01",
+        "maeita-ch12-s25-q02",
+        "maeita-ch12-s25-q03",
+        "maeita-ch12-s25-q04",
+        "maeita-ch12-s25-q05"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_12_Antimicrobial_Treatment.pptx",
+      "number": 12,
+      "unit": 26,
+      "title": "Nucleic Acid Inhibitors: Quinolones",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch12-s26-q01",
+        "maeita-ch12-s26-q02",
+        "maeita-ch12-s26-q03"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_12_Antimicrobial_Treatment.pptx",
+      "number": 12,
+      "unit": 27,
+      "title": "Cell Membrane: Polymyxins",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch12-s27-q01",
+        "maeita-ch12-s27-q02",
+        "maeita-ch12-s27-q03",
+        "maeita-ch12-s27-q04"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_12_Antimicrobial_Treatment.pptx",
+      "number": 12,
+      "unit": 28,
+      "title": "Questions for Review",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch12-s17-q01",
+        "maeita-ch12-s20-q06"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_12_Antimicrobial_Treatment.pptx",
+      "number": 12,
+      "unit": 29,
+      "title": "Antibiotics and Biofilms",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch12-s29-q01",
+        "maeita-ch12-s29-q02",
+        "maeita-ch12-s29-q03",
+        "maeita-ch12-s29-q04",
+        "maeita-ch12-s29-q05",
+        "maeita-ch12-s29-q06",
+        "maeita-ch12-s29-q07"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_12_Antimicrobial_Treatment.pptx",
+      "number": 12,
+      "unit": 30,
+      "title": "Antifungal Agents",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch12-s30-q01",
+        "maeita-ch12-s30-q02",
+        "maeita-ch12-s30-q03",
+        "maeita-ch12-s30-q04",
+        "maeita-ch12-s30-q05"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_12_Antimicrobial_Treatment.pptx",
+      "number": 12,
+      "unit": 31,
+      "title": "Antiprotozoal Agents",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch12-s31-q01",
+        "maeita-ch12-s31-q02",
+        "maeita-ch12-s31-q03"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_12_Antimicrobial_Treatment.pptx",
+      "number": 12,
+      "unit": 32,
+      "title": "Antihelminthic Agents",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch12-s32-q01",
+        "maeita-ch12-s32-q02",
+        "maeita-ch12-s32-q03"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_12_Antimicrobial_Treatment.pptx",
+      "number": 12,
+      "unit": 33,
+      "title": "Antiviral Agents",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch12-s33-q01",
+        "maeita-ch12-s33-q02",
+        "maeita-ch12-s33-q03",
+        "maeita-ch12-s33-q04",
+        "maeita-ch12-s33-q05",
+        "maeita-ch12-s33-q06"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_12_Antimicrobial_Treatment.pptx",
+      "number": 12,
+      "unit": 34,
+      "title": "Antiviral Agents for HIV",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch12-s34-q01",
+        "maeita-ch12-s34-q02",
+        "maeita-ch12-s34-q03",
+        "maeita-ch12-s34-q04"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_12_Antimicrobial_Treatment.pptx",
+      "number": 12,
+      "unit": 35,
+      "title": "Questions for Review",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch12-s30-q01",
+        "maeita-ch12-s31-q01",
+        "maeita-ch12-s33-q06"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_12_Antimicrobial_Treatment.pptx",
+      "number": 12,
+      "unit": 36,
+      "title": "Resistance",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch12-s36-q01",
+        "maeita-ch12-s36-q02",
+        "maeita-ch12-s36-q03",
+        "maeita-ch12-s36-q04",
+        "maeita-ch12-s36-q05"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_12_Antimicrobial_Treatment.pptx",
+      "number": 12,
+      "unit": 37,
+      "title": "",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch12-s37-q01",
+        "maeita-ch12-s37-q02",
+        "maeita-ch12-s37-q03",
+        "maeita-ch12-s37-q04",
+        "maeita-ch12-s37-q05"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_12_Antimicrobial_Treatment.pptx",
+      "number": 12,
+      "unit": 38,
+      "title": "Resistance",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch12-s38-q01",
+        "maeita-ch12-s38-q02"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_12_Antimicrobial_Treatment.pptx",
+      "number": 12,
+      "unit": 39,
+      "title": "What Exacerbates Resistance?",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch12-s39-q01",
+        "maeita-ch12-s39-q02",
+        "maeita-ch12-s39-q03"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_12_Antimicrobial_Treatment.pptx",
+      "number": 12,
+      "unit": 40,
+      "title": "“ESKAPE” Pathogens",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch12-s40-q01",
+        "maeita-ch12-s40-q02",
+        "maeita-ch12-s40-q03",
+        "maeita-ch12-s40-q04",
+        "maeita-ch12-s40-q05",
+        "maeita-ch12-s40-q06"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_12_Antimicrobial_Treatment.pptx",
+      "number": 12,
+      "unit": 41,
+      "title": "New Approaches to Antimicrobial Therapy",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch12-s41-q01",
+        "maeita-ch12-s41-q02",
+        "maeita-ch12-s41-q03",
+        "maeita-ch12-s41-q04",
+        "maeita-ch12-s41-q05",
+        "maeita-ch12-s41-q06",
+        "maeita-ch12-s41-q07"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_12_Antimicrobial_Treatment.pptx",
+      "number": 12,
+      "unit": 42,
+      "title": "Probiotics and Prebiotics",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch12-s42-q01",
+        "maeita-ch12-s42-q02",
+        "maeita-ch12-s42-q03",
+        "maeita-ch12-s42-q04",
+        "maeita-ch12-s42-q05"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_12_Antimicrobial_Treatment.pptx",
+      "number": 12,
+      "unit": 43,
+      "title": "Questions for Review",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch12-s37-q01"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_12_Antimicrobial_Treatment.pptx",
+      "number": 12,
+      "unit": 44,
+      "title": "Chapter 12 Learning Objectives",
+      "status": "objectives-or-review",
+      "questionIds": []
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_13_Microbe-Human_Interactions.pptx",
+      "number": 13,
+      "unit": 1,
+      "title": "Microbe-Human Interactions",
+      "status": "objectives-or-review",
+      "questionIds": []
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_13_Microbe-Human_Interactions.pptx",
+      "number": 13,
+      "unit": 2,
+      "title": "Chapter 13 Learning Objectives",
+      "status": "objectives-or-review",
+      "questionIds": []
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_13_Microbe-Human_Interactions.pptx",
+      "number": 13,
+      "unit": 3,
+      "title": "Normal Microflora",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-13-002",
+        "reviewed-lecture-13-003"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_13_Microbe-Human_Interactions.pptx",
+      "number": 13,
+      "unit": 4,
+      "title": "Microbe-Human Interactions",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-13-003"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_13_Microbe-Human_Interactions.pptx",
+      "number": 13,
+      "unit": 5,
+      "title": "Normal Microflora",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-13-004"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_13_Microbe-Human_Interactions.pptx",
+      "number": 13,
+      "unit": 6,
+      "title": "Human Microbiome Project",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-13-005",
+        "reviewed-lecture-13-006"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_13_Microbe-Human_Interactions.pptx",
+      "number": 13,
+      "unit": 7,
+      "title": "What is the Gut Microbiome?",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-13-006"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_13_Microbe-Human_Interactions.pptx",
+      "number": 13,
+      "unit": 8,
+      "title": "Cancers (colorectal, stomach, duodenal)",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-13-007"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_13_Microbe-Human_Interactions.pptx",
+      "number": 13,
+      "unit": 9,
+      "title": "How To Get Your Poop Analyzed",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-13-007"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_13_Microbe-Human_Interactions.pptx",
+      "number": 13,
+      "unit": 10,
+      "title": "Pathogens",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-13-008"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_13_Microbe-Human_Interactions.pptx",
+      "number": 13,
+      "unit": 11,
+      "title": "Opportunistic Infections",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-13-009",
+        "reviewed-lecture-13-010"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_13_Microbe-Human_Interactions.pptx",
+      "number": 13,
+      "unit": 12,
+      "title": "Virulence ",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-13-011",
+        "reviewed-lecture-13-012"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_13_Microbe-Human_Interactions.pptx",
+      "number": 13,
+      "unit": 13,
+      "title": "Questions for Review",
+      "status": "objectives-or-review",
+      "questionIds": []
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_13_Microbe-Human_Interactions.pptx",
+      "number": 13,
+      "unit": 14,
+      "title": "How Pathogens Cause Disease",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-13-001",
+        "reviewed-lecture-13-013"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_13_Microbe-Human_Interactions.pptx",
+      "number": 13,
+      "unit": 15,
+      "title": "Portals of Entry",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-13-013",
+        "reviewed-lecture-13-014"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_13_Microbe-Human_Interactions.pptx",
+      "number": 13,
+      "unit": 16,
+      "title": "",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-13-013"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_13_Microbe-Human_Interactions.pptx",
+      "number": 13,
+      "unit": 17,
+      "title": "Portals of Entry: Pregnancy and Birth",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-13-015",
+        "reviewed-lecture-13-016"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_13_Microbe-Human_Interactions.pptx",
+      "number": 13,
+      "unit": 18,
+      "title": "Adhesion",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-13-012",
+        "reviewed-lecture-13-017"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_13_Microbe-Human_Interactions.pptx",
+      "number": 13,
+      "unit": 19,
+      "title": "Surviving Host Defenses",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-13-018",
+        "reviewed-lecture-13-019"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_13_Microbe-Human_Interactions.pptx",
+      "number": 13,
+      "unit": 20,
+      "title": "Causing Disease",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-13-019"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_13_Microbe-Human_Interactions.pptx",
+      "number": 13,
+      "unit": 21,
+      "title": "Causing Disease: Bacterial Toxins",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-13-020",
+        "reviewed-lecture-13-021",
+        "reviewed-lecture-13-022",
+        "reviewed-lecture-13-023"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_13_Microbe-Human_Interactions.pptx",
+      "number": 13,
+      "unit": 22,
+      "title": "Causing Disease: Hemolysins (a and b)",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-13-024"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_13_Microbe-Human_Interactions.pptx",
+      "number": 13,
+      "unit": 23,
+      "title": "Causing Disease: Toxins",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-13-021"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_13_Microbe-Human_Interactions.pptx",
+      "number": 13,
+      "unit": 24,
+      "title": "Causing Disease: Endotoxin – part of the gram negative outer membrane (different than exotoxins!)",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-13-022",
+        "reviewed-lecture-13-023"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_13_Microbe-Human_Interactions.pptx",
+      "number": 13,
+      "unit": 25,
+      "title": "Types of Infections",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-13-025",
+        "reviewed-lecture-13-026",
+        "reviewed-lecture-13-027",
+        "reviewed-lecture-13-028"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_13_Microbe-Human_Interactions.pptx",
+      "number": 13,
+      "unit": 26,
+      "title": "Types of Infections",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-13-029",
+        "reviewed-lecture-13-030",
+        "reviewed-lecture-13-031"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_13_Microbe-Human_Interactions.pptx",
+      "number": 13,
+      "unit": 27,
+      "title": "Types of Infections",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-13-025",
+        "reviewed-lecture-13-026",
+        "reviewed-lecture-13-027",
+        "reviewed-lecture-13-031"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_13_Microbe-Human_Interactions.pptx",
+      "number": 13,
+      "unit": 28,
+      "title": "Portals of Exit",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-13-032"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_13_Microbe-Human_Interactions.pptx",
+      "number": 13,
+      "unit": 29,
+      "title": "How Pathogens Cause Disease",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-13-001"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_13_Microbe-Human_Interactions.pptx",
+      "number": 13,
+      "unit": 30,
+      "title": "Questions for Review",
+      "status": "objectives-or-review",
+      "questionIds": []
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_13_Microbe-Human_Interactions.pptx",
+      "number": 13,
+      "unit": 31,
+      "title": "Stages of Infectious Disease",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-13-033",
+        "reviewed-lecture-13-034",
+        "reviewed-lecture-13-035",
+        "reviewed-lecture-13-036"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_13_Microbe-Human_Interactions.pptx",
+      "number": 13,
+      "unit": 32,
+      "title": "Stages of Infectious Disease",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-13-033",
+        "reviewed-lecture-13-034",
+        "reviewed-lecture-13-035"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_13_Microbe-Human_Interactions.pptx",
+      "number": 13,
+      "unit": 33,
+      "title": "Stages of Infectious Disease",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-13-036"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_13_Microbe-Human_Interactions.pptx",
+      "number": 13,
+      "unit": 34,
+      "title": "Carriers of Disease",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-13-037",
+        "reviewed-lecture-13-038"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_13_Microbe-Human_Interactions.pptx",
+      "number": 13,
+      "unit": 35,
+      "title": "Disease Transmission",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-13-039",
+        "reviewed-lecture-13-040"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_13_Microbe-Human_Interactions.pptx",
+      "number": 13,
+      "unit": 36,
+      "title": "Living/Animal reservoirs",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-13-041",
+        "reviewed-lecture-13-042"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_13_Microbe-Human_Interactions.pptx",
+      "number": 13,
+      "unit": 37,
+      "title": "Diseases ",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-13-042",
+        "reviewed-lecture-13-043"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_13_Microbe-Human_Interactions.pptx",
+      "number": 13,
+      "unit": 38,
+      "title": "Communicable Diseases",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-13-042",
+        "reviewed-lecture-13-043"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_13_Microbe-Human_Interactions.pptx",
+      "number": 13,
+      "unit": 39,
+      "title": "Questions for Review",
+      "status": "objectives-or-review",
+      "questionIds": []
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_13_Microbe-Human_Interactions.pptx",
+      "number": 13,
+      "unit": 40,
+      "title": "Chapter 13 Checklist",
+      "status": "objectives-or-review",
+      "questionIds": []
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_14_Epidemiology.pptx",
+      "number": 14,
+      "unit": 1,
+      "title": "Epidemiology",
+      "status": "objectives-or-review",
+      "questionIds": []
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_14_Epidemiology.pptx",
+      "number": 14,
+      "unit": 2,
+      "title": "Chapter 14 Learning Objectives",
+      "status": "objectives-or-review",
+      "questionIds": []
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_14_Epidemiology.pptx",
+      "number": 14,
+      "unit": 3,
+      "title": "The study of the spread of disease within the population",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-14-001",
+        "reviewed-lecture-14-002",
+        "reviewed-lecture-14-003"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_14_Epidemiology.pptx",
+      "number": 14,
+      "unit": 4,
+      "title": "Public Health Organizations",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-14-004",
+        "reviewed-lecture-14-005"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_14_Epidemiology.pptx",
+      "number": 14,
+      "unit": 5,
+      "title": "Public Health Organizations",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-14-006",
+        "reviewed-lecture-14-007"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_14_Epidemiology.pptx",
+      "number": 14,
+      "unit": 6,
+      "title": "Morbidity Versus Mortality",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-14-008"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_14_Epidemiology.pptx",
+      "number": 14,
+      "unit": 7,
+      "title": "Point-source outbreak – came from a single source (food illness from a potluck dinner)",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-14-009",
+        "reviewed-lecture-14-010",
+        "reviewed-lecture-14-011"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_14_Epidemiology.pptx",
+      "number": 14,
+      "unit": 8,
+      "title": "Endemic",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-14-012",
+        "reviewed-lecture-14-013"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_14_Epidemiology.pptx",
+      "number": 14,
+      "unit": 9,
+      "title": "Epidemic",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-14-014",
+        "reviewed-lecture-14-015"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_14_Epidemiology.pptx",
+      "number": 14,
+      "unit": 10,
+      "title": "",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-14-014",
+        "reviewed-lecture-14-015"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_14_Epidemiology.pptx",
+      "number": 14,
+      "unit": 11,
+      "title": "Healthcare-Associated Infections (HAIs) (Nosocomial Infections)",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-14-016",
+        "reviewed-lecture-14-017",
+        "reviewed-lecture-14-018"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_14_Epidemiology.pptx",
+      "number": 14,
+      "unit": 12,
+      "title": "Healthcare-Associated Infections (HAIs) (Nosocomial Infections)",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-14-016",
+        "reviewed-lecture-14-017"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_14_Epidemiology.pptx",
+      "number": 14,
+      "unit": 13,
+      "title": "Reproducibility Rate and Case Fatality Rate",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-14-019",
+        "reviewed-lecture-14-020",
+        "reviewed-lecture-14-021"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_14_Epidemiology.pptx",
+      "number": 14,
+      "unit": 14,
+      "title": "Reproducibility Rate and Case Fatality Rate",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-14-019",
+        "reviewed-lecture-14-020",
+        "reviewed-lecture-14-021"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_14_Epidemiology.pptx",
+      "number": 14,
+      "unit": 15,
+      "title": "Questions for Review",
+      "status": "objectives-or-review",
+      "questionIds": []
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_14_Epidemiology.pptx",
+      "number": 14,
+      "unit": 16,
+      "title": "Chapter 14 Checklist",
+      "status": "objectives-or-review",
+      "questionIds": []
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_15_Innate_Immunity.pptx",
+      "number": 15,
+      "unit": 1,
+      "title": "Innate Immunity",
+      "status": "objectives-or-review",
+      "questionIds": []
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_15_Innate_Immunity.pptx",
+      "number": 15,
+      "unit": 2,
+      "title": "Chapter 15 Learning Objectives",
+      "status": "objectives-or-review",
+      "questionIds": []
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_15_Innate_Immunity.pptx",
+      "number": 15,
+      "unit": 3,
+      "title": "Host Defenses",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-15-001"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_15_Innate_Immunity.pptx",
+      "number": 15,
+      "unit": 4,
+      "title": "Innate Verses Adaptive Defense",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-15-001"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_15_Innate_Immunity.pptx",
+      "number": 15,
+      "unit": 5,
+      "title": "Immune Recognition",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-15-002"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_15_Innate_Immunity.pptx",
+      "number": 15,
+      "unit": 6,
+      "title": "The Lymphatic System",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-15-003"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_15_Innate_Immunity.pptx",
+      "number": 15,
+      "unit": 7,
+      "title": "Lymphatic Circulation",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-15-003",
+        "reviewed-lecture-15-004"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_15_Innate_Immunity.pptx",
+      "number": 15,
+      "unit": 8,
+      "title": "",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-15-003"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_15_Innate_Immunity.pptx",
+      "number": 15,
+      "unit": 9,
+      "title": "The Lymphatic System",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-15-003"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_15_Innate_Immunity.pptx",
+      "number": 15,
+      "unit": 10,
+      "title": "Lymphatic Organs",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-15-005",
+        "reviewed-lecture-15-006"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_15_Innate_Immunity.pptx",
+      "number": 15,
+      "unit": 11,
+      "title": "Lymphatic Organs",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-15-007",
+        "reviewed-lecture-15-008",
+        "reviewed-lecture-15-009"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_15_Innate_Immunity.pptx",
+      "number": 15,
+      "unit": 12,
+      "title": "Mononuclear Phagocyte System (MPS)",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-15-010"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_15_Innate_Immunity.pptx",
+      "number": 15,
+      "unit": 13,
+      "title": "Questions for Review",
+      "status": "objectives-or-review",
+      "questionIds": []
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_15_Innate_Immunity.pptx",
+      "number": 15,
+      "unit": 14,
+      "title": "Innate Defenses",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-15-011"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_15_Innate_Immunity.pptx",
+      "number": 15,
+      "unit": 15,
+      "title": "Innate Defenses: Physical Barriers – Skin ",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-15-011"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_15_Innate_Immunity.pptx",
+      "number": 15,
+      "unit": 16,
+      "title": "Innate Defenses: Physical Barriers – Mucous Membranes",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-15-012"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_15_Innate_Immunity.pptx",
+      "number": 15,
+      "unit": 17,
+      "title": "Innate Defenses: Chemical Barriers",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-15-013",
+        "reviewed-lecture-15-014",
+        "reviewed-lecture-15-015"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_15_Innate_Immunity.pptx",
+      "number": 15,
+      "unit": 18,
+      "title": "Innate Defenses of Skin and Mucous Membranes",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-15-011",
+        "reviewed-lecture-15-012"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_15_Innate_Immunity.pptx",
+      "number": 15,
+      "unit": 19,
+      "title": "Cellular Defenses (Immune System Cells)",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-15-016"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_15_Innate_Immunity.pptx",
+      "number": 15,
+      "unit": 20,
+      "title": "Hematopoiesis and Differentiation",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-15-016"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_15_Innate_Immunity.pptx",
+      "number": 15,
+      "unit": 21,
+      "title": "Cellular Defenses",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-15-017"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_15_Innate_Immunity.pptx",
+      "number": 15,
+      "unit": 22,
+      "title": "Cellular Defenses",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-15-017"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_15_Innate_Immunity.pptx",
+      "number": 15,
+      "unit": 23,
+      "title": "Neutrophils (55-90%)",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-15-017",
+        "reviewed-lecture-15-018"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_15_Innate_Immunity.pptx",
+      "number": 15,
+      "unit": 24,
+      "title": "Basophils (~ 1%)",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-15-019",
+        "reviewed-lecture-15-020"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_15_Innate_Immunity.pptx",
+      "number": 15,
+      "unit": 25,
+      "title": "Cellular Defenses",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-15-021"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_15_Innate_Immunity.pptx",
+      "number": 15,
+      "unit": 26,
+      "title": "Phagocytes",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-15-020"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_15_Innate_Immunity.pptx",
+      "number": 15,
+      "unit": 27,
+      "title": "Macrophages have different names once they reside in tissue:",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-15-022",
+        "reviewed-lecture-15-023"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_15_Innate_Immunity.pptx",
+      "number": 15,
+      "unit": 28,
+      "title": "Questions for Review",
+      "status": "objectives-or-review",
+      "questionIds": []
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_15_Innate_Immunity.pptx",
+      "number": 15,
+      "unit": 29,
+      "title": "Phagocytosis",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-15-024"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_15_Innate_Immunity.pptx",
+      "number": 15,
+      "unit": 30,
+      "title": "Process of Phagocytosis",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-15-024"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_15_Innate_Immunity.pptx",
+      "number": 15,
+      "unit": 31,
+      "title": "Process of Phagocytosis",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-15-025",
+        "reviewed-lecture-15-026"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_15_Innate_Immunity.pptx",
+      "number": 15,
+      "unit": 32,
+      "title": "Process of Phagocytosis",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-15-027",
+        "reviewed-lecture-15-028"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_15_Innate_Immunity.pptx",
+      "number": 15,
+      "unit": 33,
+      "title": "Process of Phagocytosis",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-15-028",
+        "reviewed-lecture-15-029"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_15_Innate_Immunity.pptx",
+      "number": 15,
+      "unit": 34,
+      "title": "Inflammation",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-15-030"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_15_Innate_Immunity.pptx",
+      "number": 15,
+      "unit": 35,
+      "title": "Inflammation Process",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-15-030",
+        "reviewed-lecture-15-031",
+        "reviewed-lecture-15-032",
+        "reviewed-lecture-15-033"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_15_Innate_Immunity.pptx",
+      "number": 15,
+      "unit": 36,
+      "title": "Inflammation Process",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-15-030"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_15_Innate_Immunity.pptx",
+      "number": 15,
+      "unit": 37,
+      "title": "Diapedesis and Chemotaxis",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-15-032"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_15_Innate_Immunity.pptx",
+      "number": 15,
+      "unit": 38,
+      "title": "Fever",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-15-034",
+        "reviewed-lecture-15-035"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_15_Innate_Immunity.pptx",
+      "number": 15,
+      "unit": 39,
+      "title": "Fever",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-15-036"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_15_Innate_Immunity.pptx",
+      "number": 15,
+      "unit": 40,
+      "title": "Antimicrobial Proteins",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-15-037"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_15_Innate_Immunity.pptx",
+      "number": 15,
+      "unit": 41,
+      "title": "Cytokines",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-15-037"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_15_Innate_Immunity.pptx",
+      "number": 15,
+      "unit": 42,
+      "title": "Cytokines: Interferon",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-15-037",
+        "reviewed-lecture-15-038"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_15_Innate_Immunity.pptx",
+      "number": 15,
+      "unit": 43,
+      "title": "Cytokines: Interferon",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-15-037"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_15_Innate_Immunity.pptx",
+      "number": 15,
+      "unit": 44,
+      "title": "Complement",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-15-039",
+        "reviewed-lecture-15-040",
+        "reviewed-lecture-15-041"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_15_Innate_Immunity.pptx",
+      "number": 15,
+      "unit": 45,
+      "title": "",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-15-039",
+        "reviewed-lecture-15-040",
+        "reviewed-lecture-15-041"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_15_Innate_Immunity.pptx",
+      "number": 15,
+      "unit": 46,
+      "title": "Iron-Binding Proteins",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-15-042",
+        "reviewed-lecture-15-043"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_15_Innate_Immunity.pptx",
+      "number": 15,
+      "unit": 47,
+      "title": "Antimicrobial Peptides (AMPs)",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-15-015",
+        "reviewed-lecture-15-043"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_15_Innate_Immunity.pptx",
+      "number": 15,
+      "unit": 48,
+      "title": "Questions for Review",
+      "status": "objectives-or-review",
+      "questionIds": []
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_15_Innate_Immunity.pptx",
+      "number": 15,
+      "unit": 49,
+      "title": "Chapter 15 Checklist",
+      "status": "objectives-or-review",
+      "questionIds": []
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_16_Adaptive_Immunity.pptx",
+      "number": 16,
+      "unit": 1,
+      "title": "Adaptive Immunity",
+      "status": "objectives-or-review",
+      "questionIds": []
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_16_Adaptive_Immunity.pptx",
+      "number": 16,
+      "unit": 2,
+      "title": "Chapter 16 Learning Objectives",
+      "status": "objectives-or-review",
+      "questionIds": []
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_16_Adaptive_Immunity.pptx",
+      "number": 16,
+      "unit": 3,
+      "title": "Innate Verses Adaptive Immunity ",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-16-002"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_16_Adaptive_Immunity.pptx",
+      "number": 16,
+      "unit": 4,
+      "title": "Memory",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-16-002"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_16_Adaptive_Immunity.pptx",
+      "number": 16,
+      "unit": 5,
+      "title": "B Cells",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-16-003",
+        "reviewed-lecture-16-004"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_16_Adaptive_Immunity.pptx",
+      "number": 16,
+      "unit": 6,
+      "title": "T Cells",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-16-003",
+        "reviewed-lecture-16-005"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_16_Adaptive_Immunity.pptx",
+      "number": 16,
+      "unit": 7,
+      "title": "Humoral and Cell-Mediated Immunity",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-16-004",
+        "reviewed-lecture-16-005"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_16_Adaptive_Immunity.pptx",
+      "number": 16,
+      "unit": 8,
+      "title": "",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-16-004"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_16_Adaptive_Immunity.pptx",
+      "number": 16,
+      "unit": 9,
+      "title": "Development of T Cells and B Cells",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-16-003"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_16_Adaptive_Immunity.pptx",
+      "number": 16,
+      "unit": 10,
+      "title": "Antigens",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-16-006"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_16_Adaptive_Immunity.pptx",
+      "number": 16,
+      "unit": 11,
+      "title": "Antigens",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-16-007",
+        "reviewed-lecture-16-008"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_16_Adaptive_Immunity.pptx",
+      "number": 16,
+      "unit": 12,
+      "title": "Clonal Selection",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-16-009"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_16_Adaptive_Immunity.pptx",
+      "number": 16,
+      "unit": 13,
+      "title": "Why doesn’t your immune system attack your own cells?",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-16-010"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_16_Adaptive_Immunity.pptx",
+      "number": 16,
+      "unit": 14,
+      "title": "Clonal Selection and Deletion",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-16-009",
+        "reviewed-lecture-16-010"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_16_Adaptive_Immunity.pptx",
+      "number": 16,
+      "unit": 15,
+      "title": "Questions for Review",
+      "status": "objectives-or-review",
+      "questionIds": []
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_16_Adaptive_Immunity.pptx",
+      "number": 16,
+      "unit": 16,
+      "title": "Cell-Mediated Immunity",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-16-005"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_16_Adaptive_Immunity.pptx",
+      "number": 16,
+      "unit": 17,
+      "title": "Cell-Mediated Immunity",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-16-005",
+        "reviewed-lecture-16-011"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_16_Adaptive_Immunity.pptx",
+      "number": 16,
+      "unit": 18,
+      "title": "MHC",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-16-012"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_16_Adaptive_Immunity.pptx",
+      "number": 16,
+      "unit": 19,
+      "title": "CD Molecules",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-16-013"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_16_Adaptive_Immunity.pptx",
+      "number": 16,
+      "unit": 20,
+      "title": "Cell-Mediated Immunity",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-16-013"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_16_Adaptive_Immunity.pptx",
+      "number": 16,
+      "unit": 21,
+      "title": "Cell-Mediated Immunity",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-16-013"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_16_Adaptive_Immunity.pptx",
+      "number": 16,
+      "unit": 22,
+      "title": "Antigen Presentation",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-16-011"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_16_Adaptive_Immunity.pptx",
+      "number": 16,
+      "unit": 23,
+      "title": "APC",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-16-014"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_16_Adaptive_Immunity.pptx",
+      "number": 16,
+      "unit": 24,
+      "title": "Antigen Presentation",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-16-014"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_16_Adaptive_Immunity.pptx",
+      "number": 16,
+      "unit": 25,
+      "title": "Cell-Mediated Immunity",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-16-014",
+        "reviewed-lecture-16-015",
+        "reviewed-lecture-16-016"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_16_Adaptive_Immunity.pptx",
+      "number": 16,
+      "unit": 26,
+      "title": "CD4+ T Cells",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-16-015",
+        "reviewed-lecture-16-016"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_16_Adaptive_Immunity.pptx",
+      "number": 16,
+      "unit": 27,
+      "title": "CD8+ T Cells",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-16-017",
+        "reviewed-lecture-16-018"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_16_Adaptive_Immunity.pptx",
+      "number": 16,
+      "unit": 28,
+      "title": "CD8+ T Cells",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-16-017",
+        "reviewed-lecture-16-018"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_16_Adaptive_Immunity.pptx",
+      "number": 16,
+      "unit": 29,
+      "title": "Questions for Review",
+      "status": "objectives-or-review",
+      "questionIds": []
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_16_Adaptive_Immunity.pptx",
+      "number": 16,
+      "unit": 30,
+      "title": "Humoral Immunity (B cells)",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-16-004"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_16_Adaptive_Immunity.pptx",
+      "number": 16,
+      "unit": 31,
+      "title": "Humoral Immunity",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-16-019"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_16_Adaptive_Immunity.pptx",
+      "number": 16,
+      "unit": 32,
+      "title": "Humoral Immunity (B cells)",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-16-019"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_16_Adaptive_Immunity.pptx",
+      "number": 16,
+      "unit": 33,
+      "title": "Antibodies",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-16-020"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_16_Adaptive_Immunity.pptx",
+      "number": 16,
+      "unit": 34,
+      "title": "Antibodies",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-16-020",
+        "reviewed-lecture-16-021"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_16_Adaptive_Immunity.pptx",
+      "number": 16,
+      "unit": 35,
+      "title": "Structure of Antibodies",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-16-022",
+        "reviewed-lecture-16-023",
+        "reviewed-lecture-16-024"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_16_Adaptive_Immunity.pptx",
+      "number": 16,
+      "unit": 36,
+      "title": "Structure of Antibodies",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-16-022",
+        "reviewed-lecture-16-023"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_16_Adaptive_Immunity.pptx",
+      "number": 16,
+      "unit": 37,
+      "title": "How can antibodies and TCRs recognize the millions of pathogens?!",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-16-025"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_16_Adaptive_Immunity.pptx",
+      "number": 16,
+      "unit": 38,
+      "title": "Antigen-Antibody Interaction",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-16-026"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_16_Adaptive_Immunity.pptx",
+      "number": 16,
+      "unit": 39,
+      "title": "Functions of Antibodies",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-16-027",
+        "reviewed-lecture-16-028"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_16_Adaptive_Immunity.pptx",
+      "number": 16,
+      "unit": 40,
+      "title": "5 Classes of Antibodies",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-16-024"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_16_Adaptive_Immunity.pptx",
+      "number": 16,
+      "unit": 41,
+      "title": "5 Classes of Antibodies",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-16-028",
+        "reviewed-lecture-16-029",
+        "reviewed-lecture-16-030"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_16_Adaptive_Immunity.pptx",
+      "number": 16,
+      "unit": 42,
+      "title": "5 Classes of Antibodies",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-16-031",
+        "reviewed-lecture-16-032",
+        "reviewed-lecture-16-033"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_16_Adaptive_Immunity.pptx",
+      "number": 16,
+      "unit": 43,
+      "title": "5 Classes of Antibodies",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-16-024"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_16_Adaptive_Immunity.pptx",
+      "number": 16,
+      "unit": 44,
+      "title": "Primary and Secondary Immune Response",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-16-031",
+        "reviewed-lecture-16-034",
+        "reviewed-lecture-16-035"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_16_Adaptive_Immunity.pptx",
+      "number": 16,
+      "unit": 45,
+      "title": "Primary and Secondary Immune Response",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-16-034"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_16_Adaptive_Immunity.pptx",
+      "number": 16,
+      "unit": 46,
+      "title": "Questions for Review",
+      "status": "objectives-or-review",
+      "questionIds": []
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_16_Adaptive_Immunity.pptx",
+      "number": 16,
+      "unit": 47,
+      "title": "NK Cells",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-16-036",
+        "reviewed-lecture-16-037"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_16_Adaptive_Immunity.pptx",
+      "number": 16,
+      "unit": 48,
+      "title": "NK Cells",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-16-036",
+        "reviewed-lecture-16-037"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_16_Adaptive_Immunity.pptx",
+      "number": 16,
+      "unit": 49,
+      "title": "T cell",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-16-001"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_16_Adaptive_Immunity.pptx",
+      "number": 16,
+      "unit": 50,
+      "title": "Vaccines",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-16-038",
+        "reviewed-lecture-16-039",
+        "reviewed-lecture-16-040"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_16_Adaptive_Immunity.pptx",
+      "number": 16,
+      "unit": 51,
+      "title": "Vaccines",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-16-040",
+        "reviewed-lecture-16-041"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_16_Adaptive_Immunity.pptx",
+      "number": 16,
+      "unit": 52,
+      "title": "Vaccines",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-16-042"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_16_Adaptive_Immunity.pptx",
+      "number": 16,
+      "unit": 53,
+      "title": "Vaccines",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-16-043"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_16_Adaptive_Immunity.pptx",
+      "number": 16,
+      "unit": 54,
+      "title": "Vaccines: New Approaches",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-16-044"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_16_Adaptive_Immunity.pptx",
+      "number": 16,
+      "unit": 55,
+      "title": "COVID-19 Vaccines: Adenoviral Vector",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-16-044",
+        "reviewed-lecture-16-045"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_16_Adaptive_Immunity.pptx",
+      "number": 16,
+      "unit": 56,
+      "title": "COVID-19 Vaccines: mRNA Vaccines",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-16-044",
+        "reviewed-lecture-16-045"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_16_Adaptive_Immunity.pptx",
+      "number": 16,
+      "unit": 57,
+      "title": "Vaccines: Misconceptions",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-16-046"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_16_Adaptive_Immunity.pptx",
+      "number": 16,
+      "unit": 58,
+      "title": "Vaccines: Consequences of Misconceptions",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-16-046"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_16_Adaptive_Immunity.pptx",
+      "number": 16,
+      "unit": 59,
+      "title": "Questions for Review",
+      "status": "objectives-or-review",
+      "questionIds": []
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_16_Adaptive_Immunity.pptx",
+      "number": 16,
+      "unit": 60,
+      "title": "Chapter 16 Checklist",
+      "status": "objectives-or-review",
+      "questionIds": []
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_17_Disorders_in_Immunity.pptx",
+      "number": 17,
+      "unit": 1,
+      "title": "Disorders in Immunity",
+      "status": "objectives-or-review",
+      "questionIds": []
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_17_Disorders_in_Immunity.pptx",
+      "number": 17,
+      "unit": 2,
+      "title": "Chapter 17 Learning Objectives",
+      "status": "objectives-or-review",
+      "questionIds": []
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_17_Disorders_in_Immunity.pptx",
+      "number": 17,
+      "unit": 3,
+      "title": "Immunological Disorder",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-17-001"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_17_Disorders_in_Immunity.pptx",
+      "number": 17,
+      "unit": 4,
+      "title": "Immunological Disorder",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-17-001"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_17_Disorders_in_Immunity.pptx",
+      "number": 17,
+      "unit": 5,
+      "title": "Hypersensitivity ",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-17-001",
+        "reviewed-lecture-17-002",
+        "reviewed-lecture-17-027"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_17_Disorders_in_Immunity.pptx",
+      "number": 17,
+      "unit": 6,
+      "title": "Type I: Immediate Hypersensitivity",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-17-002",
+        "reviewed-lecture-17-003"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_17_Disorders_in_Immunity.pptx",
+      "number": 17,
+      "unit": 7,
+      "title": "Type I: Immediate Hypersensitivity",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-17-004",
+        "reviewed-lecture-17-005"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_17_Disorders_in_Immunity.pptx",
+      "number": 17,
+      "unit": 8,
+      "title": "Type I: Immediate Hypersensitivity",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-17-006"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_17_Disorders_in_Immunity.pptx",
+      "number": 17,
+      "unit": 9,
+      "title": "Type I: Immediate Hypersensitivity",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-17-007"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_17_Disorders_in_Immunity.pptx",
+      "number": 17,
+      "unit": 10,
+      "title": "Type I: Immediate Hypersensitivity",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-17-007",
+        "reviewed-lecture-17-008"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_17_Disorders_in_Immunity.pptx",
+      "number": 17,
+      "unit": 11,
+      "title": "Type I: Immediate Hypersensitivity",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-17-009"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_17_Disorders_in_Immunity.pptx",
+      "number": 17,
+      "unit": 12,
+      "title": "Type I: Immediate Hypersensitivity",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-17-010",
+        "reviewed-lecture-17-011"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_17_Disorders_in_Immunity.pptx",
+      "number": 17,
+      "unit": 13,
+      "title": "Questions for Review",
+      "status": "objectives-or-review",
+      "questionIds": []
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_17_Disorders_in_Immunity.pptx",
+      "number": 17,
+      "unit": 14,
+      "title": "Type II: Cytotoxic Hypersensitivity",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-17-012",
+        "reviewed-lecture-17-013"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_17_Disorders_in_Immunity.pptx",
+      "number": 17,
+      "unit": 15,
+      "title": "Type II: Cytotoxic Hypersensitivity",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-17-014",
+        "reviewed-lecture-17-015",
+        "reviewed-lecture-17-016",
+        "reviewed-lecture-17-017"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_17_Disorders_in_Immunity.pptx",
+      "number": 17,
+      "unit": 16,
+      "title": "Type II: Cytotoxic Hypersensitivity",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-17-014",
+        "reviewed-lecture-17-015",
+        "reviewed-lecture-17-016",
+        "reviewed-lecture-17-017"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_17_Disorders_in_Immunity.pptx",
+      "number": 17,
+      "unit": 17,
+      "title": "Type II: Cytotoxic Hypersensitivity",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-17-014",
+        "reviewed-lecture-17-015",
+        "reviewed-lecture-17-016",
+        "reviewed-lecture-17-017"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_17_Disorders_in_Immunity.pptx",
+      "number": 17,
+      "unit": 18,
+      "title": "Type II: Cytotoxic Hypersensitivity",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-17-013",
+        "reviewed-lecture-17-018"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_17_Disorders_in_Immunity.pptx",
+      "number": 17,
+      "unit": 19,
+      "title": "Type II: Cytotoxic Hypersensitivity",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-17-019",
+        "reviewed-lecture-17-020"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_17_Disorders_in_Immunity.pptx",
+      "number": 17,
+      "unit": 20,
+      "title": "Type II: Cytotoxic Hypersensitivity",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-17-020",
+        "reviewed-lecture-17-021"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_17_Disorders_in_Immunity.pptx",
+      "number": 17,
+      "unit": 21,
+      "title": "",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-17-020",
+        "reviewed-lecture-17-021"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_17_Disorders_in_Immunity.pptx",
+      "number": 17,
+      "unit": 22,
+      "title": "Questions for Review",
+      "status": "objectives-or-review",
+      "questionIds": []
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_17_Disorders_in_Immunity.pptx",
+      "number": 17,
+      "unit": 23,
+      "title": "Type III: Immune Complex Hypersensitivity",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-17-022"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_17_Disorders_in_Immunity.pptx",
+      "number": 17,
+      "unit": 24,
+      "title": "Type III: Immune Complex Hypersensitivity",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-17-023"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_17_Disorders_in_Immunity.pptx",
+      "number": 17,
+      "unit": 25,
+      "title": "Type III: Immune Complex Hypersensitivity",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-17-022"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_17_Disorders_in_Immunity.pptx",
+      "number": 17,
+      "unit": 26,
+      "title": "Type III: Immune Complex Hypersensitivity",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-17-023"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_17_Disorders_in_Immunity.pptx",
+      "number": 17,
+      "unit": 27,
+      "title": "Type IV: Cell-Mediated Hypersensitivity",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-17-024"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_17_Disorders_in_Immunity.pptx",
+      "number": 17,
+      "unit": 28,
+      "title": "Type IV: Cell-Mediated Hypersensitivity",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-17-025"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_17_Disorders_in_Immunity.pptx",
+      "number": 17,
+      "unit": 29,
+      "title": "Type IV: Cell-Mediated Hypersensitivity",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-17-026"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_17_Disorders_in_Immunity.pptx",
+      "number": 17,
+      "unit": 30,
+      "title": "Questions for Review",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lecture-17-027"
+      ]
+    },
+    {
+      "bank": "lectureExam2",
+      "source": "Chapter_17_Disorders_in_Immunity.pptx",
+      "number": 17,
+      "unit": 31,
+      "title": "Chapter 17 Checklist",
+      "status": "objectives-or-review",
+      "questionIds": []
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_7_Viruses.pptx",
+      "number": 7,
+      "unit": 1,
+      "title": "Viruses",
+      "status": "objectives-or-review",
+      "questionIds": []
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_7_Viruses.pptx",
+      "number": 7,
+      "unit": 2,
+      "title": "Chapter 7 Learning Objectives",
+      "status": "objectives-or-review",
+      "questionIds": []
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_7_Viruses.pptx",
+      "number": 7,
+      "unit": 3,
+      "title": "Historical Impact of Viruses",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch7-s03-q01",
+        "maeita-ch7-s03-q02",
+        "maeita-ch7-s03-q03",
+        "maeita-ch7-s03-q04"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_7_Viruses.pptx",
+      "number": 7,
+      "unit": 4,
+      "title": "Viruses",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch7-s04-q01",
+        "maeita-ch7-s04-q02",
+        "maeita-ch7-s04-q03",
+        "maeita-ch7-s04-q04"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_7_Viruses.pptx",
+      "number": 7,
+      "unit": 5,
+      "title": "Virus Size: Nanometer (nm)",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch7-s05-q01",
+        "maeita-ch7-s05-q02"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_7_Viruses.pptx",
+      "number": 7,
+      "unit": 6,
+      "title": "Virus Size: Nanometer (nm)",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch7-s06-q01",
+        "maeita-ch7-s06-q02"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_7_Viruses.pptx",
+      "number": 7,
+      "unit": 7,
+      "title": "Viral Components",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch7-s04-q03",
+        "maeita-ch7-s07-q01",
+        "maeita-ch7-s07-q02"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_7_Viruses.pptx",
+      "number": 7,
+      "unit": 8,
+      "title": "Viral Components",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch7-s07-q01",
+        "maeita-ch7-s08-q01",
+        "maeita-ch7-s08-q02",
+        "maeita-ch7-s08-q03",
+        "maeita-ch7-s08-q04",
+        "maeita-ch7-s08-q05"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_7_Viruses.pptx",
+      "number": 7,
+      "unit": 9,
+      "title": "Viral Components",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch7-s08-q04",
+        "maeita-ch7-s08-q05",
+        "maeita-ch7-s09-q01",
+        "maeita-ch7-s09-q02"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_7_Viruses.pptx",
+      "number": 7,
+      "unit": 10,
+      "title": "Viral Components",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch7-s08-q03",
+        "maeita-ch7-s10-q01"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_7_Viruses.pptx",
+      "number": 7,
+      "unit": 11,
+      "title": "Virus Shape",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch7-s11-q01",
+        "maeita-ch7-s11-q02",
+        "maeita-ch7-s11-q03"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_7_Viruses.pptx",
+      "number": 7,
+      "unit": 12,
+      "title": "Virus Shape",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch7-s12-q01",
+        "maeita-ch7-s12-q02"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_7_Viruses.pptx",
+      "number": 7,
+      "unit": 13,
+      "title": "Virus Shape",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch7-s13-q01"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_7_Viruses.pptx",
+      "number": 7,
+      "unit": 14,
+      "title": "Virus Shape",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch7-s14-q01",
+        "maeita-ch7-s14-q02"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_7_Viruses.pptx",
+      "number": 7,
+      "unit": 15,
+      "title": "Classification of Viruses",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch7-s15-q01",
+        "maeita-ch7-s15-q02",
+        "maeita-ch7-s15-q03",
+        "maeita-ch7-s15-q04",
+        "maeita-ch7-s15-q05",
+        "maeita-ch7-s15-q06"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_7_Viruses.pptx",
+      "number": 7,
+      "unit": 16,
+      "title": "Nucleic Acid Classification (Informal)",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch7-s16-q01",
+        "maeita-ch7-s16-q02"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_7_Viruses.pptx",
+      "number": 7,
+      "unit": 17,
+      "title": "Questions for Review",
+      "status": "objectives-or-review",
+      "questionIds": []
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_7_Viruses.pptx",
+      "number": 7,
+      "unit": 18,
+      "title": "Host Range",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch7-s18-q01",
+        "maeita-ch7-s18-q02",
+        "maeita-ch7-s18-q03",
+        "maeita-ch7-s18-q04",
+        "maeita-ch7-s18-q05"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_7_Viruses.pptx",
+      "number": 7,
+      "unit": 19,
+      "title": "RNA Viral Replication",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch7-s19-q01",
+        "maeita-ch7-s19-q02"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_7_Viruses.pptx",
+      "number": 7,
+      "unit": 20,
+      "title": "DNA Viral Replication",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch7-s19-q01",
+        "maeita-ch7-s20-q01",
+        "maeita-ch7-s20-q02",
+        "maeita-ch7-s20-q03"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_7_Viruses.pptx",
+      "number": 7,
+      "unit": 21,
+      "title": "Viral Replication: Adsorption",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch7-s21-q01"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_7_Viruses.pptx",
+      "number": 7,
+      "unit": 22,
+      "title": "Viral Replication: Penetration and Uncoating",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch7-s22-q01",
+        "maeita-ch7-s22-q02",
+        "maeita-ch7-s22-q03"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_7_Viruses.pptx",
+      "number": 7,
+      "unit": 23,
+      "title": "Viral Replication: RNA Synthesis",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch7-s16-q01",
+        "maeita-ch7-s16-q02",
+        "maeita-ch7-s23-q01",
+        "maeita-ch7-s23-q02"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_7_Viruses.pptx",
+      "number": 7,
+      "unit": 24,
+      "title": "Viral Replication: DNA Synthesis",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch7-s24-q01"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_7_Viruses.pptx",
+      "number": 7,
+      "unit": 25,
+      "title": "Viral Replication: Assembly",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch7-s25-q01"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_7_Viruses.pptx",
+      "number": 7,
+      "unit": 26,
+      "title": "Viral Replication: Release",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch7-s26-q01",
+        "maeita-ch7-s26-q02",
+        "maeita-ch7-s26-q03"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_7_Viruses.pptx",
+      "number": 7,
+      "unit": 27,
+      "title": "Questions for Review",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch7-s19-q01"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_7_Viruses.pptx",
+      "number": 7,
+      "unit": 28,
+      "title": "Cytopathic Effect (CPE)",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch7-s28-q01",
+        "maeita-ch7-s28-q02",
+        "maeita-ch7-s28-q03"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_7_Viruses.pptx",
+      "number": 7,
+      "unit": 29,
+      "title": "4 Types of Infections",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch7-s29-q01",
+        "maeita-ch7-s29-q02",
+        "maeita-ch7-s29-q03",
+        "maeita-ch7-s29-q04",
+        "maeita-ch7-s29-q05"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_7_Viruses.pptx",
+      "number": 7,
+      "unit": 30,
+      "title": "Grouping of Human Viruses Based on Route of Transmission",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch7-s30-q01",
+        "maeita-ch7-s30-q02",
+        "maeita-ch7-s30-q03",
+        "maeita-ch7-s30-q04"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_7_Viruses.pptx",
+      "number": 7,
+      "unit": 31,
+      "title": "Viruses and Cancer",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch7-s31-q01",
+        "maeita-ch7-s31-q02",
+        "maeita-ch7-s31-q03"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_7_Viruses.pptx",
+      "number": 7,
+      "unit": 32,
+      "title": "Viruses and Cancer",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch7-s32-q01",
+        "maeita-ch7-s32-q02"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_7_Viruses.pptx",
+      "number": 7,
+      "unit": 33,
+      "title": "How Do Viruses Cause Cancer?",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch7-s33-q01",
+        "maeita-ch7-s33-q02"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_7_Viruses.pptx",
+      "number": 7,
+      "unit": 34,
+      "title": "Human Cancers Linked to Viruses",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch7-s34-q01",
+        "maeita-ch7-s34-q02",
+        "maeita-ch7-s34-q03",
+        "maeita-ch7-s34-q04",
+        "maeita-ch7-s34-q05"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_7_Viruses.pptx",
+      "number": 7,
+      "unit": 35,
+      "title": "Bacteriophages",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch7-s35-q01",
+        "maeita-ch7-s35-q02",
+        "maeita-ch7-s35-q03"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_7_Viruses.pptx",
+      "number": 7,
+      "unit": 36,
+      "title": "Lytic and Lysogenic",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch7-s36-q01",
+        "maeita-ch7-s36-q02",
+        "maeita-ch7-s36-q03",
+        "maeita-ch7-s36-q04"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_7_Viruses.pptx",
+      "number": 7,
+      "unit": 37,
+      "title": "Lytic and Lysogenic Cycles",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch7-s36-q01",
+        "maeita-ch7-s36-q02",
+        "maeita-ch7-s36-q03"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_7_Viruses.pptx",
+      "number": 7,
+      "unit": 38,
+      "title": "Bacteriophage Penetration",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch7-s38-q01"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_7_Viruses.pptx",
+      "number": 7,
+      "unit": 39,
+      "title": "Bacteriophage Lysis of Host Cell",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch7-s39-q01"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_7_Viruses.pptx",
+      "number": 7,
+      "unit": 40,
+      "title": "Burst time ",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch7-s40-q01",
+        "maeita-ch7-s40-q02",
+        "maeita-ch7-s40-q03",
+        "maeita-ch7-s40-q04"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_7_Viruses.pptx",
+      "number": 7,
+      "unit": 41,
+      "title": "Induction",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch7-s41-q01",
+        "maeita-ch7-s41-q02"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_7_Viruses.pptx",
+      "number": 7,
+      "unit": 42,
+      "title": "Lysogenic Conversion",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch7-s42-q01",
+        "maeita-ch7-s42-q02",
+        "maeita-ch7-s42-q03",
+        "maeita-ch7-s42-q04"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_7_Viruses.pptx",
+      "number": 7,
+      "unit": 43,
+      "title": "Virophages/Satellite Viruses",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch7-s43-q01",
+        "maeita-ch7-s43-q02"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_7_Viruses.pptx",
+      "number": 7,
+      "unit": 44,
+      "title": "Prions",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch7-s44-q01",
+        "maeita-ch7-s44-q02",
+        "maeita-ch7-s44-q03",
+        "maeita-ch7-s44-q04"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_7_Viruses.pptx",
+      "number": 7,
+      "unit": 45,
+      "title": "How Do Prions Replicate?",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch7-s45-q01",
+        "maeita-ch7-s45-q02"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_7_Viruses.pptx",
+      "number": 7,
+      "unit": 46,
+      "title": "Viroids",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch7-s46-q01",
+        "maeita-ch7-s46-q02"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_7_Viruses.pptx",
+      "number": 7,
+      "unit": 47,
+      "title": "Teratogenesis",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch7-s47-q01",
+        "maeita-ch7-s47-q02",
+        "maeita-ch7-s47-q03",
+        "maeita-ch7-s47-q04",
+        "maeita-ch7-s47-q05"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_7_Viruses.pptx",
+      "number": 7,
+      "unit": 48,
+      "title": "Questions for Review",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch7-s29-q01",
+        "maeita-ch7-s36-q01",
+        "maeita-ch7-s47-q01"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_7_Viruses.pptx",
+      "number": 7,
+      "unit": 49,
+      "title": "Chapter 7 Checklist",
+      "status": "objectives-or-review",
+      "questionIds": []
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_9_Microbial_Nutrition_and_Growth.pptx",
+      "number": 9,
+      "unit": 1,
+      "title": "Microbial Nutrition and Growth",
+      "status": "objectives-or-review",
+      "questionIds": []
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_9_Microbial_Nutrition_and_Growth.pptx",
+      "number": 9,
+      "unit": 2,
+      "title": "Chapter 9 Learning Objectives",
+      "status": "objectives-or-review",
+      "questionIds": []
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_9_Microbial_Nutrition_and_Growth.pptx",
+      "number": 9,
+      "unit": 3,
+      "title": "Environmental Factors",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch9-s03-q01",
+        "maeita-ch9-s03-q02"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_9_Microbial_Nutrition_and_Growth.pptx",
+      "number": 9,
+      "unit": 4,
+      "title": "Nutritional Factors",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch9-s04-q01",
+        "maeita-ch9-s04-q02"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_9_Microbial_Nutrition_and_Growth.pptx",
+      "number": 9,
+      "unit": 5,
+      "title": "Nutritional Factors",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch9-s05-q01",
+        "maeita-ch9-s05-q02",
+        "maeita-ch9-s05-q03",
+        "maeita-ch9-s05-q04",
+        "maeita-ch9-s05-q05",
+        "maeita-ch9-s05-q06"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_9_Microbial_Nutrition_and_Growth.pptx",
+      "number": 9,
+      "unit": 6,
+      "title": "Other Important Nutritional Factors",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch9-s06-q01",
+        "maeita-ch9-s06-q02",
+        "maeita-ch9-s06-q03",
+        "maeita-ch9-s06-q04",
+        "maeita-ch9-s06-q05",
+        "maeita-ch9-s06-q06"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_9_Microbial_Nutrition_and_Growth.pptx",
+      "number": 9,
+      "unit": 7,
+      "title": "Nutritional Factors",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch9-s07-q01",
+        "maeita-ch9-s07-q02",
+        "maeita-ch9-s07-q03",
+        "maeita-ch9-s07-q04",
+        "maeita-ch9-s07-q05",
+        "maeita-ch9-s07-q06",
+        "maeita-ch9-s07-q07",
+        "maeita-ch9-s07-q08"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_9_Microbial_Nutrition_and_Growth.pptx",
+      "number": 9,
+      "unit": 8,
+      "title": "Microbial Cytoplasm Content",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch9-s08-q01",
+        "maeita-ch9-s08-q02"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_9_Microbial_Nutrition_and_Growth.pptx",
+      "number": 9,
+      "unit": 9,
+      "title": "Environmental Factors",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch9-s03-q01",
+        "maeita-ch9-s03-q02"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_9_Microbial_Nutrition_and_Growth.pptx",
+      "number": 9,
+      "unit": 10,
+      "title": "Psychrophile – cold-loving organism (-5 0C to 15 0C)",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch9-s10-q01",
+        "maeita-ch9-s10-q02",
+        "maeita-ch9-s10-q03",
+        "maeita-ch9-s10-q04",
+        "maeita-ch9-s10-q05",
+        "maeita-ch9-s10-q06",
+        "maeita-ch9-s10-q07"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_9_Microbial_Nutrition_and_Growth.pptx",
+      "number": 9,
+      "unit": 11,
+      "title": "Environmental Factors: Temperature",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch9-s10-q01",
+        "maeita-ch9-s10-q02",
+        "maeita-ch9-s10-q03",
+        "maeita-ch9-s10-q04",
+        "maeita-ch9-s10-q05",
+        "maeita-ch9-s10-q06",
+        "maeita-ch9-s11-q01",
+        "maeita-ch9-s11-q02"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_9_Microbial_Nutrition_and_Growth.pptx",
+      "number": 9,
+      "unit": 12,
+      "title": "“Red snow” of a psychrophile",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch9-s12-q01",
+        "maeita-ch9-s12-q02"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_9_Microbial_Nutrition_and_Growth.pptx",
+      "number": 9,
+      "unit": 13,
+      "title": "Temperature and Food",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch9-s13-q01",
+        "maeita-ch9-s13-q02",
+        "maeita-ch9-s13-q03"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_9_Microbial_Nutrition_and_Growth.pptx",
+      "number": 9,
+      "unit": 14,
+      "title": "Aerobes – require oxygen",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch9-s14-q01",
+        "maeita-ch9-s14-q02"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_9_Microbial_Nutrition_and_Growth.pptx",
+      "number": 9,
+      "unit": 15,
+      "title": "Obligate aerobes – only grow in oxygen",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch9-s15-q01",
+        "maeita-ch9-s15-q02",
+        "maeita-ch9-s15-q03",
+        "maeita-ch9-s15-q04",
+        "maeita-ch9-s15-q05",
+        "maeita-ch9-s15-q06",
+        "maeita-ch9-s15-q07",
+        "maeita-ch9-s15-q08"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_9_Microbial_Nutrition_and_Growth.pptx",
+      "number": 9,
+      "unit": 16,
+      "title": "O2-. + O2-. + 2H+ O2 + H2O2 2H20 + O2",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch9-s15-q01",
+        "maeita-ch9-s15-q02",
+        "maeita-ch9-s15-q03",
+        "maeita-ch9-s15-q04",
+        "maeita-ch9-s15-q05",
+        "maeita-ch9-s15-q08",
+        "maeita-ch9-s16-q01",
+        "maeita-ch9-s16-q02",
+        "maeita-ch9-s16-q03",
+        "maeita-ch9-s16-q04",
+        "maeita-ch9-s16-q05"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_9_Microbial_Nutrition_and_Growth.pptx",
+      "number": 9,
+      "unit": 17,
+      "title": "Environmental Factors: Oxygen",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch9-s15-q01",
+        "maeita-ch9-s15-q02",
+        "maeita-ch9-s15-q03"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_9_Microbial_Nutrition_and_Growth.pptx",
+      "number": 9,
+      "unit": 18,
+      "title": "Acid – hydrogen ion donor (H+)",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch9-s18-q01",
+        "maeita-ch9-s18-q02"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_9_Microbial_Nutrition_and_Growth.pptx",
+      "number": 9,
+      "unit": 19,
+      "title": "Most grow at their optimal pH, usually ~ pH 7 (neutral)",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch9-s19-q01",
+        "maeita-ch9-s19-q02",
+        "maeita-ch9-s19-q03",
+        "maeita-ch9-s19-q04",
+        "maeita-ch9-s19-q05"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_9_Microbial_Nutrition_and_Growth.pptx",
+      "number": 9,
+      "unit": 20,
+      "title": "Water and Solute Availability",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch9-s20-q01",
+        "maeita-ch9-s20-q02",
+        "maeita-ch9-s20-q03"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_9_Microbial_Nutrition_and_Growth.pptx",
+      "number": 9,
+      "unit": 21,
+      "title": "Can kill organisms or cause mutation in their DNA, leading to death",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch9-s21-q01",
+        "maeita-ch9-s21-q02"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_9_Microbial_Nutrition_and_Growth.pptx",
+      "number": 9,
+      "unit": 22,
+      "title": "Pressure exerted by standing water, in proportion to its depth",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch9-s22-q01",
+        "maeita-ch9-s22-q02",
+        "maeita-ch9-s22-q03"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_9_Microbial_Nutrition_and_Growth.pptx",
+      "number": 9,
+      "unit": 23,
+      "title": "How Organism Interactions Affect Growth",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch9-s23-q01",
+        "maeita-ch9-s23-q02",
+        "maeita-ch9-s23-q03",
+        "maeita-ch9-s23-q04",
+        "maeita-ch9-s23-q05",
+        "maeita-ch9-s23-q06"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_9_Microbial_Nutrition_and_Growth.pptx",
+      "number": 9,
+      "unit": 24,
+      "title": "How Organism Interactions Affect Growth: Biofilms",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch9-s24-q01",
+        "maeita-ch9-s24-q02",
+        "maeita-ch9-s24-q03",
+        "maeita-ch9-s24-q04"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_9_Microbial_Nutrition_and_Growth.pptx",
+      "number": 9,
+      "unit": 25,
+      "title": "Questions for Review",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch9-s13-q01",
+        "maeita-ch9-s19-q04"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_9_Microbial_Nutrition_and_Growth.pptx",
+      "number": 9,
+      "unit": 26,
+      "title": "Binary fission – multiplication of bacteria",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch9-s26-q01",
+        "maeita-ch9-s26-q02"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_9_Microbial_Nutrition_and_Growth.pptx",
+      "number": 9,
+      "unit": 27,
+      "title": "Microbial growth – increase in the number of cells by binary fission",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch9-s27-q01",
+        "maeita-ch9-s27-q02",
+        "maeita-ch9-s27-q03",
+        "maeita-ch9-s27-q04",
+        "maeita-ch9-s27-q05"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_9_Microbial_Nutrition_and_Growth.pptx",
+      "number": 9,
+      "unit": 28,
+      "title": "Bacterial Growth",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch9-s27-q03",
+        "maeita-ch9-s28-q01",
+        "maeita-ch9-s28-q02"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_9_Microbial_Nutrition_and_Growth.pptx",
+      "number": 9,
+      "unit": 29,
+      "title": "Open/continuous culture – cells are maintained in a state of continuous growth as nutrients are freshly supplied and was",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch9-s29-q01",
+        "maeita-ch9-s29-q02",
+        "maeita-ch9-s29-q03"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_9_Microbial_Nutrition_and_Growth.pptx",
+      "number": 9,
+      "unit": 30,
+      "title": "Bacterial Growth Curve",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch9-s30-q01",
+        "maeita-ch9-s30-q02",
+        "maeita-ch9-s30-q03",
+        "maeita-ch9-s30-q04",
+        "maeita-ch9-s30-q05",
+        "maeita-ch9-s30-q06"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_9_Microbial_Nutrition_and_Growth.pptx",
+      "number": 9,
+      "unit": 31,
+      "title": "Bacterial Growth Curve",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch9-s30-q01",
+        "maeita-ch9-s30-q02",
+        "maeita-ch9-s30-q05",
+        "maeita-ch9-s30-q06",
+        "maeita-ch9-s31-q01"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_9_Microbial_Nutrition_and_Growth.pptx",
+      "number": 9,
+      "unit": 32,
+      "title": "Bacterial Growth Curve",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch9-s30-q03",
+        "maeita-ch9-s30-q04",
+        "maeita-ch9-s32-q01"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_9_Microbial_Nutrition_and_Growth.pptx",
+      "number": 9,
+      "unit": 33,
+      "title": "Questions for Review",
+      "status": "linked",
+      "questionIds": [
+        "maeita-ch9-s30-q05"
+      ]
+    },
+    {
+      "bank": "lectureExam1",
+      "source": "Chapter_9_Microbial_Nutrition_and_Growth.pptx",
+      "number": 9,
+      "unit": 34,
+      "title": "Chapter 9 Checklist",
+      "status": "objectives-or-review",
+      "questionIds": []
+    },
+    {
+      "bank": "microbiologyLab",
+      "source": "LM+10+Identifying+Bacteria+with+Selective+and+Differential+Media.pdf",
+      "number": 10,
+      "unit": 1,
+      "title": "LM 10: Identifying Bacteria with Selective and Differential Media ",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lab-10-001",
+        "reviewed-lab-10-002",
+        "reviewed-lab-10-003",
+        "reviewed-lab-10-004",
+        "reviewed-lab-10-005",
+        "reviewed-lab-10-006",
+        "reviewed-lab-10-007"
+      ]
+    },
+    {
+      "bank": "microbiologyLab",
+      "source": "LM+10+Identifying+Bacteria+with+Selective+and+Differential+Media.pdf",
+      "number": 10,
+      "unit": 2,
+      "title": "LM 10: Identifying Bacteria with Selective and Differential Media ",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lab-10-005",
+        "reviewed-lab-10-006",
+        "reviewed-lab-10-007",
+        "reviewed-lab-10-008"
+      ]
+    },
+    {
+      "bank": "microbiologyLab",
+      "source": "LM+10+Identifying+Bacteria+with+Selective+and+Differential+Media.pdf",
+      "number": 10,
+      "unit": 3,
+      "title": "LM 10: Identifying Bacteria with Selective and Differential Media ",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lab-10-009"
+      ]
+    },
+    {
+      "bank": "microbiologyLab",
+      "source": "LM+10+Identifying+Bacteria+with+Selective+and+Differential+Media.pdf",
+      "number": 10,
+      "unit": 4,
+      "title": "LM 10: Identifying Bacteria with Selective and Differential Media ",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lab-10-010",
+        "reviewed-lab-10-011",
+        "reviewed-lab-10-012"
+      ]
+    },
+    {
+      "bank": "microbiologyLab",
+      "source": "LM+10+Identifying+Bacteria+with+Selective+and+Differential+Media.pdf",
+      "number": 10,
+      "unit": 5,
+      "title": "LM 10: Identifying Bacteria with Selective and Differential Media ",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lab-10-011",
+        "reviewed-lab-10-012",
+        "reviewed-lab-10-013",
+        "reviewed-lab-10-014",
+        "reviewed-lab-10-015",
+        "reviewed-lab-10-016"
+      ]
+    },
+    {
+      "bank": "microbiologyLab",
+      "source": "LM+10+Identifying+Bacteria+with+Selective+and+Differential+Media.pdf",
+      "number": 10,
+      "unit": 6,
+      "title": "LM 10: Identifying Bacteria with Selective and Differential Media ",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lab-10-017",
+        "reviewed-lab-10-018",
+        "reviewed-lab-10-019",
+        "reviewed-lab-10-020",
+        "reviewed-lab-10-021",
+        "reviewed-lab-10-022"
+      ]
+    },
+    {
+      "bank": "microbiologyLab",
+      "source": "LM+10+Identifying+Bacteria+with+Selective+and+Differential+Media.pdf",
+      "number": 10,
+      "unit": 7,
+      "title": "LM 10: Identifying Bacteria with Selective and Differential Media ",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lab-10-023",
+        "reviewed-lab-10-024",
+        "reviewed-lab-10-025",
+        "reviewed-lab-10-026",
+        "reviewed-lab-10-030"
+      ]
+    },
+    {
+      "bank": "microbiologyLab",
+      "source": "LM+10+Identifying+Bacteria+with+Selective+and+Differential+Media.pdf",
+      "number": 10,
+      "unit": 8,
+      "title": "LM 10: Identifying Bacteria with Selective and Differential Media ",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lab-10-016",
+        "reviewed-lab-10-026",
+        "reviewed-lab-10-030",
+        "reviewed-lab-10-027",
+        "reviewed-lab-10-028",
+        "reviewed-lab-10-029"
+      ]
+    },
+    {
+      "bank": "microbiologyLab",
+      "source": "LM+07+Eukaryotic+Microbes.pdf",
+      "number": 7,
+      "unit": 1,
+      "title": "LM 07: Eukaryotic Microbes and Parasitology ",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lab-7-001",
+        "reviewed-lab-7-002",
+        "reviewed-lab-7-003",
+        "reviewed-lab-7-004",
+        "reviewed-lab-7-005",
+        "reviewed-lab-7-006"
+      ]
+    },
+    {
+      "bank": "microbiologyLab",
+      "source": "LM+07+Eukaryotic+Microbes.pdf",
+      "number": 7,
+      "unit": 2,
+      "title": "LM 07: Eukaryotic Microbes and Parasitology ",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lab-7-007",
+        "reviewed-lab-7-008",
+        "reviewed-lab-7-009",
+        "reviewed-lab-7-010",
+        "reviewed-lab-7-011"
+      ]
+    },
+    {
+      "bank": "microbiologyLab",
+      "source": "LM+07+Eukaryotic+Microbes.pdf",
+      "number": 7,
+      "unit": 3,
+      "title": "LM 07: Eukaryotic Microbes and Parasitology ",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lab-7-012",
+        "reviewed-lab-7-013",
+        "reviewed-lab-7-014",
+        "reviewed-lab-7-015",
+        "reviewed-lab-7-016",
+        "reviewed-lab-7-017",
+        "reviewed-lab-7-018"
+      ]
+    },
+    {
+      "bank": "microbiologyLab",
+      "source": "LM+07+Eukaryotic+Microbes.pdf",
+      "number": 7,
+      "unit": 4,
+      "title": "LM 07: Eukaryotic Microbes and Parasitology ",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lab-7-019",
+        "reviewed-lab-7-020",
+        "reviewed-lab-7-021",
+        "reviewed-lab-7-022",
+        "reviewed-lab-7-023"
+      ]
+    },
+    {
+      "bank": "microbiologyLab",
+      "source": "LM+08+Quantitative+Microbiology.pdf",
+      "number": 8,
+      "unit": 1,
+      "title": "LM 08: Quantitative Microbiology ",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lab-8-001",
+        "reviewed-lab-8-002",
+        "reviewed-lab-8-003",
+        "reviewed-lab-8-005",
+        "reviewed-lab-8-006",
+        "reviewed-lab-8-007",
+        "reviewed-lab-8-008",
+        "reviewed-lab-8-012",
+        "reviewed-lab-8-013"
+      ]
+    },
+    {
+      "bank": "microbiologyLab",
+      "source": "LM+08+Quantitative+Microbiology.pdf",
+      "number": 8,
+      "unit": 2,
+      "title": "LM 08: Quantitative Microbiology ",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lab-8-009",
+        "reviewed-lab-8-010",
+        "reviewed-lab-8-011"
+      ]
+    },
+    {
+      "bank": "microbiologyLab",
+      "source": "LM+08+Quantitative+Microbiology.pdf",
+      "number": 8,
+      "unit": 3,
+      "title": "LM 08: Quantitative Microbiology ",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lab-8-003",
+        "reviewed-lab-8-005",
+        "reviewed-lab-8-008",
+        "reviewed-lab-8-012",
+        "reviewed-lab-8-004",
+        "reviewed-lab-8-014"
+      ]
+    },
+    {
+      "bank": "microbiologyLab",
+      "source": "LM+09+Chemical+and+Physical+Growth+Requirements.pdf",
+      "number": 9,
+      "unit": 1,
+      "title": "LM 09: Growth and Control of Microorganisms ",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lab-9-003",
+        "reviewed-lab-9-004"
+      ]
+    },
+    {
+      "bank": "microbiologyLab",
+      "source": "LM+09+Chemical+and+Physical+Growth+Requirements.pdf",
+      "number": 9,
+      "unit": 2,
+      "title": "LM 09: Growth and Control of Microorganisms ",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lab-9-005",
+        "reviewed-lab-9-006",
+        "reviewed-lab-9-007"
+      ]
+    },
+    {
+      "bank": "microbiologyLab",
+      "source": "LM+09+Chemical+and+Physical+Growth+Requirements.pdf",
+      "number": 9,
+      "unit": 3,
+      "title": "LM 09: Growth and Control of Microorganisms ",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lab-9-007",
+        "reviewed-lab-9-008",
+        "reviewed-lab-9-009",
+        "reviewed-lab-9-010",
+        "reviewed-lab-9-011",
+        "reviewed-lab-9-012",
+        "reviewed-lab-9-013",
+        "reviewed-lab-9-014",
+        "reviewed-lab-9-015"
+      ]
+    },
+    {
+      "bank": "microbiologyLab",
+      "source": "LM+09+Chemical+and+Physical+Growth+Requirements.pdf",
+      "number": 9,
+      "unit": 4,
+      "title": "LM 09: Growth and Control of Microorganisms ",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lab-9-011",
+        "reviewed-lab-9-012",
+        "reviewed-lab-9-013",
+        "reviewed-lab-9-014",
+        "reviewed-lab-9-015",
+        "reviewed-lab-9-016"
+      ]
+    },
+    {
+      "bank": "microbiologyLab",
+      "source": "LM+09+Chemical+and+Physical+Growth+Requirements.pdf",
+      "number": 9,
+      "unit": 5,
+      "title": "LM 09: Growth and Control of Microorganisms ",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lab-9-017",
+        "reviewed-lab-9-018",
+        "reviewed-lab-9-019"
+      ]
+    },
+    {
+      "bank": "microbiologyLab",
+      "source": "LM+09+Chemical+and+Physical+Growth+Requirements.pdf",
+      "number": 9,
+      "unit": 6,
+      "title": "LM 09: Growth and Control of Microorganisms ",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lab-9-017",
+        "reviewed-lab-9-019",
+        "reviewed-lab-9-020",
+        "reviewed-lab-9-021",
+        "reviewed-lab-9-023"
+      ]
+    },
+    {
+      "bank": "microbiologyLab",
+      "source": "LM+09+Chemical+and+Physical+Growth+Requirements.pdf",
+      "number": 9,
+      "unit": 7,
+      "title": "LM 09: Growth and Control of Microorganisms ",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lab-9-021",
+        "reviewed-lab-9-023",
+        "reviewed-lab-9-022",
+        "reviewed-lab-9-024"
+      ]
+    },
+    {
+      "bank": "microbiologyLab",
+      "source": "LM+09+Chemical+and+Physical+Growth+Requirements.pdf",
+      "number": 9,
+      "unit": 8,
+      "title": "LM 09: Growth and Control of Microorganisms ",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lab-9-024",
+        "reviewed-lab-9-025",
+        "reviewed-lab-9-026",
+        "reviewed-lab-9-027",
+        "reviewed-lab-9-028"
+      ]
+    },
+    {
+      "bank": "microbiologyLab",
+      "source": "LM+09+Chemical+and+Physical+Growth+Requirements.pdf",
+      "number": 9,
+      "unit": 9,
+      "title": "LM 09: Growth and Control of Microorganisms ",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lab-9-027",
+        "reviewed-lab-9-028",
+        "reviewed-lab-9-001",
+        "reviewed-lab-9-002",
+        "reviewed-lab-9-029"
+      ]
+    },
+    {
+      "bank": "microbiologyLab",
+      "source": "LM+09+Chemical+and+Physical+Growth+Requirements.pdf",
+      "number": 9,
+      "unit": 10,
+      "title": "LM 09: Growth and Control of Microorganisms ",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lab-9-001",
+        "reviewed-lab-9-002"
+      ]
+    },
+    {
+      "bank": "microbiologyLab",
+      "source": "LM+09+Chemical+and+Physical+Growth+Requirements.pdf",
+      "number": 9,
+      "unit": 11,
+      "title": "LM 09: Growth and Control of Microorganisms ",
+      "status": "linked",
+      "questionIds": [
+        "reviewed-lab-9-030",
+        "reviewed-lab-9-031"
+      ]
+    }
+  ]
+}

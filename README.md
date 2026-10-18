@@ -23,6 +23,10 @@ Results, drafts, mistakes, completion status, and flashcard progress are stored 
 
 ## Source coverage
 
+The October 18 content revision retires the former generic sentence-selection MCQs. Lab now contains 98 authored MCQs plus 79 retained short-answer/figure questions (177 total); Lecture 1 uses the 579 specific Maeita questions; Lecture 2 contains 180 authored MCQs. Readable source rows are in `authoring/`, and `scripts/rebuild-banks.py` compiles them against the local extracted course records. `coverage/reviewed-banks.json` maps source pages/slides to question IDs. A link establishes traceability, not a promise that every sentence is assessed. `coverage/retired-questions.json` archives removed MCQs and is not loaded by the app.
+
+Question IDs are never reassigned to different material. The app keeps historical results and mistakes, archives obsolete drafts/completion data, and only uses currently valid IDs in mistake review. The revised banks track new completion and best scores separately from historical attempts. Shared Lecture 1/Maeita flashcards are deduplicated by question ID.
+
 The source view records the reviewed PDFs, cleaned notes, PowerPoint slide counts, supplied figures, and generated A&P figures. Every question stores a source locator and explanation.
 
 ## Run locally
